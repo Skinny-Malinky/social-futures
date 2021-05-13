@@ -21,10 +21,16 @@ function setup() {
     for (let i = 0; i < 5; i++) {
         people[i] = new People(1, 15);
     }
-    noLoop();
+    // noLoop();
 }
 
 function draw() {
+
+    twod.clear();
+    threed.clear();
+    background("#CFBBBB");
+
+    threed.push();
     threed.background(170, 100, 170);
 
     threed.pointLight(250, 0, 250, 50, -50, 10);
@@ -54,8 +60,12 @@ function draw() {
     people[0].display(20, 21);
     people[0].display(22, 25);
 
+    threed.pop();
     image(threed, width/6, height/6, width/3*2, height/3*2);
-    twod.background(0, 99, 104, 100);
+
+    noStroke();
+    fill(0, 99, 104, 100);
+    rect(width/6, height/6, width/3*2, height/3*2);
 
     twod.textAlign(CENTER, CENTER);
     twod.textFont('Courier', 10);
@@ -65,5 +75,5 @@ function draw() {
 
     ascii_arr = myAsciiArt.convert(threed);
     myAsciiArt.typeArray2d(ascii_arr, twod);
-    image(twod, width/6, height/6, width/3*2, height/3*2)
+    image(twod, width/6, height/6, width/3*2, height/3*2);
 }
