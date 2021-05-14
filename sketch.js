@@ -6,7 +6,12 @@ var ascii_arr;
 let threed;
 let population = 0;
 
+let skyTexture;
+let buildingTexture;
+let groundTexture;
+
 function setup() {
+
     createCanvas(windowHeight, windowHeight);
 
     twod = createGraphics(windowHeight, windowHeight);
@@ -25,14 +30,14 @@ function setup() {
     moons[1] = new Moon(random(100, 400), random(-120, -50), random(-400, -100), random(40, 50));
 
     // noLoop();
-    frameRate(1);
+    // frameRate(1);
 }
 
 function draw() {
 
-    // if (frameCount % 2 == 1) {
+    if (frameCount % 60 == 1) {
         displayScene();
-    // }
+    }
 }
 
 function displayScene() {
@@ -48,8 +53,19 @@ function displayScene() {
     threed.ambientLight(0, 99, 104);
 
     threed.noStroke();
+
+    threed.push();
+    threed.translate(0, -180, -500);
+    threed.texture(skyTexture);
+    threed.plane(700, 300);
+    threed.pop();
+
     threed.rotateX(84);
-    threed.plane(3000,3000);
+    threed.push();
+    threed.rotateZ(0);
+    threed.texture(groundTexture);
+    threed.plane(200, 200);
+    threed.pop();
     threed.rotateX(-90);
     threed.rotateY(45);
     threed.translate(10, 0, -10);
