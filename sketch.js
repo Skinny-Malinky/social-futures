@@ -1,44 +1,45 @@
 let buildings = [];
 let people = [];
+let moons = [];
 var myAsciiArt;
-var asciiart_width = 120; var asciiart_height = 60;
 var ascii_arr;
 let threed;
+let population = 0;
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
-    background("#CFBBBB");
+    createCanvas(windowHeight, windowHeight);
 
-    twod = createGraphics(windowWidth, windowHeight)
-    threed = createGraphics(round(1280/10), round(703/10), WEBGL);
+    twod = createGraphics(windowHeight, windowHeight);
+    threed = createGraphics(70, 70, WEBGL);
     myAsciiArt = new AsciiArt(this);
 
     threed.angleMode(DEGREES);
 
     for (let i = 0; i < 5; i++) {
-        buildings[i] = new Building(30, random(60, 80));
+        buildings[i] = new Building(30, random(0, 5));
     }
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 1; i++) {
         people[i] = new People(1, 15);
     }
-    noLoop();
+    moons[0] = new Moon(random(100, 400), random(-120, -50), random(-400, -100), random(5, 20));
+    moons[1] = new Moon(random(100, 400), random(-120, -50), random(-400, -100), random(40, 50));
+
+    // noLoop();
+    frameRate(1);
 }
 
 function draw() {
 
-    displayScene();
-    // displayText();
+    // if (frameCount % 2 == 1) {
+        displayScene();
+    // }
 }
 
 function displayScene() {
 
-    // for (let i = 0; i < 5; i++) {
-    //     buildings[i].height += 1;
-    // }
-
     twod.clear();
     threed.clear();
-    background("#CFBBBB");
+    background("#DAB4B4");
 
     threed.push();
     threed.background(170, 100, 170);
@@ -47,31 +48,37 @@ function displayScene() {
     threed.ambientLight(0, 99, 104);
 
     threed.noStroke();
-    threed.rotateX(85);
+    threed.rotateX(84);
     threed.plane(3000,3000);
     threed.rotateX(-90);
     threed.rotateY(45);
+    threed.translate(10, 0, -10);
 
-    buildings[0].display(0, 0);
-    buildings[1].display(-50, 0);
-    buildings[2].display(0, 50);
-    buildings[3].display(0, -50);
-    buildings[4].display(50, 0);
+    let streetWidth = 50;
 
-    people[0].display(-42, 33);
-    people[0].display(-33, 38);
-    people[0].display(-22, 25);
-    people[0].display(-13, 21);
-    people[0].display(-20, -10);
-    people[0].display(-20, -18);
-    people[0].display(-20, -31);
-    people[0].display(-22, 8);
-    people[0].display(-22, 41);
-    people[0].display(20, 21);
-    people[0].display(22, 25);
+    if (frameCount != 1) {
+        buildings[0].display(0, 0);
+        buildings[1].display(-streetWidth, 0);
+        buildings[2].display(0, streetWidth);
+        buildings[3].display(0, -streetWidth);
+        buildings[4].display(streetWidth, 0);
+    }
 
+    for (let i = 0; i < 5; i++) {
+        buildings[i].height += 1;
+    }
+
+    for (let i = 0; i < moons.length; i++) {
+        moons[i].display();
+    }
+    let distance = 45;
+    population += 1;
+
+    for (let i = 0; i < population; i++) {
+        people[0].display(random(-distance, distance), random(-distance, distance));
+    }
     threed.pop();
-    image(threed, width/2 - height/703*1280/3*2/2, height/3/2, height/703*1280/3*2, height/3*2);
+    image(threed, height/10, height/10, height/10*8, height/10*8);
 
     twod.background(0, 99, 104, 100);
 
@@ -83,16 +90,5 @@ function displayScene() {
 
     ascii_arr = myAsciiArt.convert(threed);
     myAsciiArt.typeArray2d(ascii_arr, twod);
-    image(twod, width/2 - height/703*1280/3*2/2, height/3/2, height/703*1280/3*2, height/3*2);
-}
-
-function displayText() {
-
-
-    let story = "Poke church-key wayfarers, bushwick everyday carry austin godard man bun fashion axe. Live-edge before they sold out hexagon pok pok umami hashtag occupy chambray kale chips forage portland cloud bread la croix enamel pin lo-fi.\n\nHumblebrag activated charcoal master cleanse bicycle rights crucifix seitan, tofu slow-carb cred XOXO. Portland artisan hashtag, fixie church-key subway tile small batch iceland lyft deep v.\n\n\nMicrodosing literally health goth pug dreamcatcher.\n\nPoke lomo tilde next level neutra stumptown."
-
-    textSize(14);
-    textFont("Courier");
-    fill(0, 99, 104);
-    text(story, width/2 - height/703*1280/3/2, height/10 + height/3 + 20, height/703*1280/3);
+    image(twod, height/10, height/10, height/10*8, height/10*8);
 }
