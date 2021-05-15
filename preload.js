@@ -27,7 +27,12 @@ let vines = "vines";
 
 function preload() {
 
-    let skyTextures = [lettermountain, nova, obfusc, postit, rainbow, reactionknit, retro, sally, shard, sky];
+    randomPlanet();
+}
+
+function randomPlanet() {
+
+    let skyTextures = [lettermountain, nova, obfusc, rainbow, retro, sky];
     let buildingTextures = [circles, eldon, glass, inverse, magma, noise, nova, obfusc, perlinknit, postit, reactionknit, retro, roe, shard, sky, split, tincture];
     let groundTextures = [circles, flagbones, glass, hair, magma, oceanknit, perlinknit, reactionknit, sally, scuff, shard, sky, straw, vines];
 

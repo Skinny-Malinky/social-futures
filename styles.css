@@ -1,0 +1,23 @@
+body {
+	background-color: #DAB4B4;
+    color: #086371;
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+}
+
+a {
+    color: #5C5DBE;
+    text-decoration: underline;
+}
+
+.btn-light {
+    background-color: #6869B5;
+    border-color: #6869B5;
+    color: #FBF4F3;
+}
+
+.btn-light:hover {
+    background-color: #FBF4F3;
+    border-color: #FBF4F3;
+    color: #6869B5;
+}

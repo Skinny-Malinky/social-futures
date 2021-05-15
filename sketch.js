@@ -12,16 +12,19 @@ let groundTexture;
 
 function setup() {
 
-    createCanvas(windowHeight, windowHeight);
+    var canvasDiv = document.getElementById('canvasContainer');
+    var divWidth = canvasDiv.offsetWidth - 30;
+    var canvas = createCanvas(divWidth, divWidth);
+    canvas.parent("canvasContainer");
 
-    twod = createGraphics(windowHeight, windowHeight);
+    twod = createGraphics(divWidth, divWidth);
     threed = createGraphics(70, 70, WEBGL);
     myAsciiArt = new AsciiArt(this);
 
     threed.angleMode(DEGREES);
 
     for (let i = 0; i < 5; i++) {
-        buildings[i] = new Building(30, random(0, 5));
+        buildings[i] = new Building(30, random(0, 2));
     }
     for (let i = 0; i < 1; i++) {
         people[i] = new People(1, 15);
@@ -29,18 +32,32 @@ function setup() {
     moons[0] = new Moon(random(100, 400), random(-120, -50), random(-400, -100), random(5, 20));
     moons[1] = new Moon(random(100, 400), random(-120, -50), random(-400, -100), random(40, 50));
 
-    // noLoop();
-    // frameRate(1);
+    control();
+    namePlanet();
+
+    displayScene(1);
 }
 
-function draw() {
+function control() {
 
-    if (frameCount % 60 == 1) {
-        displayScene();
-    }
+    // let progressButton = select("#progressButton");
+    // progressButton.mousePressed(displayScene);
+
+    let choice1 = select("#choice1");
+    choice1.mousePressed(displayScene);
+    let choice2 = select("#choice2");
+    choice2.mousePressed(displayScene);
 }
 
-function displayScene() {
+function namePlanet() {
+
+    let chars = ["a", "b", "c", "d", "e", "f", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+    let name = "x" + random(chars) + random(chars) + random(chars) + random(chars) + random(chars) + random(chars);
+
+    select("#planetName").html(name);
+}
+
+function displayScene(frame) {
 
     twod.clear();
     threed.clear();
@@ -72,7 +89,7 @@ function displayScene() {
 
     let streetWidth = 50;
 
-    if (frameCount != 1) {
+    if (frame != 1) {
         buildings[0].display(0, 0);
         buildings[1].display(-streetWidth, 0);
         buildings[2].display(0, streetWidth);
@@ -88,13 +105,14 @@ function displayScene() {
         moons[i].display();
     }
     let distance = 45;
-    population += 1;
 
     for (let i = 0; i < population; i++) {
         people[0].display(random(-distance, distance), random(-distance, distance));
     }
+    population += 1;
+
     threed.pop();
-    image(threed, height/10, height/10, height/10*8, height/10*8);
+    image(threed, 0, 0, height, height);
 
     twod.background(0, 99, 104, 100);
 
@@ -106,5 +124,5 @@ function displayScene() {
 
     ascii_arr = myAsciiArt.convert(threed);
     myAsciiArt.typeArray2d(ascii_arr, twod);
-    image(twod, height/10, height/10, height/10*8, height/10*8);
+    image(twod, 0, 0, height, height);
 }
