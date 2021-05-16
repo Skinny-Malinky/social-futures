@@ -1,4 +1,4 @@
-class Moon {
+class Star {
 
     constructor(x, y, z, size) {
 
@@ -11,8 +11,9 @@ class Moon {
     display() {
 
         threed.push();
+        threed.rotateY(45);
         threed.translate(this.x, this.y, this.z);
-        threed.emissiveMaterial("#086371");
+        threed.emissiveMaterial("#fff");
         threed.sphere(this.size);
         threed.pop();
     }
