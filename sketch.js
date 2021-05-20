@@ -21,6 +21,8 @@ let skyTexture;
 let buildingTexture;
 let groundTexture;
 
+let guideWords;
+
 function setup() {
 
     var canvasDiv = document.getElementById('canvasContainer');
@@ -70,8 +72,15 @@ function control() {
 
 function namePlanet() {
 
-    let chars = ["a", "b", "c", "d", "e", "f", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
-    let name = "x" + random(chars) + random(chars) + random(chars) + random(chars) + random(chars) + random(chars);
+    const distance = Math.floor(Math.random() * 23) + 8;
+    const length = guideWords.words.length - distance - 1;
+    const place = Math.floor(Math.random() * length);
+
+    const prefix = guideWords.words[place];
+    const suffix = guideWords.words[place + distance];
+
+    let name = [prefix, suffix].join("");
+    name = name.replace(/^\w/, (c) => c.toUpperCase());
 
     select("#planetName").html(name);
 }
