@@ -13,7 +13,7 @@ class Moon {
         threed.push();
         threed.rotateY(45);
         threed.translate(this.x, this.y, this.z);
-        threed.emissiveMaterial("#086371");
+        threed.emissiveMaterial(color);
         threed.sphere(this.size);
         threed.pop();
     }

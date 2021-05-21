@@ -1,4 +1,3 @@
-let stars = [];
 let moons = [];
 let buildings = [];
 let trees = [];
@@ -22,6 +21,9 @@ let buildingTexture;
 let groundTexture;
 
 let guideWords;
+
+let colors = ["#78A630", "#419F66", "#3EA0B1", "#6090D5", "#9277DE", "#B865D7", "#D763AF", "#DA7E77", "#D39C56"];
+let color;
 
 function setup() {
 
@@ -47,14 +49,13 @@ function setup() {
     drones = new Drone();
     dogs = new Dog();
 
-    for (let i = 0; i < 400; i++) {
-        stars[i] = new Star(450, random(-300, 0), random(-300, 300), random(1, 1));
-    }
     moons[0] = new Moon(400, random(-120, -200), random(-200, 200), random(5, 20));
     moons[1] = new Moon(400, random(-120, -200), random(-200, 200), random(30, 60));
 
     control();
     namePlanet();
+
+    color = random(colors);
 
     displayScene(0);
 }
@@ -72,14 +73,12 @@ function control() {
 
 function namePlanet() {
 
-    const distance = Math.floor(Math.random() * 23) + 8;
-    const length = guideWords.words.length - distance - 1;
-    const place = Math.floor(Math.random() * length);
+    const prefix = random(guideWords.words);
+    const mid = random(guideWords.words)
+    const suffix = random(guideWords.words);
 
-    const prefix = guideWords.words[place];
-    const suffix = guideWords.words[place + distance];
-
-    let name = [prefix, suffix].join("");
+    let name = [prefix, mid, suffix].join("");
+    name = name.slice(0, random(4, 9));
     name = name.replace(/^\w/, (c) => c.toUpperCase());
 
     select("#planetName").html(name);
@@ -94,8 +93,8 @@ function displayScene(frame) {
 
     threed.background("#AA64AA");
 
-    threed.pointLight(250, 0, 250, 50, -50, 10);
-    threed.ambientLight("#006368");
+    threed.pointLight(150, 150, 150, 50, -50, 10);
+    threed.ambientLight(color);
 
     threed.noStroke();
 
@@ -136,9 +135,6 @@ function displayScene(frame) {
     for (let i = 0; i < trees.length; i++) {
         trees[i].display();
     }
-    // for (let i = 0; i < stars.length; i++) {
-    //     stars[i].display();
-    // }
     for (let i = 0; i < moons.length; i++) {
         moons[i].display();
     }
@@ -166,7 +162,7 @@ function displayScene(frame) {
 function render() {
     image(threed, 0, 0, height, height);
 
-    twod.background(0, 99, 104, 100);
+    twod.background(104, 104, 104, 100);
 
     twod.textAlign(CENTER, CENTER);
     twod.textFont('Courier', 10/703*height);

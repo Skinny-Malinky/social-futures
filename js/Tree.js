@@ -11,9 +11,7 @@ class Tree {
         threed.push();
         threed.rotateY(45);
         threed.translate(this.x, 0, this.z);
-        // threed.normalMaterial();
         threed.fill(200);
-        // threed.emissiveMaterial("#006368");
         threed.rotateZ(180);
         threed.cone(3, 35);
         threed.rotateY(45);
