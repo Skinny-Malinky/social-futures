@@ -21,9 +21,6 @@ class Building {
             case "box":
                 threed.box(this.width, this.height, this.width);
                 break;
-            case "cylinder":
-                threed.cylinder(this.width/3*2, this.height);
-                break;
             case "flute":
                 threed.cone(this.width/3*2, this.height);
                 break;

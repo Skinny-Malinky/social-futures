@@ -22,7 +22,6 @@ let sky = "sky";
 let split = "split";
 let straw = "straw";
 let tincture = "tincture";
-let vines = "vines";
 
 function preload() {
 
@@ -33,9 +32,9 @@ function randomPlanet() {
 
     guideWords = loadJSON("json/guide-words.json")
 
-    let skyTextures = [lettermountain, nova, obfusc, retro, sky];
+    let skyTextures = [lettermountain, nova, retro, sky];
     let buildingTextures = [circles, eldon, glass, inverse, magma, noise, nova, obfusc, perlinknit, postit, reactionknit, retro, roe, shard, sky, split, tincture];
-    let groundTextures = [circles, flagbones, glass, hair, magma, oceanknit, perlinknit, reactionknit, sally, scuff, shard, sky, straw, vines];
+    let groundTextures = [circles, flagbones, glass, hair, magma, oceanknit, perlinknit, reactionknit, scuff, shard, straw];
 
     skyTexture = loadImage("textures/" + random(skyTextures) + ".jpg");
     buildingTexture = loadImage("textures/" + random(buildingTextures) + ".jpg");

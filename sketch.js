@@ -22,7 +22,7 @@ let groundTexture;
 
 let guideWords;
 
-let colors = ["#78A630", "#419F66", "#3EA0B1", "#6090D5", "#9277DE", "#B865D7", "#D763AF", "#DA7E77", "#D39C56"];
+let colors = ["#78A630", "#419F66", "#3EA0B1", "#6090D5", "#9277DE", "#B865D7", "#D763AF", "#DA7E77", "#D39C56", "#A8A8A8"];
 let color;
 
 function setup() {
@@ -38,7 +38,7 @@ function setup() {
 
     threed.angleMode(DEGREES);
 
-    let buildingShape = random(["box", "cylinder", "flute", "cone", "ellipsoid"]);
+    let buildingShape = random(["box", "flute", "cone", "ellipsoid"]);
     for (let i = 0; i < 10; i++) {
         buildings[i] = new Building(30, 0, buildingShape, random(-20, 150), random(-100, 100));
     }
