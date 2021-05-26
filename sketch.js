@@ -9,7 +9,7 @@ let population = 0;
 let dronePopulation = 0;
 let dogPopulation = 0;
 
-let year = 0;
+let year = 2057;
 
 var myAsciiArt;
 var ascii_arr;
@@ -24,6 +24,9 @@ let guideWords;
 
 let colors = ["#78A630", "#419F66", "#3EA0B1", "#6090D5", "#9277DE", "#B865D7", "#D763AF", "#DA7E77", "#D39C56", "#A8A8A8"];
 let color;
+
+let fonts = ["Berkshire Swash", "Audiowide", "Rye", "Racing Sans One", "Oxanium"];
+let font;
 
 function setup() {
 
@@ -52,23 +55,26 @@ function setup() {
     moons[0] = new Moon(400, random(-120, -200), random(-200, 200), random(5, 20));
     moons[1] = new Moon(400, random(-120, -200), random(-200, 200), random(30, 60));
 
+    color = random(colors);
+    font = random(fonts);
+
     control();
     namePlanet();
-
-    color = random(colors);
 
     displayScene(0);
 }
 
 function control() {
 
-    // let progressButton = select("#progressButton");
-    // progressButton.mousePressed(displayScene);
-
     let choice1 = select("#choice1");
     choice1.mousePressed(displayScene);
     let choice2 = select("#choice2");
     choice2.mousePressed(displayScene);
+
+    let bolds = selectAll("b");
+    for (let i = 0; i < bolds.length; i++) {
+        bolds[i].style("font-family", font);
+    }
 }
 
 function namePlanet() {
@@ -85,6 +91,9 @@ function namePlanet() {
 }
 
 function displayScene(frame) {
+
+    let yearHtml = select("#year");
+    yearHtml.html(year);
 
     twod.clear();
     threed.clear();
