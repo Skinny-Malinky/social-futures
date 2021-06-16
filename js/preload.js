@@ -30,7 +30,8 @@ function preload() {
 
 function randomPlanet() {
 
-    guideWords = loadJSON("json/guide-words.json")
+    guideWords = loadJSON("json/guide-words.json");
+    eventsJson = loadJSON("json/events.json");
 
     let skyTextures = [lettermountain, nova, retro, sky];
     let buildingTextures = [circles, eldon, glass, inverse, magma, noise, nova, obfusc, perlinknit, postit, reactionknit, retro, roe, shard, sky, split, tincture];

@@ -21,6 +21,21 @@ let buildingTexture;
 let groundTexture;
 
 let guideWords;
+let eventsJson;
+
+let events = [];
+let eventNumber = 0;
+let outcomeText = "";
+
+let stats = {
+    happiness: 50,
+    mortality: 50,
+    education: 50,
+    belonging: 50,
+    inequality: 50,
+    wealth: 50,
+    urban: 50
+};
 
 let colors = ["#78A630", "#419F66", "#3EA0B1", "#6090D5", "#9277DE", "#B865D7", "#D763AF", "#DA7E77", "#D39C56", "#A8A8A8"];
 let color;
@@ -59,21 +74,109 @@ function setup() {
     font = random(fonts);
 
     control();
+    controlChoices();
     namePlanet();
+    randomiseStats();
 
     displayScene(0);
+    displayStats();
+
+    eventsJson = shuffle(eventsJson.events);
+
+    for (let i = 0; i < eventsJson.length; i++) {
+
+        events[i] = new Event(eventsJson[i]);
+    }
+    displayEvent(0, "");
+    eventNumber++;
 }
 
 function control() {
 
-    let choice1 = select("#choice1");
-    choice1.mousePressed(displayScene);
-    let choice2 = select("#choice2");
-    choice2.mousePressed(displayScene);
-
     let bolds = selectAll("b");
     for (let i = 0; i < bolds.length; i++) {
         bolds[i].style("font-family", font);
+    }
+}
+
+function controlChoices() {
+
+    let choice1 = select("#choice1");
+    choice1.mousePressed(() => {
+
+        displayScene();
+        displayEvent(eventNumber, events[eventNumber-1].choices[0].outcome);
+        updateStats(events[eventNumber-1].choices[0].stats);
+        displayStats();
+        eventNumber += 1;
+    });
+    let choice2 = select("#choice2");
+    choice2.mousePressed(() => {
+
+        displayScene();
+        displayEvent(eventNumber, events[eventNumber-1].choices[1].outcome);
+        updateStats(events[eventNumber-1].choices[1].stats);
+        displayStats();
+        eventNumber += 1;
+    });
+}
+
+function displayEvent(n, outcomeText) {
+
+    let scenarioElement = select("#scenario");
+    let choice1Element = select("#choice1");
+    let choice2Element = select("#choice2");
+
+    if (n == events.length) {
+
+        scenarioElement.html(outcomeText);
+        choice1Element.html("");
+        choice2Element.html("");
+        return;
+    }
+    scenarioElement.html(outcomeText + events[n].scenario);
+    choice1Element.html("1. " + events[n].choices[0].choice);
+    choice2Element.html("2. " + events[n].choices[1].choice);
+}
+
+function displayStats() {
+
+    select("#happiness").html(numberToBar(stats.happiness));
+    select("#mortality").html(numberToBar(stats.mortality));
+    select("#education").html(numberToBar(stats.education));
+    select("#belonging").html(numberToBar(stats.belonging));
+    select("#inequality").html(numberToBar(stats.inequality));
+    select("#wealth").html(numberToBar(stats.wealth));
+    select("#urban").html(numberToBar(stats.urban));
+}
+
+function numberToBar(n) {
+
+    let total = 14;
+    let bar = "";
+
+    n = int(n / 100 * total);
+
+    if (n > total) {
+        n = total;
+    }
+
+    for (let i = 0; i < n; i++) {
+        bar += "█";
+    }
+    for (let i = n; i < total; i++) {
+        bar += "░";
+    }
+    return bar;
+}
+
+function updateStats(input) {
+
+    for (let i in stats) {
+
+        if (input[i]) {
+            stats[i] += input[i];
+        }
     }
 }
 
@@ -88,6 +191,13 @@ function namePlanet() {
     name = name.replace(/^\w/, (c) => c.toUpperCase());
 
     select("#planetName").html(name);
+}
+
+function randomiseStats() {
+
+    for (let i in stats) {
+        stats[i] = int(random(100));
+    }
 }
 
 function displayScene(frame) {
@@ -122,22 +232,11 @@ function displayScene(frame) {
     threed.rotateY(45);
     threed.translate(10, 0, -10);
 
-    let streetWidth = 50;
-
-    // if (frame != 0) {
-    //     buildings[0].display(0, 0);
-    //     buildings[1].display(-streetWidth, 0);
-    //     buildings[2].display(0, streetWidth);
-    //     buildings[3].display(0, -streetWidth);
-    //     buildings[4].display(streetWidth, 0);
-    // }
-
     if (frame != 0) {
         for (let i = 0; i < buildings.length; i++) {
             buildings[i].display();
         }
     }
-
     for (let i = 0; i < buildings.length; i++) {
         buildings[i].height += 1;
     }

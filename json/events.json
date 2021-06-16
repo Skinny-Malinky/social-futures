@@ -1,0 +1,67 @@
+{
+    "events": [
+        {
+            "scenario": "<p>I am sweating.</p><p>I’m sweating too much, aren’t I? This must be the warmest cinema in the world.</p><p>Or is it cold? And this is a cold sweat? Don’t start shivering.</p><p>No one wants to touch someone who looks like they have the flu.</p><p>Bad enough I had the extra spicy tacos.</p><p>Okay.</p><p>Focus.</p>",
+            "choices": [
+                {
+                    "choice": "Go for the sneaky deodorant spray?",
+                    "outcome": "<p>Whole cinema is looking at me like a weirdo. She is so embarrassed.</p>",
+                    "stats": {
+                        "happiness": 10,
+                        "wealth": -10
+                    }
+                },
+                {
+                    "choice": "Wipe my hands on my trousers?",
+                    "outcome": "<p>Nice, nice. Just a bit clammy. Trust the deodorant is holding.</p>",
+                    "stats": {
+                        "mortality": 30,
+                        "happiness": -20
+                    }
+                }
+            ]
+        },
+        {
+            "scenario": "<p>I need to pee.</p><p>I absolutely need to hold it in.</p><p>Whatever you do, don’t pee yourself on the first date.</p><p>Just wait until you get home to your nice clean bathroom where nobody can hear you go.</p><p>Concentrate on the movie.</p><p>Nope.</p><p>Not happening, time to go.</p><p>You’re a grown woman, just stand up and excuse yourself.</p><p>Why did I get the extra large slushy?</p>",
+            "choices": [
+                {
+                    "choice": "Hold in it five more minutes.",
+                    "outcome": "<p>God. That was the worst thing that has ever happened to anyone. I can’t believe I face planted. Why did I hold it so long?</p>",
+                    "stats": {
+                        "happiness": 10,
+                        "wealth": -10
+                    }
+                },
+                {
+                    "choice": "Tell him you will be right back?",
+                    "outcome": "<p>Oh my god. I feel so much better.</p>",
+                    "stats": {
+                        "mortality": 30,
+                        "happiness": -2
+                    }
+                }
+            ]
+        },
+        {
+            "scenario": "<p>Okay, she’s back.</p><p>She hasn’t just gone home and left you sitting on your own like a loser.</p><p>Is she enjoying this? I have no idea what this film is about.</p><p>Is it good even? I didn’t pick it.</p><p>What if she asks me about it afterwards? Maybe I should google a review so that I can sound smart.</p><p>She knows everything, always doing these obscure pop culture references.</p><p>I love it when she does that.</p>",
+            "choices": [
+                {
+                    "choice": "Look up a review on my phone?",
+                    "outcome": "<p>Aww man, does she think I’m bored?</>",
+                    "stats": {
+                        "happiness": 10,
+                        "wealth": -10
+                    }
+                },
+                {
+                    "choice": "Turn it off and try to relax.",
+                    "outcome": "<p>She likes you. She told you. Be yourself. You got this.</p>",
+                    "stats": {
+                        "mortality": 30,
+                        "happiness": -20
+                    }
+                }
+            ]
+        }
+    ]
+}
