@@ -10,6 +10,7 @@ let dronePopulation = 0;
 let dogPopulation = 0;
 
 let year = 2057;
+let planetName = "x";
 
 var myAsciiArt;
 var ascii_arr;
@@ -81,12 +82,17 @@ function setup() {
     displayScene(0);
     displayStats();
 
-    eventsJson = shuffle(eventsJson.events);
+    let eventsList = shuffle(eventsJson.events);
 
-    for (let i = 0; i < eventsJson.length; i++) {
+    for (let i = 0; i < eventsList.length; i++) {
 
-        events[i] = new Event(eventsJson[i]);
+        events[i] = new Event(eventsList[i]);
     }
+    events.unshift(new Event(eventsJson.beginnings[0]));
+    events[0].choices[0].choice = namePlanet();
+    events[0].choices[1].choice = namePlanet();
+    events[0].choices[2].choice = namePlanet();
+
     displayEvent(0, "");
     eventNumber++;
 }
@@ -101,22 +107,34 @@ function control() {
 
 function controlChoices() {
 
-    let choice1 = select("#choice1");
-    choice1.mousePressed(() => {
+    select("#choice1").mousePressed(() => {
 
         displayScene();
         displayEvent(eventNumber, events[eventNumber-1].choices[0].outcome);
         updateStats(events[eventNumber-1].choices[0].stats);
         displayStats();
+        eval(events[eventNumber-1].choices[0].eval);
+
         eventNumber += 1;
     });
-    let choice2 = select("#choice2");
-    choice2.mousePressed(() => {
+    select("#choice2").mousePressed(() => {
 
         displayScene();
         displayEvent(eventNumber, events[eventNumber-1].choices[1].outcome);
         updateStats(events[eventNumber-1].choices[1].stats);
         displayStats();
+        eval(events[eventNumber-1].choices[1].eval);
+
+        eventNumber += 1;
+    });
+    select("#choice3").mousePressed(() => {
+
+        displayScene();
+        displayEvent(eventNumber, events[eventNumber-1].choices[2].outcome);
+        updateStats(events[eventNumber-1].choices[2].stats);
+        displayStats();
+        eval(events[eventNumber-1].choices[2].eval);
+
         eventNumber += 1;
     });
 }
@@ -126,6 +144,7 @@ function displayEvent(n, outcomeText) {
     let scenarioElement = select("#scenario");
     let choice1Element = select("#choice1");
     let choice2Element = select("#choice2");
+    let choice3Element = select("#choice3");
 
     if (n == events.length) {
 
@@ -137,6 +156,12 @@ function displayEvent(n, outcomeText) {
     scenarioElement.html(outcomeText + events[n].scenario);
     choice1Element.html("1. " + events[n].choices[0].choice);
     choice2Element.html("2. " + events[n].choices[1].choice);
+
+    if (events[n].choices[2]) {
+        choice3Element.html("3. " + events[n].choices[2].choice);
+    } else {
+        choice3Element.html("");
+    }
 }
 
 function displayStats() {
@@ -160,7 +185,6 @@ function numberToBar(n) {
     if (n > total) {
         n = total;
     }
-
     for (let i = 0; i < n; i++) {
         bar += "█";
     }
@@ -190,7 +214,7 @@ function namePlanet() {
     name = name.slice(0, random(4, 9));
     name = name.replace(/^\w/, (c) => c.toUpperCase());
 
-    select("#planetName").html(name);
+    return name;
 }
 
 function randomiseStats() {
@@ -204,6 +228,8 @@ function displayScene(frame) {
 
     let yearHtml = select("#year");
     yearHtml.html(year);
+    select("#planetName").html(planetName);
+
 
     twod.clear();
     threed.clear();

@@ -1,4 +1,29 @@
 {
+    "beginnings": [
+        {
+            "scenario": "<p>Fuck that was a bad landing. What's the opposite of auspicious? Shit?</p><p>Your peeps set up shop and soon a small settlement forms. Your main man INSERTNAMEHERE pulls you aside for a wee conversation. Word is it's about time this place had a name, and they share a few of the more popular ideas with you.</p>",
+            "choices": [
+                {
+                    "choice": "",
+                    "outcome": "<p>A grand choice, everyone agrees.</p>",
+                    "stats": {},
+                    "eval": "planetName = events[eventNumber-1].choices[0].choice; select('#planetName').html(planetName);"
+                },
+                {
+                    "choice": "",
+                    "outcome": "<p>I mean, it's a bit iffy but I guess it's kinda fitting.</p>",
+                    "stats": {},
+                    "eval": "planetName = events[eventNumber-1].choices[1].choice; select('#planetName').html(planetName);"
+                },
+                {
+                    "choice": "",
+                    "outcome": "<p>Yeah buddy. That's a kickass name.</p>",
+                    "stats": {},
+                    "eval": "planetName = events[eventNumber-1].choices[2].choice; select('#planetName').html(planetName);"
+                }
+            ]
+        }
+    ],
     "events": [
         {
             "scenario": "<p>I am sweating.</p><p>I’m sweating too much, aren’t I? This must be the warmest cinema in the world.</p><p>Or is it cold? And this is a cold sweat? Don’t start shivering.</p><p>No one wants to touch someone who looks like they have the flu.</p><p>Bad enough I had the extra spicy tacos.</p><p>Okay.</p><p>Focus.</p>",
