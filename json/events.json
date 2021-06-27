@@ -1,7 +1,107 @@
 {
     "beginnings": [
         {
-            "scenario": "<p>Fuck that was a bad landing. What's the opposite of auspicious? Shit?</p><p>Your peeps set up shop and soon a small settlement forms. Your main man INSERTNAMEHERE pulls you aside for a wee conversation. Word is it's about time this place had a name, and they share a few of the more popular ideas with you.</p>",
+            "scenario": "<p>A shot in the dark. That is literally what it was. We were hurtling through space in a very specific concoction of pseudoscience, sci-fi, trigonometry and probably astrology.</p><p>Our life raft held together with Hubba Bubba and Pritt Stick.</p><p>We slept through it all. Raised by ghosts, educated on dreams and fed a desperate hope for the future. We were taught what went wrong in order to know what could have been. Consequences, consequences, consequences. That’s what they drilled into us.</p><p>But when we arrived we were teenagers. We were born into our adult bodies with a wealth of knowledge and absolutely no life experience. Awkward, spotty innocents. What did we care for consequences, when we’d lived our whole lives asleep? We had dreams to realise.</p><p>It was funny. As we floated through the night sky, there was one we all shared.</p>",
+            "choices": [
+                {
+                    "choice": "Falling from our arc and hurtling towards the surface.",
+                    "outcome": "",
+                    "stats": {
+                        "happiness": 10
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "An unknown land, where we were hunted by monsters.",
+                    "outcome": "",
+                    "stats": {},
+                    "eval": ""
+                },
+                {
+                    "choice": "Waking up alone, the last of our species.",
+                    "outcome": "",
+                    "stats": {},
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p>We didn’t know it at the time but we woke from one arc and ended up on another. In this world, it was as though Noah never tasted the rainbow and whatever species had lived here, God drowned the lot of them. It was one huge sea as wide as the eye could see.</p><p>I remember donning a pair of sick shades, wobbling out into the twin suns and failing to look cool as I found my sea legs. I was drenched in seconds, battered as we were by an ostentatious ocean. All the while, the ground beneath us was rising and falling, causing many of my fellow travellers to empty their all-ready rumbling stomachs. A fairly sizeable crab almost took my left baby toe, so we ate his family for lunch with a seaweed salad.</p><p>It was salty. Everything in the beginning was too salty.</p><p>Later, when the suns we dubbed the Gemini set, the sky erupted into an explosion of oranges, purples and reds. It was chilly when the darkness came, and it was too wet for a fire.</p>",
+            "choices": [
+                {
+                    "choice": "As we shivered in the night, we felt loneliness for the first time.",
+                    "outcome": "",
+                    "stats": {},
+                    "eval": ""
+                },
+                {
+                    "choice": "We held each other, sheltered in the embrace of a trio of giant barnacles.",
+                    "outcome": "",
+                    "stats": {
+                        "happiness": 10,
+                        "community": 10
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Some of us found a hot pool and our skin wrinkled, snug beneath the surface.",
+                    "outcome": "",
+                    "stats": {},
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p>Our ancestors weren’t big on plastic and they forgot to pack the birth control pills. Leave a society of randy adolescents on a new planet unsupervised, they are going to sleep around. Most of us weren’t really sure whose was whose, so we just kind of all took responsibility for the children.</p><p>In those early days, the population levels just kind of stagnated. It was a bit of a learning curve and there was a lot of trial and error. Not knowing which creatures would love to devour your insides, or which fruits would turn your skin purple, it’s a wonder that we survived at all.</p><p>I don’t think, given the world we found ourselves in, I could have found myself doing anything else.</p>",
+            "choices": [
+                {
+                    "choice": "Someone had to keep us all alive and I know it’s disgusting, but I love poking at people’s insides.",
+                    "outcome": "",
+                    "stats": {},
+                    "eval": ""
+                },
+                {
+                    "choice": "It was a whole new world, how could I not be drawn to find out absolutely everything about it.",
+                    "outcome": "",
+                    "stats": {
+                        "education": 10,
+                        "health": 10
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "There was an ocean. People needed to eat. So, I fished.",
+                    "outcome": "",
+                    "stats": {},
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p>If it was there, I discovered it! I found new antibiotics, a cure for male pattern baldness, an insect that was really a fruit, silicon-based lifeforms, and around two thousand different types of fish. Our ancestor’s hadn’t hoped for much life in our new world, but it was teeming. We even found a new best friend for man.</p><p>Around a year in, the angler dogs wormed their way up the south shore, their glowing lanterns dangling in front of their dopey looking faces. It was mating season and when the parents had returned beneath the ocean, we went down to investigate. The young they left would have legs and feet until their adolescence, at which point they dropped off and the angler dogs went to make a life underwater.</p><p>Importantly, they were born with their light source. With no means to make a fire, our short nights felt long. So of course we took these cute little guys home to light up our little island.</p>",
+            "choices": [
+                {
+                    "choice": "They sat on the porch of our seaweed shacks and ate our scraps.",
+                    "outcome": "",
+                    "stats": {},
+                    "eval": ""
+                },
+                {
+                    "choice": "Angler dogs were great for scarring the crabs from our barnacle beach homes.",
+                    "outcome": "",
+                    "stats": {},
+                    "eval": ""
+                },
+                {
+                    "choice": "Were given places of honour in our ice pyramids!",
+                    "outcome": "",
+                    "stats": {},
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p>Let's choose a name yo.</p>",
             "choices": [
                 {
                     "choice": "",
@@ -25,68 +125,5 @@
         }
     ],
     "events": [
-        {
-            "scenario": "<p>I am sweating.</p><p>I’m sweating too much, aren’t I? This must be the warmest cinema in the world.</p><p>Or is it cold? And this is a cold sweat? Don’t start shivering.</p><p>No one wants to touch someone who looks like they have the flu.</p><p>Bad enough I had the extra spicy tacos.</p><p>Okay.</p><p>Focus.</p>",
-            "choices": [
-                {
-                    "choice": "Go for the sneaky deodorant spray?",
-                    "outcome": "<p>Whole cinema is looking at me like a weirdo. She is so embarrassed.</p>",
-                    "stats": {
-                        "happiness": 10,
-                        "wealth": -10
-                    }
-                },
-                {
-                    "choice": "Wipe my hands on my trousers?",
-                    "outcome": "<p>Nice, nice. Just a bit clammy. Trust the deodorant is holding.</p>",
-                    "stats": {
-                        "mortality": 30,
-                        "happiness": -20
-                    }
-                }
-            ]
-        },
-        {
-            "scenario": "<p>I need to pee.</p><p>I absolutely need to hold it in.</p><p>Whatever you do, don’t pee yourself on the first date.</p><p>Just wait until you get home to your nice clean bathroom where nobody can hear you go.</p><p>Concentrate on the movie.</p><p>Nope.</p><p>Not happening, time to go.</p><p>You’re a grown woman, just stand up and excuse yourself.</p><p>Why did I get the extra large slushy?</p>",
-            "choices": [
-                {
-                    "choice": "Hold in it five more minutes.",
-                    "outcome": "<p>God. That was the worst thing that has ever happened to anyone. I can’t believe I face planted. Why did I hold it so long?</p>",
-                    "stats": {
-                        "happiness": 10,
-                        "wealth": -10
-                    }
-                },
-                {
-                    "choice": "Tell him you will be right back?",
-                    "outcome": "<p>Oh my god. I feel so much better.</p>",
-                    "stats": {
-                        "mortality": 30,
-                        "happiness": -2
-                    }
-                }
-            ]
-        },
-        {
-            "scenario": "<p>Okay, she’s back.</p><p>She hasn’t just gone home and left you sitting on your own like a loser.</p><p>Is she enjoying this? I have no idea what this film is about.</p><p>Is it good even? I didn’t pick it.</p><p>What if she asks me about it afterwards? Maybe I should google a review so that I can sound smart.</p><p>She knows everything, always doing these obscure pop culture references.</p><p>I love it when she does that.</p>",
-            "choices": [
-                {
-                    "choice": "Look up a review on my phone?",
-                    "outcome": "<p>Aww man, does she think I’m bored?</>",
-                    "stats": {
-                        "happiness": 10,
-                        "wealth": -10
-                    }
-                },
-                {
-                    "choice": "Turn it off and try to relax.",
-                    "outcome": "<p>She likes you. She told you. Be yourself. You got this.</p>",
-                    "stats": {
-                        "mortality": 30,
-                        "happiness": -20
-                    }
-                }
-            ]
-        }
     ]
 }

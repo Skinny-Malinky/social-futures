@@ -82,16 +82,20 @@ function setup() {
     displayScene(0);
     displayStats();
 
-    let eventsList = shuffle(eventsJson.events);
+    let eventsList = eventsJson.events;
+    // eventsList = shuffle(eventsList);
 
     for (let i = 0; i < eventsList.length; i++) {
 
         events[i] = new Event(eventsList[i]);
     }
-    events.unshift(new Event(eventsJson.beginnings[0]));
-    events[0].choices[0].choice = namePlanet();
-    events[0].choices[1].choice = namePlanet();
-    events[0].choices[2].choice = namePlanet();
+    for (let i = eventsJson.beginnings.length - 1; i >= 0; i--) {
+
+        events.unshift(new Event(eventsJson.beginnings[i]));
+    }
+    events[4].choices[0].choice = namePlanet();
+    events[4].choices[1].choice = namePlanet();
+    events[4].choices[2].choice = namePlanet();
 
     displayEvent(0, "");
     eventNumber++;
@@ -167,12 +171,13 @@ function displayEvent(n, outcomeText) {
 function displayStats() {
 
     select("#happiness").html(numberToBar(stats.happiness));
-    select("#mortality").html(numberToBar(stats.mortality));
+    select("#community").html(numberToBar(stats.community));
     select("#education").html(numberToBar(stats.education));
-    select("#belonging").html(numberToBar(stats.belonging));
-    select("#inequality").html(numberToBar(stats.inequality));
+    select("#health").html(numberToBar(stats.health));
     select("#wealth").html(numberToBar(stats.wealth));
-    select("#urban").html(numberToBar(stats.urban));
+    select("#biodiversity").html(numberToBar(stats.biodiversity));
+    select("#planet").html(numberToBar(stats.planet));
+    select("#equality").html(numberToBar(stats.equality));
 }
 
 function numberToBar(n) {
