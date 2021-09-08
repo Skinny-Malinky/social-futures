@@ -29,13 +29,14 @@ let eventNumber = 0;
 let outcomeText = "";
 
 let stats = {
-    happiness: 50,
-    mortality: 50,
-    education: 50,
-    belonging: 50,
-    inequality: 50,
-    wealth: 50,
-    urban: 50
+    fulfilment: 0,
+    health: 0,
+    community: 0,
+    education: 0,
+    equality: 0,
+    wealth: 0,
+    biodiversity: 0,
+    planet_health: 0
 };
 
 let colors = ["#78A630", "#419F66", "#3EA0B1", "#6090D5", "#9277DE", "#B865D7", "#D763AF", "#DA7E77", "#D39C56", "#A8A8A8"];
@@ -77,13 +78,13 @@ function setup() {
     control();
     controlChoices();
     namePlanet();
-    randomiseStats();
+    // randomiseStats();
 
     displayScene(0);
     displayStats();
 
     let eventsList = eventsJson.events;
-    // eventsList = shuffle(eventsList);
+    eventsList = shuffle(eventsList);
 
     for (let i = 0; i < eventsList.length; i++) {
 
@@ -93,9 +94,9 @@ function setup() {
 
         events.unshift(new Event(eventsJson.beginnings[i]));
     }
-    events[4].choices[0].choice = namePlanet();
-    events[4].choices[1].choice = namePlanet();
-    events[4].choices[2].choice = namePlanet();
+    // events[4].choices[0].choice = namePlanet();
+    // events[4].choices[1].choice = namePlanet();
+    // events[4].choices[2].choice = namePlanet();
 
     displayEvent(0, "");
     eventNumber++;
@@ -159,8 +160,12 @@ function displayEvent(n, outcomeText) {
     }
     scenarioElement.html(outcomeText + events[n].scenario);
     choice1Element.html("1. " + events[n].choices[0].choice);
-    choice2Element.html("2. " + events[n].choices[1].choice);
 
+    if (events[n].choices[1]) {
+        choice2Element.html("2. " + events[n].choices[1].choice);
+    } else {
+        choice2Element.html("");
+    }
     if (events[n].choices[2]) {
         choice3Element.html("3. " + events[n].choices[2].choice);
     } else {
@@ -170,22 +175,22 @@ function displayEvent(n, outcomeText) {
 
 function displayStats() {
 
-    select("#happiness").html(numberToBar(stats.happiness));
+    select("#fulfilment").html(numberToBar(stats.fulfilment));
+    select("#health").html(numberToBar(stats.health));
     select("#community").html(numberToBar(stats.community));
     select("#education").html(numberToBar(stats.education));
-    select("#health").html(numberToBar(stats.health));
+    select("#equality").html(numberToBar(stats.equality));
     select("#wealth").html(numberToBar(stats.wealth));
     select("#biodiversity").html(numberToBar(stats.biodiversity));
-    select("#planet").html(numberToBar(stats.planet));
-    select("#equality").html(numberToBar(stats.equality));
+    select("#planet_health").html(numberToBar(stats.planet_health));
 }
 
 function numberToBar(n) {
 
-    let total = 14;
+    let total = 17;
     let bar = "";
 
-    n = int(n / 100 * total);
+    // n = int(n / 100 * total);
 
     if (n > total) {
         n = total;
@@ -205,6 +210,9 @@ function updateStats(input) {
 
         if (input[i]) {
             stats[i] += input[i];
+        }
+        if (stats[i] < 0) {
+            stats[i] = 0;
         }
     }
 }

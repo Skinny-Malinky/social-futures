@@ -1,129 +1,729 @@
 {
     "beginnings": [
         {
-            "scenario": "<p>A shot in the dark. That is literally what it was. We were hurtling through space in a very specific concoction of pseudoscience, sci-fi, trigonometry and probably astrology.</p><p>Our life raft held together with Hubba Bubba and Pritt Stick.</p><p>We slept through it all. Raised by ghosts, educated on dreams and fed a desperate hope for the future. We were taught what went wrong in order to know what could have been. Consequences, consequences, consequences. That’s what they drilled into us.</p><p>But when we arrived we were teenagers. We were born into our adult bodies with a wealth of knowledge and absolutely no life experience. Awkward, spotty innocents. What did we care for consequences, when we’d lived our whole lives asleep? We had dreams to realise.</p><p>It was funny. As we floated through the night sky, there was one we all shared.</p>",
+            "scenario": "<p><i>A shot in the dark. That is literally what it is. We are hurtling the last dregs of our species through space in a very specific concoction of pseudoscience, sci-fi, trigonometry and probably astrology. I don’t even remember doing these calculations. I don’t remember finishing the last of the whiskey.</i> – Dr Rishi Gupta, Chief Mathematician, Arc Project (2113)</p><p>Choose:</p>",
             "choices": [
                 {
-                    "choice": "Falling from our arc and hurtling towards the surface.",
+                    "choice": "24: 92: 96: 04",
+                    "outcome": "",
+                    "stats": {},
+                    "eval": ""
+                },
+                {
+                    "choice": "83: 77: 12: 78",
+                    "outcome": "",
+                    "stats": {},
+                    "eval": ""
+                },
+                {
+                    "choice": "11: 43: 02: 67",
+                    "outcome": "",
+                    "stats": {},
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p><i>Sleep well my darlings, I hope that you will wake in a kinder world than the one that was left to your mother. Keep your fingers and toes crossed for some oxygen and a nice temperate climate. Remember these lessons I have left planted in your dreams. Never forget that there are consequences for your actions.</i> – Rev Sarah Willard, Social Engineer, Arc Project (2113)</p><p>Dream of:</p>",
+            "choices": [
+                {
+                    "choice": "Health and happiness.",
                     "outcome": "",
                     "stats": {
-                        "happiness": 10
+                        "fulfilment": 2,
+                        "health": 2,
+                        "community": 1,
+                        "education": 0,
+                        "equality": 1,
+                        "wealth": 0,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                },
+                    "eval": ""
+                },
+                {
+                    "choice": "Peace between planet and people.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 1,
+                        "health": 0,
+                        "community": 2,
+                        "education": 0,
+                        "equality": 1,
+                        "wealth": 0,
+                        "biodiversity": 2,
+                        "planet_health": 0
                     },
                     "eval": ""
                 },
                 {
-                    "choice": "An unknown land, where we were hunted by monsters.",
+                    "choice": "Success and abundance.",
                     "outcome": "",
-                    "stats": {},
-                    "eval": ""
-                },
-                {
-                    "choice": "Waking up alone, the last of our species.",
-                    "outcome": "",
-                    "stats": {},
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": 1,
+                        "community": 0,
+                        "education": 1,
+                        "equality": 0,
+                        "wealth": 2,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
                     "eval": ""
                 }
             ]
         },
         {
-            "scenario": "<p>We didn’t know it at the time but we woke from one arc and ended up on another. In this world, it was as though Noah never tasted the rainbow and whatever species had lived here, God drowned the lot of them. It was one huge sea as wide as the eye could see.</p><p>I remember donning a pair of sick shades, wobbling out into the twin suns and failing to look cool as I found my sea legs. I was drenched in seconds, battered as we were by an ostentatious ocean. All the while, the ground beneath us was rising and falling, causing many of my fellow travellers to empty their all-ready rumbling stomachs. A fairly sizeable crab almost took my left baby toe, so we ate his family for lunch with a seaweed salad.</p><p>It was salty. Everything in the beginning was too salty.</p><p>Later, when the suns we dubbed the Gemini set, the sky erupted into an explosion of oranges, purples and reds. It was chilly when the darkness came, and it was too wet for a fire.</p>",
+            "scenario": "<p><i>I spent my whole life cataloguing and for what? To give some test tube a shot at existence halfway across the galaxy? I mean what is the actual point in that? Why does it matter to us that humanity keeps on existing? Can we even call them humanity? We have proven ourselves to be a selfish, sad, little species. I should just wipe it all. Clean slate.</i> -  Amed Garcia Jones, Head Librarian, Arc Project (2113)</p><p>Send:</p>",
             "choices": [
                 {
-                    "choice": "As we shivered in the night, we felt loneliness for the first time.",
+                    "choice": "Complete works of Shakespeare.",
                     "outcome": "",
-                    "stats": {},
+                    "stats": {
+                        "fulfilment": 1,
+                        "health": 0,
+                        "community": 2,
+                        "education": 1,
+                        "equality": -2,
+                        "wealth": 0,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                },
                     "eval": ""
                 },
                 {
-                    "choice": "We held each other, sheltered in the embrace of a trio of giant barnacles.",
+                    "choice": "STEM heavy resources.",
                     "outcome": "",
                     "stats": {
-                        "happiness": 10,
-                        "community": 10
+                        "fulfilment": 0,
+                        "health": 2,
+                        "community": 0,
+                        "education": 1,
+                        "equality": -1,
+                        "wealth": -1,
+                        "biodiversity": 1,
+                        "planet_health": 0
                     },
                     "eval": ""
                 },
                 {
-                    "choice": "Some of us found a hot pool and our skin wrinkled, snug beneath the surface.",
+                    "choice": "A selected breadth of human knowledge.",
                     "outcome": "",
-                    "stats": {},
+                    "stats": {
+                        "fulfilment": 1,
+                        "health": 1,
+                        "community": 2,
+                        "education": 1,
+                        "equality": -1,
+                        "wealth": 0,
+                        "biodiversity": -1,
+                        "planet_health": 0
+                    },
                     "eval": ""
                 }
             ]
         },
         {
-            "scenario": "<p>Our ancestors weren’t big on plastic and they forgot to pack the birth control pills. Leave a society of randy adolescents on a new planet unsupervised, they are going to sleep around. Most of us weren’t really sure whose was whose, so we just kind of all took responsibility for the children.</p><p>In those early days, the population levels just kind of stagnated. It was a bit of a learning curve and there was a lot of trial and error. Not knowing which creatures would love to devour your insides, or which fruits would turn your skin purple, it’s a wonder that we survived at all.</p><p>I don’t think, given the world we found ourselves in, I could have found myself doing anything else.</p>",
+            "scenario": "<p><i>It is the end of the world and they are striking over wages. Fools. This is God’s work we do. Our time is done. It is time for us to face our creator and show him the home he asked us to steward. Do they want to face his wrath, knowing that we condemned the last chance for humanity? God willing they will succeed where we have failed.</i> – Vlad Smirnov, Packing Officer, Arc Project (2113)</p><p>Prioritise:</p>",
             "choices": [
                 {
-                    "choice": "Someone had to keep us all alive and I know it’s disgusting, but I love poking at people’s insides.",
+                    "choice": "Medicines.",
                     "outcome": "",
-                    "stats": {},
+                    "stats": {
+                        "fulfilment":0,
+                        "health": 2,
+                        "community": 0,
+                        "education": 1,
+                        "equality": 0,
+                        "wealth": 1,
+                        "biodiversity": -2,
+                        "planet_health": 0
+                },
                     "eval": ""
                 },
                 {
-                    "choice": "It was a whole new world, how could I not be drawn to find out absolutely everything about it.",
+                    "choice": "A seed library.",
                     "outcome": "",
                     "stats": {
-                        "education": 10,
-                        "health": 10
+                        "fulfilment": 1,
+                        "health": 1,
+                        "community": 0,
+                        "education": 0,
+                        "equality": 0,
+                        "wealth": 1,
+                        "biodiversity": 1,
+                        "planet_health": 0
                     },
                     "eval": ""
                 },
                 {
-                    "choice": "There was an ocean. People needed to eat. So, I fished.",
+                    "choice": "Technology.",
                     "outcome": "",
-                    "stats": {},
+                    "stats": {
+                        "fulfilment": 0,
+                        "health": 1,
+                        "community": 0,
+                        "education": 2,
+                        "equality": 0,
+                        "wealth": 0,
+                        "biodiversity": -2,
+                        "planet_health": 0
+                    },
                     "eval": ""
                 }
             ]
         },
         {
-            "scenario": "<p>If it was there, I discovered it! I found new antibiotics, a cure for male pattern baldness, an insect that was really a fruit, silicon-based lifeforms, and around two thousand different types of fish. Our ancestor’s hadn’t hoped for much life in our new world, but it was teeming. We even found a new best friend for man.</p><p>Around a year in, the angler dogs wormed their way up the south shore, their glowing lanterns dangling in front of their dopey looking faces. It was mating season and when the parents had returned beneath the ocean, we went down to investigate. The young they left would have legs and feet until their adolescence, at which point they dropped off and the angler dogs went to make a life underwater.</p><p>Importantly, they were born with their light source. With no means to make a fire, our short nights felt long. So of course we took these cute little guys home to light up our little island.</p>",
+            "scenario": "<p><i>I was able to go outside today. Isn’t funny how grateful you become for the smallest of things. Half an hour with my friends and feeling the breeze and the suns on my skin. We didn’t once speak about the Arc or work. We just reminisced about old times. Still, good things can’t last forever. Especially in these times. The decisions we make here will shape societies.</i> – Dr Ade Sani, Geneticist, Arc Project (2113)</p><p>Tamper with:</p>",
             "choices": [
                 {
-                    "choice": "They sat on the porch of our seaweed shacks and ate our scraps.",
+                    "choice": "Bone Structure.",
                     "outcome": "",
-                    "stats": {},
+                    "stats": {
+                        "fulfilment": 0,
+                        "health": 2,
+                        "community": 0,
+                        "education": -1,
+                        "equality": 0,
+                        "wealth": 0,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
                     "eval": ""
                 },
                 {
-                    "choice": "Angler dogs were great for scarring the crabs from our barnacle beach homes.",
+                    "choice": "The Parietal Lobe.",
                     "outcome": "",
-                    "stats": {},
+                    "stats": {
+                        "fulfilment": 0,
+                        "health": -1,
+                        "community": 2,
+                        "education": 1,
+                        "equality": -1,
+                        "wealth": 0,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
                     "eval": ""
                 },
                 {
-                    "choice": "Were given places of honour in our ice pyramids!",
+                    "choice": "The Pituitary Gland.",
                     "outcome": "",
-                    "stats": {},
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": -2,
+                        "community": 1,
+                        "education": 0,
+                        "equality": -1,
+                        "wealth": 0,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
                     "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p>Let's choose a name yo.</p>",
-            "choices": [
-                {
-                    "choice": "",
-                    "outcome": "<p>A grand choice, everyone agrees.</p>",
-                    "stats": {},
-                    "eval": "planetName = events[eventNumber-1].choices[0].choice; select('#planetName').html(planetName);"
-                },
-                {
-                    "choice": "",
-                    "outcome": "<p>I mean, it's a bit iffy but I guess it's kinda fitting.</p>",
-                    "stats": {},
-                    "eval": "planetName = events[eventNumber-1].choices[1].choice; select('#planetName').html(planetName);"
-                },
-                {
-                    "choice": "",
-                    "outcome": "<p>Yeah buddy. That's a kickass name.</p>",
-                    "stats": {},
-                    "eval": "planetName = events[eventNumber-1].choices[2].choice; select('#planetName').html(planetName);"
                 }
             ]
         }
     ],
     "events": [
+        {
+            "scenario": "<p><i>My life. Day one. Donned on a pair of sick shades to meet my fellow citizens of the new planet. Failed desperately to look cool while getting battered by the ocean winds. New home is like Noah never tasted rainbow and God drowned whatever species lived here before. One big ocean. Note to self, find sea legs.</i> – Suni Wong, New People (3113)</p><p>Camp:</p>",
+            "choices": [
+                {
+                    "choice": "Alone in a large barnacle.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": -1,
+                        "health": 1,
+                        "community": -2,
+                        "education": 0,
+                        "equality": -1,
+                        "wealth": 2,
+                        "biodiversity": 1,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Together in the arc.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 1,
+                        "health": -2,
+                        "community": 2,
+                        "education": -1,
+                        "equality": 1,
+                        "wealth": 0,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Party all night.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": -2,
+                        "community": 2,
+                        "education": -2,
+                        "equality": 0,
+                        "wealth": -1,
+                        "biodiversity": -1,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p><i>I am like, just, you know, the most untalented person on this island. It’s like this is paradise and everyone here is like an Adonis and I am like this sea monster. Everyone is doing amazing things and they take to whatever they are doing. Everything is so easy for them. This is hell. Why me?</i> – Ruby Hoffman, New People (3113)</p><p>Become:</p>",
+            "choices": [
+                {
+                    "choice": "A scientist.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": 2,
+                        "community": 0,
+                        "education": 2,
+                        "equality": 0,
+                        "wealth": -1,
+                        "biodiversity": 1,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "A fisher.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": 1,
+                        "community": 1,
+                        "education": 0,
+                        "equality": 0,
+                        "wealth": 2,
+                        "biodiversity": -2,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "A teacher.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": 0,
+                        "community": 2,
+                        "education": 2,
+                        "equality": 1,
+                        "wealth": -1,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p><i>One night, as I watched the dual suns set with Dave, the beach lit up with thousands of lights. It was time for the angler slugs to slither onto shore and bury their eggs in the sand. They were such docile, kind and intelligent creatures. This was more than just the end of a mating ritual, it was a celebration for the angler slugs. I was enchanted by it all.</i> – Edgar Cruz, New People (3120)</p><p>Decide to:</p>",
+            "choices": [
+                {
+                    "choice": "Domesticate.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": 1,
+                        "community": 2,
+                        "education": 1,
+                        "equality": -1,
+                        "wealth": -2,
+                        "biodiversity": -2,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Study.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 0,
+                        "health": 2,
+                        "community": 0,
+                        "education": 2,
+                        "equality": 1,
+                        "wealth": 1,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Farm.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 1,
+                        "health": 0,
+                        "community": 2,
+                        "education": 2,
+                        "equality": -2,
+                        "wealth": 2,
+                        "biodiversity": -2,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p><i>I didn’t mind so much when they ate Jesus. He was a bitch. I didn’t even mind when they ate my first girlfriend Mai because we were breaking up anyway and everyone was really nice to me afterwards. When they took my leg though, that was it. It was personal. Time to do something about those big purple flowers.</i> – Helena Aimee Dean, New People (3133)</p><p>Utilise</p>",
+            "choices": [
+                {
+                    "choice": "Fire.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": 1,
+                        "community": 1,
+                        "education": -2,
+                        "equality": 0,
+                        "wealth": 1,
+                        "biodiversity": -2,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Shovels.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 0,
+                        "health": 1,
+                        "community": 1,
+                        "education": 1,
+                        "equality": 0,
+                        "wealth": 1,
+                        "biodiversity": -1,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Human sacrifice.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": -1,
+                        "health": -2,
+                        "community": 2,
+                        "education": -2,
+                        "equality": -2,
+                        "wealth": -1,
+                        "biodiversity": 2,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p><i>Am I unhappy because I am unfulfilled? Or I am unfulfilled because I am unhappy? Is it bad to be this idle? I have taken to spending my days in a cave. The others think I am strange, but it’s just that I can’t bear to look up at that empty sky or out on that vast ocean. I am beginning to hate the colour blue.</i> – Xian Lee, New People (2137)</p><p>Treat with:</p>",
+            "choices": [
+                {
+                    "choice": "Incarceration.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": -2,
+                        "health": -2,
+                        "community": -1,
+                        "education": 0,
+                        "equality": -2,
+                        "wealth": -2,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Pills.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 0,
+                        "health": 0,
+                        "community": 1,
+                        "education": 0,
+                        "equality": 0,
+                        "wealth": -1,
+                        "biodiversity": -1,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Therapy.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": 1,
+                        "community": 1,
+                        "education": 1,
+                        "equality": 1,
+                        "wealth": -2,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p><i>So sure, life was tough in the beginning. We didn’t know the rules or the terrain, our strengths, our weaknesses. We are all just doing fine now. We know not to eat the green berries. We know not to go to the creaky beach at dusk. We even know where to get the hallucinogens. Is it just me though or does life feel less like an adventure now?</i> – Nadia Olowe, New People (2135)</p><p>We need:</p>",
+            "choices": [
+                {
+                    "choice": "A festival.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 1,
+                        "health": -1,
+                        "community": 2,
+                        "education": 1,
+                        "equality": 1,
+                        "wealth": 2,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "A sea voyage.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": -1,
+                        "community": 1,
+                        "education": 1,
+                        "equality": 0,
+                        "wealth": 1,
+                        "biodiversity": -1,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "A gold rush.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": -1,
+                        "health": -2,
+                        "community": -1,
+                        "education": 0,
+                        "equality": -2,
+                        "wealth": 2,
+                        "biodiversity": -1,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p><i>The thing about two suns.<br>Is that the night never comes.<br>But when it eventually does.<br>It is such a relief.</i>  – Conal Green (2119)</p><p>Your feedback:</p>",
+            "choices": [
+                {
+                    "choice": "We should collaborate.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": 1,
+                        "community": 2,
+                        "education": 1,
+                        "equality": 2,
+                        "wealth": 0,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "It’s a masterpiece!",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 1,
+                        "health": 1,
+                        "community": -1,
+                        "education": 1,
+                        "equality": -2,
+                        "wealth": 2,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Art isn’t for everyone.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": -1,
+                        "health": -1,
+                        "community": -2,
+                        "education": 1,
+                        "equality": -1,
+                        "wealth": 2,
+                        "biodiversity": 1,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p><i>Dude, I only started this surf shop because the ocean is my jam. Now I have three shops and an option to franchise. You’d think I was living the dream but I can’t remember the last time I got to wax my board. Money corrupts, that’s all I’m saying.</i> – Brad Basu, New People (2150)</p><p>Advocate</p>",
+            "choices": [
+                {
+                    "choice": "The Free Market.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 1,
+                        "health": -1,
+                        "community": -2,
+                        "education": 0,
+                        "equality": -2,
+                        "wealth": 2,
+                        "biodiversity": -2,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Workers Cooperatives.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": 1,
+                        "community": 2,
+                        "education": 0,
+                        "equality": 2,
+                        "wealth": 1,
+                        "biodiversity": -1,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Bartering.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": 0,
+                        "community": 2,
+                        "education": -1,
+                        "equality": -1,
+                        "wealth": 0,
+                        "biodiversity": 1,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p><i>He came in the night like a sneaky, conniving, sea urchin. I hadn’t slept since the last sunsset and I was out of it, dead to everything. He just waltzes in and takes the last of my dried blubber. I am sick of these people and their total lack of respect. He is a butthole.</i> – Tabia Nagi, New People (2145)</p><p>Retaliate by:</p>",
+            "choices": [
+                {
+                    "choice": "Moving across the Island.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": -1,
+                        "health": -2,
+                        "community": 2,
+                        "education": -1,
+                        "equality": -2,
+                        "wealth": 1,
+                        "biodiversity": 2,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Drawing up a constitution.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 0,
+                        "health": 0,
+                        "community": 2,
+                        "education": 0,
+                        "equality": 0,
+                        "wealth": 0,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Stealing his sharkskin gloves.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 1,
+                        "health": -1,
+                        "community": -2,
+                        "education": 0,
+                        "equality": -1,
+                        "wealth": 1,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p><i>She is just amazing. Yesterday she caught four hexifish, went for a ten-mile run and saved her younger brother from a scavenger toad. She kissed me last week in front of everyone, just so they knew I was hers. When I woke up this morning, I realised I was the happiest I have ever been.</i> – Kimiko Park-Ki, New People (2167)</p><p>Propose:</p>",
+            "choices": [
+                {
+                    "choice": "Ask father for blessing.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 1,
+                        "health": 0,
+                        "community": 2,
+                        "education": 0,
+                        "equality": -2,
+                        "wealth": 2,
+                        "biodiversity": -1,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "An open relationship.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": -2,
+                        "community": 1,
+                        "education": 0,
+                        "equality": 2,
+                        "wealth": 1,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "An expensive getaway.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 1,
+                        "health": 1,
+                        "community": -1,
+                        "education": 0,
+                        "equality": -1,
+                        "wealth": -2,
+                        "biodiversity": -1,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                }
+            ]
+        }
     ]
 }
