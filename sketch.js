@@ -187,7 +187,7 @@ function displayStats() {
 
 function numberToBar(n) {
 
-    let total = 17;
+    let total = 20;
     let bar = "";
 
     // n = int(n / 100 * total);
