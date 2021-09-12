@@ -724,6 +724,206 @@
                     "eval": ""
                 }
             ]
+        },
+        {
+            "scenario": "<p><i>You may think this is paradise, my friends! You may think that humanity has entered a utopia! But any utopia that is on this plane of existence is, by its natural deception, a dystopia. Only God can bring humanity to his one true paradise.</i> – Pastor Kevin Michaels, Prophet of the Old Earth Ways Foundation (2322)</p><p>Preach:</p>",
+            "choices": [
+                {
+                    "choice": "Love thy neighbour.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": 0,
+                        "community": 2,
+                        "education": 0,
+                        "equality": -2,
+                        "wealth": 0,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Peace comes from within.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": 1,
+                        "community": -1,
+                        "education": 1,
+                        "equality": 0,
+                        "wealth": -1,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Abstain from vain pleasure.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": -1,
+                        "health": 1,
+                        "community": -1,
+                        "education": 1,
+                        "equality": 1,
+                        "wealth": 1,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p><i>There is just one life! One people! One universe! One chance! So, repeat after me. I am happy with myself, my life, my community, my friends, my family, and if I am not, I will speak, seek help and give my time to others.</i> – Dr Yusef Erdogen-Brown, Author of Happiness is Found by Seekers. (2299)</p><p>Your next book:</p>",
+            "choices": [
+                {
+                    "choice": "Choose Happy, How Individuals Can Free Themselves.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": -2,
+                        "health": -2,
+                        "community": -2,
+                        "education": -2,
+                        "equality": -2,
+                        "wealth": 2,
+                        "biodiversity": -2,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Corrupt Community and How to Change It.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": -2,
+                        "health": -2,
+                        "community": -2,
+                        "education": -2,
+                        "equality": -2,
+                        "wealth": 2,
+                        "biodiversity": -2,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Don’t Lie Down, You’re Not Dead Yet.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": -2,
+                        "health": -2,
+                        "community": -2,
+                        "education": -2,
+                        "equality": -2,
+                        "wealth": 2,
+                        "biodiversity": -2,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p><i>Today I had a me day in the steam kelp baths. It was bliss. I kept wiggling my toes in the mud just to feel the warmth of it rubbing against my skin and Jo massaged my back with hot stones. By the time I left, I was all shrivelled like a prune. I have never felt so relaxed in all my life. Why can’t it always be like this?</i> – Tanya Santiago-Perez, Bather (2331)</p><p>Tomorrow, I will:</p>",
+            "choices": [
+                {
+                    "choice": "Bring Jo flowers.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": 2,
+                        "community": 2,
+                        "education": 0,
+                        "equality": 0,
+                        "wealth": 0,
+                        "biodiversity": -1,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Have a lie in.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": 2,
+                        "community": -1,
+                        "education": 0,
+                        "equality": -1,
+                        "wealth": -1,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "Get back to work.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": -1,
+                        "health": -1,
+                        "community": 1,
+                        "education": 0,
+                        "equality": 0,
+                        "wealth": 2,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                }
+            ]
+        },
+        {
+            "scenario": "<p><i>The people are crying out for culture! On the Arc, they read Austin; watch Seinfeld, dance to Britney, but where are our artists? Did they die in the old world? I say neigh. My heart is drawn to the pen. My words will speak to them. This world must also be the stage.</i> – Mo Churchill, Playwright. (2211)</p><p>Write about:</p>",
+            "choices": [
+                {
+                    "choice": "The sexual frustration of man.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": -1,
+                        "health": -1,
+                        "community": -1,
+                        "education": -1,
+                        "equality": -2,
+                        "wealth": 2,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "The despicable youth.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 2,
+                        "health": 0,
+                        "community": 1,
+                        "education": 1,
+                        "equality": 2,
+                        "wealth": -1,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                },
+                {
+                    "choice": "The fleeting nature of love.",
+                    "outcome": "",
+                    "stats": {
+                        "fulfilment": 1,
+                        "health": 0,
+                        "community": 2,
+                        "education": 0,
+                        "equality": 0,
+                        "wealth": 2,
+                        "biodiversity": 0,
+                        "planet_health": 0
+                    },
+                    "eval": ""
+                }
+            ]
         }
     ]
 }
