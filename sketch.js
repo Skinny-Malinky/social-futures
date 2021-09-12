@@ -30,12 +30,12 @@ let outcomeText = "";
 
 let stats = {
     fulfilment: 0,
-    health: 0,
+    health: 10,
     community: 0,
-    education: 0,
-    equality: 0,
-    wealth: 0,
-    biodiversity: 0,
+    education: 10,
+    equality: 10,
+    wealth: 10,
+    biodiversity: 20,
     planet_health: 0
 };
 
@@ -213,6 +213,9 @@ function updateStats(input) {
         }
         if (stats[i] < 0) {
             stats[i] = 0;
+        }
+        if (stats[i] > 20) {
+            stats[i] = 20;
         }
     }
 }
