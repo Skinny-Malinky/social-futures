@@ -1,5 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
-	background-color: #EADADA;
+    background-color: #EADADA;
+    background: url('images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #086371;
     font-family: "Roboto Slab", serif;
     font-weight: 300;
@@ -22,6 +35,17 @@ a {
     background-color: #FBF4F3;
     border-color: #FBF4F3;
     color: #6869B5;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px 40px 40px;
+    margin-top: 50px;
+}
+
+.p5Canvas {
+    border-radius: 10px;
 }
 
 #sidebar {
