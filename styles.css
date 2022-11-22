@@ -9,8 +9,7 @@ html {
 }
 
 body {
-    background-color: #EADADA;
-    background: url('images/background.png');
+    background: url('images/background.png') #D3B9B7;
     background-size: cover;
     background-repeat: no-repeat;
     color: #086371;
@@ -40,10 +39,32 @@ a {
 .container {
     background-color: white;
     border-radius: 10px;
-    padding: 1px 40px 40px;
-    margin-top: 50px;
+    padding: 32px 40px 40px;
+    margin: 50px auto;
+    width: 80%;
+    min-width: 953px;
+    display: flex;
+}
+@media(max-width:1335px) {
+    .container {
+        width: 95%;
+    }
+    #canvasContainer{margin: 0 auto;}
+}
+@media(max-width:1100px) {
+    .container{
+        flex-wrap: wrap;
+        padding-right: 0;
+    }
+    #sidebar{width:160px;}
+    .scenario{width: 90%;}
 }
 
+#canvasContainer {
+    width: 640px;
+    height: 640px;
+    margin: 0 32px;
+}
 .p5Canvas {
     border-radius: 10px;
 }

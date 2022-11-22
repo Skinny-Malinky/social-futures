@@ -1,111 +1,119 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<title>Social Futures</title>
+		<title>Social Futures</title>
 
-	<link rel="stylesheet" href="libraries/bootstrap.min.css">
-	<link rel="stylesheet" href="styles.css">
+		<!-- <link rel="stylesheet" href="libraries/bootstrap.min.css"> -->
+		<link rel="stylesheet" href="styles.css" />
 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rye&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600&display=swap"
+			rel="stylesheet"
+		/>
 
-	<script src="libraries/p5.min.js"></script>
-	<script src="libraries/p5.asciiart.min.js"></script>
-	<script src="js/preload.js"></script>
-	<script src="sketch.js"></script>
-	<script src="js/Building.js"></script>
-	<script src="js/People.js"></script>
-	<script src="js/Moon.js"></script>
-	<script src="js/Tree.js"></script>
-	<script src="js/Drone.js"></script>
-	<script src="js/Dog.js"></script>
-	<script src="js/Event.js"></script>
+		<script src="libraries/p5.min.js"></script>
+		<script src="libraries/p5.asciiart.min.js"></script>
+		<script src="js/preload.js"></script>
+		<script src="sketch.js"></script>
+		<script src="js/Building.js"></script>
+		<script src="js/People.js"></script>
+		<script src="js/Moon.js"></script>
+		<script src="js/Tree.js"></script>
+		<script src="js/Drone.js"></script>
+		<script src="js/Dog.js"></script>
+		<script src="js/Event.js"></script>
 
-	<script src="json/guide-words.json"></script>
-</head>
-<body>
-	<div class="container">
-		<div class="row mt-5 pt-4">
-			<div id="sidebar" class="col col-xl-2">
+		<script src="json/guide-words.json"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div id="sidebar">
 				<p>
 					<b>Fulfilment</b>
-					<br>
+					<br />
 					<span id="fulfilment">░░░░░░░░░░░░░░░░░░░░</span>
 				</p>
 				<p>
 					<b>Health</b>
-					<br>
+					<br />
 					<span id="health">░░░░░░░░░░░░░░░░░░░░</span>
 				</p>
 				<p>
 					<b>Community</b>
-					<br>
+					<br />
 					<span id="community">░░░░░░░░░░░░░░░░░░░░</span>
 				</p>
 				<p>
 					<b>Education</b>
-					<br>
+					<br />
 					<span id="education">░░░░░░░░░░░░░░░░░░░░</span>
 				</p>
 				<p>
 					<b>Equality</b>
-					<br>
+					<br />
 					<span id="equality">░░░░░░░░░░░░░░░░░░░░</span>
 				</p>
 				<p>
 					<b>Wealth</b>
-					<br>
+					<br />
 					<span id="wealth">░░░░░░░░░░░░░░░░░░░░</span>
 				</p>
 				<p>
 					<b>Biodiversity</b>
-					<br>
+					<br />
 					<span id="biodiversity">░░░░░░░░░░░░░░░░░░░░</span>
 				</p>
 				<p>
 					<b>Planet Health</b>
-					<br>
+					<br />
 					<span id="planet_health">░░░░░░░░░░░░░░░░░░░░</span>
 				</p>
 				<p>
 					planet‎‏‏‎ ‎‏‏‎ ‎‎<b id="planetName">x</b>
-					<br>
+					<br />
 					year ‏‏‎ ‎<b id="year">2057</b>
-					<br>
+					<br />
 					ambition ‏‏‎ ‎<b>Learn to talk to animals</b>
 				</p>
 			</div>
-			<div id="canvasContainer" class="col col-xl-6"></div>
-			<div class="col col-xl-4">
-				<div class="row justify-content-center">
-					<div class="col">
-						<div id="scenario">
-						</div>
-						<p>
-							<b><a id="choice1" href="#"></a></b>
-						</p>
-						<p>
-							<b><a id="choice2" href="#"></a></b>
-						</p>
-						<p>
-							<b><a id="choice3" href="#"></a></b>
-						</p>
-					</div>
-					</div>
-				</div>
+			<div id="canvasContainer"></div>
+			<div class="scenario">
+				<div id="scenario"></div>
+				<p>
+					<b><a id="choice1" href="#"></a></b>
+				</p>
+				<p>
+					<b><a id="choice2" href="#"></a></b>
+				</p>
+				<p>
+					<b><a id="choice3" href="#"></a></b>
+				</p>
 			</div>
 		</div>
-	</div>
-	<div>
-	</div>
-</body>
+	</body>
 </html>
