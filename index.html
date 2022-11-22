@@ -38,6 +38,7 @@
 
 		<script src="libraries/p5.min.js"></script>
 		<script src="libraries/p5.asciiart.min.js"></script>
+		<script src="js/utils.js"></script>
 		<script src="js/preload.js"></script>
 		<script src="sketch.js"></script>
 		<script src="js/Building.js"></script>
@@ -51,7 +52,13 @@
 		<script src="json/guide-words.json"></script>
 	</head>
 	<body>
-		<div class="container">
+		<!-- Intro View Starts Here -->
+		<div id="introViewContainer">
+			<img src="images/arc-logo.svg" alt="3 circles split down the middle by green and pink. Underneath it reads Project Arc. Looks dystopian.">
+			<button>Begin</button>
+		</div>
+		<!-- Planet View Starts Here -->
+		<div id="planetViewContainer">
 			<div id="sidebar">
 				<p>
 					<b>Fulfilment</b>

@@ -80,9 +80,6 @@ function setup() {
     namePlanet();
     // randomiseStats();
 
-    displayScene(0);
-    displayStats();
-
     let eventsList = eventsJson.events;
     eventsList = shuffle(eventsList);
 
@@ -97,8 +94,19 @@ function setup() {
     // events[4].choices[0].choice = namePlanet();
     // events[4].choices[1].choice = namePlanet();
     // events[4].choices[2].choice = namePlanet();
+    // showIntro();
+    showPlanetView();
+}
 
+function showIntro() {
+    showElement('introViewContainer');
+}
+
+function showPlanetView() {
+    displayScene(0);
+    displayStats();
     displayEvent(0, "");
+    showElement('planetViewContainer');
     eventNumber++;
 }
 
