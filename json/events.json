@@ -1,7 +1,7 @@
 {
     "beginnings": [
         {
-            "scenario": "<p><i>A shot in the dark. That is literally what it is. We are hurtling the last dregs of our species through space in a very specific concoction of pseudoscience, sci-fi, trigonometry and probably astrology. I don’t even remember doing these calculations. I don’t remember finishing the last of the whiskey.</i> – Dr Rishi Gupta, Chief Mathematician, Arc Project (2113)</p><p>Choose:</p>",
+            "scenario": "<p><i>A shot in the dark. That is literally what it is. We are hurtling the last dregs of our species through space in a very specific concoction of pseudoscience, sci-fi, trigonometry and probably astrology. I don’t even remember doing these calculations. I don’t remember finishing the last of the whiskey.</i> – Dr Rishi Gupta, Chief Mathematician, Arc Project (2113)</p><p><strong>Choose:</strong></strong></p>",
             "choices": [
                 {
                     "choice": "24: 92: 96: 04",
@@ -24,7 +24,7 @@
             ]
         },
         {
-            "scenario": "<p><i>Sleep well my darlings, I hope that you will wake in a kinder world than the one that was left to your mother. Keep your fingers and toes crossed for some oxygen and a nice temperate climate. Remember these lessons I have left planted in your dreams. Never forget that there are consequences for your actions.</i> – Rev Sarah Willard, Social Engineer, Arc Project (2113)</p><p>Dream of:</p>",
+            "scenario": "<p><i>Sleep well my darlings, I hope that you will wake in a kinder world than the one that was left to your mother. Keep your fingers and toes crossed for some oxygen and a nice temperate climate. Remember these lessons I have left planted in your dreams. Never forget that there are consequences for your actions.</i> – Rev Sarah Willard, Social Engineer, Arc Project (2113)</p><p><strong>Dream of:</strong></p>",
             "choices": [
                 {
                     "choice": "Health and happiness.",
@@ -74,7 +74,7 @@
             ]
         },
         {
-            "scenario": "<p><i>I spent my whole life cataloguing and for what? To give some test tube a shot at existence halfway across the galaxy? I mean what is the actual point in that? Why does it matter to us that humanity keeps on existing? Can we even call them humanity? We have proven ourselves to be a selfish, sad, little species. I should just wipe it all. Clean slate.</i> -  Amed Garcia Jones, Head Librarian, Arc Project (2113)</p><p>Send:</p>",
+            "scenario": "<p><i>I spent my whole life cataloguing and for what? To give some test tube a shot at existence halfway across the galaxy? I mean what is the actual point in that? Why does it matter to us that humanity keeps on existing? Can we even call them humanity? We have proven ourselves to be a selfish, sad, little species. I should just wipe it all. Clean slate.</i> -  Amed Garcia Jones, Head Librarian, Arc Project (2113)</p><p><strong>Send:</strong></p>",
             "choices": [
                 {
                     "choice": "Complete works of Shakespeare.",
@@ -124,7 +124,7 @@
             ]
         },
         {
-            "scenario": "<p><i>It is the end of the world and they are striking over wages. Fools. This is God’s work we do. Our time is done. It is time for us to face our creator and show him the home he asked us to steward. Do they want to face his wrath, knowing that we condemned the last chance for humanity? God willing they will succeed where we have failed.</i> – Vlad Smirnov, Packing Officer, Arc Project (2113)</p><p>Prioritise:</p>",
+            "scenario": "<p><i>It is the end of the world and they are striking over wages. Fools. This is God’s work we do. Our time is done. It is time for us to face our creator and show him the home he asked us to steward. Do they want to face his wrath, knowing that we condemned the last chance for humanity? God willing they will succeed where we have failed.</i> – Vlad Smirnov, Packing Officer, Arc Project (2113)</p><p><strong>Prioritise:</strong></p>",
             "choices": [
                 {
                     "choice": "Medicines.",
@@ -174,7 +174,7 @@
             ]
         },
         {
-            "scenario": "<p><i>I was able to go outside today. Isn’t funny how grateful you become for the smallest of things. Half an hour with my friends and feeling the breeze and the suns on my skin. We didn’t once speak about the Arc or work. We just reminisced about old times. Still, good things can’t last forever. Especially in these times. The decisions we make here will shape societies.</i> – Dr Ade Sani, Geneticist, Arc Project (2113)</p><p>Tamper with:</p>",
+            "scenario": "<p><i>I was able to go outside today. Isn’t funny how grateful you become for the smallest of things. Half an hour with my friends and feeling the breeze and the suns on my skin. We didn’t once speak about the Arc or work. We just reminisced about old times. Still, good things can’t last forever. Especially in these times. The decisions we make here will shape societies.</i> – Dr Ade Sani, Geneticist, Arc Project (2113)</p><p><strong>Tamper with:</strong></p>",
             "choices": [
                 {
                     "choice": "Bone Structure.",
@@ -226,7 +226,7 @@
     ],
     "events": [
         {
-            "scenario": "<p><i>My life. Day one. Donned on a pair of sick shades to meet my fellow citizens of the new planet. Failed desperately to look cool while getting battered by the ocean winds. New home is like Noah never tasted rainbow and God drowned whatever species lived here before. One big ocean. Note to self, find sea legs.</i> – Suni Wong, New People (3113)</p><p>Camp:</p>",
+            "scenario": "<p><i>My life. Day one. Donned on a pair of sick shades to meet my fellow citizens of the new planet. Failed desperately to look cool while getting battered by the ocean winds. New home is like Noah never tasted rainbow and God drowned whatever species lived here before. One big ocean. Note to self, find sea legs.</i> – Suni Wong, New People (3113)</p><p><strong>Camp:</strong></p>",
             "choices": [
                 {
                     "choice": "Alone in a large barnacle.",
@@ -276,7 +276,7 @@
             ]
         },
         {
-            "scenario": "<p><i>I am like, just, you know, the most untalented person on this island. It’s like this is paradise and everyone here is like an Adonis and I am like this sea monster. Everyone is doing amazing things and they take to whatever they are doing. Everything is so easy for them. This is hell. Why me?</i> – Ruby Hoffman, New People (3113)</p><p>Become:</p>",
+            "scenario": "<p><i>I am like, just, you know, the most untalented person on this island. It’s like this is paradise and everyone here is like an Adonis and I am like this sea monster. Everyone is doing amazing things and they take to whatever they are doing. Everything is so easy for them. This is hell. Why me?</i> – Ruby Hoffman, New People (3113)</p><p><strong>Become:</strong></p>",
             "choices": [
                 {
                     "choice": "A scientist.",
@@ -326,7 +326,7 @@
             ]
         },
         {
-            "scenario": "<p><i>One night, as I watched the dual suns set with Dave, the beach lit up with thousands of lights. It was time for the angler slugs to slither onto shore and bury their eggs in the sand. They were such docile, kind and intelligent creatures. This was more than just the end of a mating ritual, it was a celebration for the angler slugs. I was enchanted by it all.</i> – Edgar Cruz, New People (3120)</p><p>Decide to:</p>",
+            "scenario": "<p><i>One night, as I watched the dual suns set with Dave, the beach lit up with thousands of lights. It was time for the angler slugs to slither onto shore and bury their eggs in the sand. They were such docile, kind and intelligent creatures. This was more than just the end of a mating ritual, it was a celebration for the angler slugs. I was enchanted by it all.</i> – Edgar Cruz, New People (3120)</p><p><strong>Decide to:</strong></p>",
             "choices": [
                 {
                     "choice": "Domesticate.",
@@ -376,7 +376,7 @@
             ]
         },
         {
-            "scenario": "<p><i>I didn’t mind so much when they ate Jesus. He was a bitch. I didn’t even mind when they ate my first girlfriend Mai because we were breaking up anyway and everyone was really nice to me afterwards. When they took my leg though, that was it. It was personal. Time to do something about those big purple flowers.</i> – Helena Aimee Dean, New People (3133)</p><p>Utilise</p>",
+            "scenario": "<p><i>I didn’t mind so much when they ate Jesus. He was a bitch. I didn’t even mind when they ate my first girlfriend Mai because we were breaking up anyway and everyone was really nice to me afterwards. When they took my leg though, that was it. It was personal. Time to do something about those big purple flowers.</i> – Helena Aimee Dean, New People (3133)</p><p><strong>Utilise:</strong></p>",
             "choices": [
                 {
                     "choice": "Fire.",
@@ -426,7 +426,7 @@
             ]
         },
         {
-            "scenario": "<p><i>Am I unhappy because I am unfulfilled? Or I am unfulfilled because I am unhappy? Is it bad to be this idle? I have taken to spending my days in a cave. The others think I am strange, but it’s just that I can’t bear to look up at that empty sky or out on that vast ocean. I am beginning to hate the colour blue.</i> – Xian Lee, New People (2137)</p><p>Treat with:</p>",
+            "scenario": "<p><i>Am I unhappy because I am unfulfilled? Or I am unfulfilled because I am unhappy? Is it bad to be this idle? I have taken to spending my days in a cave. The others think I am strange, but it’s just that I can’t bear to look up at that empty sky or out on that vast ocean. I am beginning to hate the colour blue.</i> – Xian Lee, New People (2137)</p><p><strong>Treat with:</strong></p>",
             "choices": [
                 {
                     "choice": "Incarceration.",
@@ -476,7 +476,7 @@
             ]
         },
         {
-            "scenario": "<p><i>So sure, life was tough in the beginning. We didn’t know the rules or the terrain, our strengths, our weaknesses. We are all just doing fine now. We know not to eat the green berries. We know not to go to the creaky beach at dusk. We even know where to get the hallucinogens. Is it just me though or does life feel less like an adventure now?</i> – Nadia Olowe, New People (2135)</p><p>We need:</p>",
+            "scenario": "<p><i>So sure, life was tough in the beginning. We didn’t know the rules or the terrain, our strengths, our weaknesses. We are all just doing fine now. We know not to eat the green berries. We know not to go to the creaky beach at dusk. We even know where to get the hallucinogens. Is it just me though or does life feel less like an adventure now?</i> – Nadia Olowe, New People (2135)</p><p<strong>We need:</strong></p>",
             "choices": [
                 {
                     "choice": "A festival.",
@@ -526,7 +526,7 @@
             ]
         },
         {
-            "scenario": "<p><i>The thing about two suns.<br>Is that the night never comes.<br>But when it eventually does.<br>It is such a relief.</i>  – Conal Green (2119)</p><p>Your feedback:</p>",
+            "scenario": "<p><i>The thing about two suns.<br>Is that the night never comes.<br>But when it eventually does.<br>It is such a relief.</i>  – Conal Green (2119)</p><p><strong>Your feedback:</strong></p>",
             "choices": [
                 {
                     "choice": "We should collaborate.",
@@ -576,7 +576,7 @@
             ]
         },
         {
-            "scenario": "<p><i>Dude, I only started this surf shop because the ocean is my jam. Now I have three shops and an option to franchise. You’d think I was living the dream but I can’t remember the last time I got to wax my board. Money corrupts, that’s all I’m saying.</i> – Brad Basu, New People (2150)</p><p>Advocate</p>",
+            "scenario": "<p><i>Dude, I only started this surf shop because the ocean is my jam. Now I have three shops and an option to franchise. You’d think I was living the dream but I can’t remember the last time I got to wax my board. Money corrupts, that’s all I’m saying.</i> – Brad Basu, New People (2150)</p><p><strong>Advocate:</strong></p>",
             "choices": [
                 {
                     "choice": "The Free Market.",
@@ -626,7 +626,7 @@
             ]
         },
         {
-            "scenario": "<p><i>He came in the night like a sneaky, conniving, sea urchin. I hadn’t slept since the last sunsset and I was out of it, dead to everything. He just waltzes in and takes the last of my dried blubber. I am sick of these people and their total lack of respect. He is a butthole.</i> – Tabia Nagi, New People (2145)</p><p>Retaliate by:</p>",
+            "scenario": "<p><i>He came in the night like a sneaky, conniving, sea urchin. I hadn’t slept since the last sunsset and I was out of it, dead to everything. He just waltzes in and takes the last of my dried blubber. I am sick of these people and their total lack of respect. He is a butthole.</i> – Tabia Nagi, New People (2145)</p><p><strong>Retaliate by:</strong></p>",
             "choices": [
                 {
                     "choice": "Moving across the Island.",
@@ -676,7 +676,7 @@
             ]
         },
         {
-            "scenario": "<p><i>She is just amazing. Yesterday she caught four hexifish, went for a ten-mile run and saved her younger brother from a scavenger toad. She kissed me last week in front of everyone, just so they knew I was hers. When I woke up this morning, I realised I was the happiest I have ever been.</i> – Kimiko Park-Ki, New People (2167)</p><p>Propose:</p>",
+            "scenario": "<p><i>She is just amazing. Yesterday she caught four hexifish, went for a ten-mile run and saved her younger brother from a scavenger toad. She kissed me last week in front of everyone, just so they knew I was hers. When I woke up this morning, I realised I was the happiest I have ever been.</i> – Kimiko Park-Ki, New People (2167)</p><p><strong>Propose:</strong></p>",
             "choices": [
                 {
                     "choice": "Ask father for blessing.",
@@ -726,7 +726,7 @@
             ]
         },
         {
-            "scenario": "<p><i>You may think this is paradise, my friends! You may think that humanity has entered a utopia! But any utopia that is on this plane of existence is, by its natural deception, a dystopia. Only God can bring humanity to his one true paradise.</i> – Pastor Kevin Michaels, Prophet of the Old Earth Ways Foundation (2322)</p><p>Preach:</p>",
+            "scenario": "<p><i>You may think this is paradise, my friends! You may think that humanity has entered a utopia! But any utopia that is on this plane of existence is, by its natural deception, a dystopia. Only God can bring humanity to his one true paradise.</i> – Pastor Kevin Michaels, Prophet of the Old Earth Ways Foundation (2322)</p><p><strong>Preach:</strong></p>",
             "choices": [
                 {
                     "choice": "Love thy neighbour.",
@@ -776,7 +776,7 @@
             ]
         },
         {
-            "scenario": "<p><i>There is just one life! One people! One universe! One chance! So, repeat after me. I am happy with myself, my life, my community, my friends, my family, and if I am not, I will speak, seek help and give my time to others.</i> – Dr Yusef Erdogen-Brown, Author of Happiness is Found by Seekers. (2299)</p><p>Your next book:</p>",
+            "scenario": "<p><i>There is just one life! One people! One universe! One chance! So, repeat after me. I am happy with myself, my life, my community, my friends, my family, and if I am not, I will speak, seek help and give my time to others.</i> – Dr Yusef Erdogen-Brown, Author of Happiness is Found by Seekers. (2299)</p><p><strong>Your next book:</strong></p>",
             "choices": [
                 {
                     "choice": "Choose Happy, How Individuals Can Free Themselves.",
@@ -826,7 +826,7 @@
             ]
         },
         {
-            "scenario": "<p><i>Today I had a me day in the steam kelp baths. It was bliss. I kept wiggling my toes in the mud just to feel the warmth of it rubbing against my skin and Jo massaged my back with hot stones. By the time I left, I was all shrivelled like a prune. I have never felt so relaxed in all my life. Why can’t it always be like this?</i> – Tanya Santiago-Perez, Bather (2331)</p><p>Tomorrow, I will:</p>",
+            "scenario": "<p><i>Today I had a me day in the steam kelp baths. It was bliss. I kept wiggling my toes in the mud just to feel the warmth of it rubbing against my skin and Jo massaged my back with hot stones. By the time I left, I was all shrivelled like a prune. I have never felt so relaxed in all my life. Why can’t it always be like this?</i> – Tanya Santiago-Perez, Bather (2331)</p><p><strong>Tomorrow, I will:</strong></p>",
             "choices": [
                 {
                     "choice": "Bring Jo flowers.",
@@ -876,7 +876,7 @@
             ]
         },
         {
-            "scenario": "<p><i>The people are crying out for culture! On the Arc, they read Austin; watch Seinfeld, dance to Britney, but where are our artists? Did they die in the old world? I say neigh. My heart is drawn to the pen. My words will speak to them. This world must also be the stage.</i> – Mo Churchill, Playwright. (2211)</p><p>Write about:</p>",
+            "scenario": "<p><i>The people are crying out for culture! On the Arc, they read Austin; watch Seinfeld, dance to Britney, but where are our artists? Did they die in the old world? I say neigh. My heart is drawn to the pen. My words will speak to them. This world must also be the stage.</i> – Mo Churchill, Playwright. (2211)</p><p><strong>Write about:</strong></p>",
             "choices": [
                 {
                     "choice": "The sexual frustration of man.",

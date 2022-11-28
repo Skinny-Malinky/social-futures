@@ -172,6 +172,7 @@ function displayEvent(n, outcomeText) {
         return;
     }
     scenarioElement.html(outcomeText + events[n].scenario);
+    
     choice1Element.html("1. " + events[n].choices[0].choice);
 
     if (events[n].choices[1]) {
