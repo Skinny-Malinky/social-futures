@@ -28,6 +28,10 @@ let events = [];
 let eventNumber = 0;
 let outcomeText = "";
 
+let startButton;
+let eventsContainer;
+let planetView;
+
 let stats = {
     fulfilment: 0,
     health: 10,
@@ -48,6 +52,10 @@ let font;
 function setup() {
 
     var canvasDiv = document.getElementById('canvasContainer');
+    startButton = document.getElementById('begin');
+    eventsContainer = document.getElementById('eventsContainer');
+    planetView = document.getElementById('planetViewContainer');
+
     var divWidth = canvasDiv.offsetWidth - 30;
     var canvas = createCanvas(divWidth, divWidth);
     canvas.parent("canvasContainer");
@@ -94,19 +102,16 @@ function setup() {
     // events[4].choices[0].choice = namePlanet();
     // events[4].choices[1].choice = namePlanet();
     // events[4].choices[2].choice = namePlanet();
-    // showIntro();
-    showPlanetView();
-}
 
-function showIntro() {
-    showElement('introViewContainer');
+
 }
 
 function showPlanetView() {
+    //This has to happen to see the canvas
     displayScene(0);
     displayStats();
     displayEvent(0, "");
-    showElement('planetViewContainer');
+    eventsContainer.style.transform = 'translateX(-100vw)';
     eventNumber++;
 }
 
@@ -254,7 +259,6 @@ function displayScene(frame) {
     yearHtml.html(year);
     select("#planetName").html(planetName);
 
-
     twod.clear();
     threed.clear();
 
@@ -332,3 +336,6 @@ function render() {
     myAsciiArt.typeArray2d(ascii_arr, twod);
     image(twod, 0, 0, height, height);
 }
+
+// Events
+startButton.addEventListener('onClick', showPlanetView)
