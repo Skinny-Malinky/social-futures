@@ -56,7 +56,7 @@ function setup() {
     eventsContainer = document.getElementById('eventsContainer');
     planetView = document.getElementById('planetViewContainer');
 
-    var divWidth = canvasDiv.offsetWidth - 30;
+    var divWidth = canvasDiv.offsetWidth
     var canvas = createCanvas(divWidth, divWidth);
     canvas.parent("canvasContainer");
 
