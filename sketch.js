@@ -108,11 +108,15 @@ function setup() {
 
 function showPlanetView() {
     //This has to happen to see the canvas
+    console.log('test');
     displayScene(0);
     displayStats();
     displayEvent(0, "");
-    eventsContainer.style.transform = 'translateX(-100vw)';
+    moveWindow('-100vw');
     eventNumber++;
+}
+function moveWindow(distance) {
+    eventsContainer.style.transform = 'translateX(' + distance + ')';
 }
 
 function control() {

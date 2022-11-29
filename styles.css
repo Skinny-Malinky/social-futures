@@ -64,6 +64,7 @@ a {
     width: 40%;
     flex-wrap: wrap;
     min-height: 55%;
+    text-align: center;
 }
 
 button {
