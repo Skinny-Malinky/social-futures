@@ -55,7 +55,7 @@
 		<div class="globalContainer" id="eventsContainer">
 			<!-- Starter View Starts Here -->
 			<div>
-				<div id="introViewContainer">
+				<div id="introViewContainer" class="view">
 					<img
 						src="images/arc-logo.svg"
 						alt="3 circles split down the middle by green and pink. Underneath it reads Project Arc. Looks dystopian."
@@ -65,21 +65,24 @@
 			</div>
 			<!-- Intro View Starts Here -->
 			<div>
-				<div id="introViewContainer">
+				<div id="introViewContainer" class="view">
 					<div>
-					<h1>Welcome to Project Arc.</h1>
-					<p><em><strong>Where we define the social future of tomorrow, today!</strong></em></p>
-					<p>
-						We value your input and contribution. The answers you give today
-						will shape societies to come.
-					</p>
-				</div>
-					<button id="begin" onclick="showPlanetView()">Begin ➔</button>
+						<h1>Welcome to Project Arc...</h1>
+							<p><strong><em>...where we define the social future of tomorrow, today! </strong></em></p>
+
+							<p>Here at Arc, we believe that whilst it is too late for this planet, this need not be the end of humanity. As we send our children out across the universe, they will require parental direction. We must ensure that they have the knowledge to succeed where their ancestors have failed. </p>
+							
+							<p>That’s where you come in. The answers you give today will shape societies to come.</p>
+							
+							<p>All our participants are in with a chance of being selected for the final launch of Project Arc. By taking part in this process, you are agreeing to our privacy policy.</p>
+							
+					</div>
+					<button id="begin" onclick="moveWindow('-200vw')">Continue ➔</button>
 				</div>
 			</div>
 			<!-- Planet View Starts Here -->
 			<div>
-				<div id="planetViewContainer">
+				<div id="planetViewContainer" class="view">
 					<div id="sidebar">
 						<p>
 							<b>Fulfilment</b>
@@ -115,11 +118,6 @@
 							<b>Biodiversity</b>
 							<br />
 							<span id="biodiversity">░░░░░░░░░░░░░░░░░░░░</span>
-						</p>
-						<p>
-							<b>Planet Health</b>
-							<br />
-							<span id="planet_health">░░░░░░░░░░░░░░░░░░░░</span>
 						</p>
 						<p>
 							planet‎‏‏‎ ‎‏‏‎ ‎‎<b id="planetName">x</b>

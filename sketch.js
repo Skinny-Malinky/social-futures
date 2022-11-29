@@ -200,7 +200,6 @@ function displayStats() {
     select("#equality").html(numberToBar(stats.equality));
     select("#wealth").html(numberToBar(stats.wealth));
     select("#biodiversity").html(numberToBar(stats.biodiversity));
-    select("#planet_health").html(numberToBar(stats.planet_health));
 }
 
 function numberToBar(n) {
