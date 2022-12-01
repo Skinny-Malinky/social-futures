@@ -1,6 +1,6 @@
 {
     "arc": {
-        "numberOfStages": 1,
+        "numberOfScenes": 1,
         "cards": [
             {
                 "scenario": "<p><i>Sleep well my darlings, I hope that you will wake in a kinder world than the one that was left to your mother. Keep your fingers and toes crossed for some oxygen and a nice temperate climate. Remember these lessons I have left planted in your dreams. Never forget that there are consequences for your actions.</i> – Rev Sarah Willard, Social Engineer, Arc Project (2113)</p><p><strong>Dream of:</strong></p>",
@@ -194,7 +194,7 @@
         ]
     },
     "planet": {
-        "numberOfStages": 1,
+        "numberOfScenes": 1,
         "cards": [
             {
                 "scenario": "<p><i>A shot in the dark. That is literally what it is. We are hurtling the last dregs of our species through space in a very specific concoction of pseudoscience, sci-fi, trigonometry and probably astrology. I don’t even remember doing these calculations. I don’t remember finishing the last of the whiskey.</i> – <em><strong>Dr Rishi Gupta, Chief Mathematician, Arc Project (2113)</em></strong></p>",
@@ -218,8 +218,8 @@
             }
         ]
     },
-    "whaleWorld": {
-        "numberOfStages": 3,
+    "earlyWhale": {
+        "numberOfScenes": 3,
         "cards": [
             {
                 "scenario": "<p><i>My life. Day one. Donned on a pair of sick shades to meet my fellow citizens of the new planet. Failed desperately to look cool while getting battered by the ocean winds. New home is like Noah never tasted rainbow and God drowned whatever species lived here before. One big ocean. Note to self, find sea legs.</i> – Suni Wong, New People (3113)</p><p><strong>Camp:</strong></p>",
@@ -692,52 +692,98 @@
                 ]
             },
             {
-                "scenario": "<p><i>You may think this is paradise, my friends! You may think that humanity has entered a utopia! But any utopia that is on this plane of existence is, by its natural deception, a dystopia. Only God can bring humanity to his one true paradise.</i> – Pastor Kevin Michaels, Prophet of the Old Earth Ways Foundation (2322)</p><p><strong>Preach:</strong></p>",
+                "scenario": "<p><i>A year to the day since we arrived on our new home and the suns have set. As if we had ordered some sort of fireworks display, the whole sky lights up in the most spectacular meteor shower. Lights dancing on a black stage, as if the whole planet is in celebration. Its like its saying ‘we are so glad you’ve come’.</i> – Jan Douglas, New People (2114)</p><p><strong>Wish for:</p></strong>",
                 "choices": [
                     {
-                        "choice": "Love thy neighbour.",
-                        "outcome": "",
-                        "stats": {
-                            "fulfilment": 2,
-                            "health": 0,
-                            "community": 2,
-                            "education": 0,
-                            "equality": -2,
-                            "wealth": 0,
-                            "biodiversity": 0,
-                            "planet_health": 0
-                        }
-                    },
-                    {
-                        "choice": "Peace comes from within.",
+                        "choice": "A long and happy life",
                         "outcome": "",
                         "stats": {
                             "fulfilment": 2,
                             "health": 1,
-                            "community": -1,
+                            "community": 1,
                             "education": 1,
                             "equality": 0,
                             "wealth": -1,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": -1
                         }
                     },
                     {
-                        "choice": "Abstain from vain pleasure.",
+                        "choice": "Riches",
                         "outcome": "",
                         "stats": {
-                            "fulfilment": -1,
-                            "health": 1,
+                            "fulfilment": 1,
+                            "health": 2,
                             "community": -1,
-                            "education": 1,
-                            "equality": 1,
+                            "education": 0,
+                            "equality": -2,
+                            "wealth": 2,
+                            "biodiversity": -2
+                        }
+                    },
+                    {
+                        "choice": "The cure to cancer",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 0,
+                            "health": 2,
+                            "community": 1,
+                            "education": 2,
+                            "equality": 0,
                             "wealth": 1,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": -1
                         }
                     }
                 ]
             },
+            {
+                "scenario": "<p><i>My beard is as long and thick as the callouses on my feet. I am a champion. I am the Alpha! I carved these brushes from the antlers of a sporple! I ground the creepy crawlies to make my paint. I have made it my mission to walk this island alone on my bare feet, and nothing is safe from my keen eye. I will catalogue it all.</i> – Omar Kamal, New People (2122)</p><p><strong>I am the greatest:</p></strong>",
+                "choices": [
+                    {
+                        "choice": "Artist",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 0,
+                            "community": 2,
+                            "education": 1,
+                            "equality": 0,
+                            "wealth": 1,
+                            "biodiversity": -1
+                        }
+                    },
+                    {
+                        "choice": "Cartographer",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 0,
+                            "community": -1,
+                            "education": 2,
+                            "equality": 0,
+                            "wealth": 2,
+                            "biodiversity": -1
+                        }
+                    },
+                    {
+                        "choice": "Naturalist",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 1,
+                            "community": 0,
+                            "education": 2,
+                            "equality": 0,
+                            "wealth": -1,
+                            "biodiversity": 2
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "midWhale": {
+        "numberOfScenes": 3,
+        "cards": [
             {
                 "scenario": "<p><i>There is just one life! One people! One universe! One chance! So, repeat after me. I am happy with myself, my life, my community, my friends, my family, and if I am not, I will speak, seek help and give my time to others.</i> – Dr Yusef Erdogen-Brown, Author of Happiness is Found by Seekers. (2299)</p><p><strong>Your next book:</strong></p>",
                 "choices": [
@@ -786,53 +832,6 @@
                 ]
             },
             {
-                "scenario": "<p><i>Today I had a me day in the steam kelp baths. It was bliss. I kept wiggling my toes in the mud just to feel the warmth of it rubbing against my skin and Jo massaged my back with hot stones. By the time I left, I was all shrivelled like a prune. I have never felt so relaxed in all my life. Why can’t it always be like this?</i> – Tanya Santiago-Perez, Bather (2331)</p><p><strong>Tomorrow, I will:</strong></p>",
-                "choices": [
-                    {
-                        "choice": "Bring Jo flowers.",
-                        "outcome": "",
-                        "stats": {
-                            "fulfilment": 2,
-                            "health": 2,
-                            "community": 2,
-                            "education": 0,
-                            "equality": 0,
-                            "wealth": 0,
-                            "biodiversity": -1,
-                            "planet_health": 0
-                        }
-                    },
-                    {
-                        "choice": "Have a lie in.",
-                        "outcome": "",
-                        "stats": {
-                            "fulfilment": 2,
-                            "health": 2,
-                            "community": -1,
-                            "education": 0,
-                            "equality": -1,
-                            "wealth": -1,
-                            "biodiversity": 0,
-                            "planet_health": 0
-                        }
-                    },
-                    {
-                        "choice": "Get back to work.",
-                        "outcome": "",
-                        "stats": {
-                            "fulfilment": -1,
-                            "health": -1,
-                            "community": 1,
-                            "education": 0,
-                            "equality": 0,
-                            "wealth": 2,
-                            "biodiversity": 0,
-                            "planet_health": 0
-                        }
-                    }
-                ]
-            },
-            {
                 "scenario": "<p><i>The people are crying out for culture! On the Arc, they read Austin; watch Seinfeld, dance to Britney, but where are our artists? Did they die in the old world? I say neigh. My heart is drawn to the pen. My words will speak to them. This world must also be the stage.</i> – Mo Churchill, Playwright. (2211)</p><p><strong>Write about:</strong></p>",
                 "choices": [
                     {
@@ -870,6 +869,105 @@
                             "fulfilment": 1,
                             "health": 0,
                             "community": 2,
+                            "education": 0,
+                            "equality": 0,
+                            "wealth": 2,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>You may think this is paradise, my friends! You may think that humanity has entered a utopia! But any utopia that is on this plane of existence is, by its natural deception, a dystopia. Only God can bring humanity to his one true paradise.</i> – Pastor Kevin Michaels, Prophet of the Old Earth Ways Foundation (2322)</p><p><strong>Preach:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Love thy neighbour.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 0,
+                            "community": 2,
+                            "education": 0,
+                            "equality": -2,
+                            "wealth": 0,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
+                    },
+                    {
+                        "choice": "Peace comes from within.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 1,
+                            "community": -1,
+                            "education": 1,
+                            "equality": 0,
+                            "wealth": -1,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
+                    },
+                    {
+                        "choice": "Abstain from vain pleasure.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": 1,
+                            "community": -1,
+                            "education": 1,
+                            "equality": 1,
+                            "wealth": 1,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "lateWhale": {
+        "numberOfScenes": 3,
+        "cards": [
+            {
+                "scenario": "<p><i>Today I had a me day in the steam kelp baths. It was bliss. I kept wiggling my toes in the mud just to feel the warmth of it rubbing against my skin and Jo massaged my back with hot stones. By the time I left, I was all shrivelled like a prune. I have never felt so relaxed in all my life. Why can’t it always be like this?</i> – Tanya Santiago-Perez, Bather (2331)</p><p><strong>Tomorrow, I will:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Bring Jo flowers.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 2,
+                            "community": 2,
+                            "education": 0,
+                            "equality": 0,
+                            "wealth": 0,
+                            "biodiversity": -1,
+                            "planet_health": 0
+                        }
+                    },
+                    {
+                        "choice": "Have a lie in.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 2,
+                            "community": -1,
+                            "education": 0,
+                            "equality": -1,
+                            "wealth": -1,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
+                    },
+                    {
+                        "choice": "Get back to work.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": -1,
+                            "community": 1,
                             "education": 0,
                             "equality": 0,
                             "wealth": 2,
