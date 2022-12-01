@@ -9,6 +9,7 @@ let scenarioElement;
 let choice1Element;
 let choice2Element;
 let choice3Element;
+let currentEvent;
 
 let population = 0;
 let dronePopulation = 0;
@@ -29,10 +30,18 @@ let groundTexture;
 let guideWords;
 let eventsJson;
 
-let events = [];
-let arcCards = [];
+let whaleWorld;
+let arc;
+let planet;
+let whaleWorldCards;
+let arcCards;
+let planetCards;
 let gameStage = 1;
-let eventNumber = 0;
+// GameStage enum: 
+    // 1. Arc Cards 
+    // 2. Planet Card 
+    // 3. Whale World
+
 let outcomeText = "";
 
 let startButton;
@@ -96,29 +105,19 @@ function setup() {
     font = random(fonts);
 
     control();
-    controlChoices();
     namePlanet();
-    // randomiseStats();
-
-    //place events in a random order
-    let eventsList = eventsJson.events;
-    // eventsList = shuffle(eventsList);
-
-    // add each event from eventsList into events
-    // eventsList only has .events in it
-    for (let i = 0; i < eventsList.length; i++) {
-        events[i] = new Event(eventsList[i]);
-    }
-
-    // from the last card, count back and place each in the first place of the events array
-    // These are the arcCards
-    // DELETED CODE THAT ADDS ARC CARDS TO EVENTS HERE
+    randomiseStats();
     
-    arcCards = eventsJson.arcCards;
+    arc = eventsJson.arc
+    planet = eventsJson.planet
+    whaleWorld = eventsJson.whaleWorld
+    arcCards = arc.cards;
+    planetCards = planet.cards;
+    whaleWorldCards = whaleWorld.cards;
     displayEvent(random(arcCards));
     
     // Testing only
-    showPlanetView();
+    // showPlanetView();
 }
 
 function showPlanetView() {
@@ -138,46 +137,66 @@ function control() {
     }
 }
 
-function controlChoices() {
+function controlChoices(event) {
     // displayEvent(eventNumber, events[eventNumber-1].choices[2].outcome);
     // updateStats(events[eventNumber-1].choices[0].stats);
     // displayStats();
-    // eval(events[eventNumber-1].choices[0].eval);
+    // eval(events[eventNumber-1].1hoices[0].eval);
     // eventNumber++;
     
     // NOTES
     // displayevent( number, previousEvent-in-array.selected-choice.outcome )
     // iterating through each event in events
+    console.log(event.choices);
     choice1Element.mousePressed(() => {
         displayScene();
-        displayEvent(arcCards[0]);
+        updateStats(event.choices[0].stats);
+        displayEvent(getNextEvent(event));
     });
     choice2Element.mousePressed(() => {
         displayScene();
-        updateStats(events[eventNumber-1].choices[1].stats);
-        displayStats();
-        eval(events[eventNumber-1].choices[1].eval);
-        eventNumber++;
+        updateStats(event.choices[1].stats);
+        displayEvent(getNextEvent(event));
     });
     choice3Element.mousePressed(() => {
         displayScene();
-        updateStats(events[eventNumber-1].choices[2].stats);
-        displayStats();
-        eval(events[eventNumber-1].choices[2].eval);
-        eventNumber++;
+        updateStats(event.choices[2].stats);
+        displayEvent(getNextEvent(event));
     });
 }
 
-function displayEvent(event) {
-    if (event == events[events.length-1]) {
-        scenarioElement.html(outcomeText);
-        choice1Element.html("");
-        choice2Element.html("");
-        return;
+let stageIterator = 0;
+let numberOfStages = 0;
+function getNextEvent() {
+    if(stageIterator == numberOfStages){
+        gameStage++;
+        stageIterator = 0;
     }
+    if(gameStage == 1) {
+        numberOfStages = arc.numberOfStages;
+        stageIterator++;
+        return arcCards[0];
+    }
+    else if(gameStage == 2) {
+        numberOfStages = planet.numberOfStages;
+        stageIterator++;
+        return planetCards[0];
+    }
+    else if(gameStage == 3) {
+        numberOfStages = whaleWorld.numberOfStages;
+        let whaleCard = random(whaleWorldCards);
+        whaleWorldCards = whaleWorldCards.filter(unusedCard => unusedCard != whaleCard);
+        stageIterator++;
+        return whaleCard;
+    }
+    else if(gameStage == 4) {
+        // doSomething()
+    }
+}
+
+function displayEvent(event) {
     scenarioElement.html(outcomeText + event.scenario);
     choice1Element.html("1. " + event.choices[0].choice);
-
     if (event.choices[1]) {
         choice2Element.html("2. " + event.choices[1].choice);
     } else {
@@ -188,7 +207,10 @@ function displayEvent(event) {
     } else {
         choice3Element.html("");
     }
+    controlChoices(event);
 }
+
+
 
 function displayStats() {
     select("#fulfilment").html(numberToBar(stats.fulfilment));
@@ -227,6 +249,7 @@ function updateStats(input) {
             stats[i] = 20;
         }
     }
+    displayStats();
 }
 
 function namePlanet() {
@@ -241,7 +264,7 @@ function namePlanet() {
 
 function randomiseStats() {
     for (let i in stats) {
-        stats[i] = int(random(100));
+        stats[i] = int(random(20));
     }
 }
 

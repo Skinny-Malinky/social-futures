@@ -1,931 +1,884 @@
 {
-    "arcCards": [
-        {
-            "scenario": "<p><i>Sleep well my darlings, I hope that you will wake in a kinder world than the one that was left to your mother. Keep your fingers and toes crossed for some oxygen and a nice temperate climate. Remember these lessons I have left planted in your dreams. Never forget that there are consequences for your actions.</i> – Rev Sarah Willard, Social Engineer, Arc Project (2113)</p><p><strong>Dream of:</strong></p>",
-            "choices": [
-                {
-                    "choice": "Health and happiness.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 2,
-                        "community": 1,
-                        "education": 0,
-                        "equality": 1,
-                        "wealth": 0,
-                        "biodiversity": 0,
-                        "planet_health": 0
+    "arc": {
+        "numberOfStages": 1,
+        "cards": [
+            {
+                "scenario": "<p><i>Sleep well my darlings, I hope that you will wake in a kinder world than the one that was left to your mother. Keep your fingers and toes crossed for some oxygen and a nice temperate climate. Remember these lessons I have left planted in your dreams. Never forget that there are consequences for your actions.</i> – Rev Sarah Willard, Social Engineer, Arc Project (2113)</p><p><strong>Dream of:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Health and happiness.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 2,
+                            "community": 1,
+                            "education": 0,
+                            "equality": 1,
+                            "wealth": 0,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        },
+                        "nextEvent": "eventsJson.planetCards[0]"
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Peace between planet and people.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 1,
-                        "health": 0,
-                        "community": 2,
-                        "education": 0,
-                        "equality": 1,
-                        "wealth": 0,
-                        "biodiversity": 2,
-                        "planet_health": 0
+                    {
+                        "choice": "Peace between planet and people.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 0,
+                            "community": 2,
+                            "education": 0,
+                            "equality": 1,
+                            "wealth": 0,
+                            "biodiversity": 2,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Success and abundance.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 1,
-                        "community": 0,
-                        "education": 1,
-                        "equality": 0,
-                        "wealth": 2,
-                        "biodiversity": 0,
-                        "planet_health": 0
+                    {
+                        "choice": "Success and abundance.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 1,
+                            "community": 0,
+                            "education": 1,
+                            "equality": 0,
+                            "wealth": 2,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>I spent my whole life cataloguing and for what? To give some test tube a shot at existence halfway across the galaxy? I mean what is the actual point in that? Why does it matter to us that humanity keeps on existing? Can we even call them humanity? We have proven ourselves to be a selfish, sad, little species. I should just wipe it all. Clean slate.</i> -  Amed Garcia Jones, Head Librarian, Arc Project (2113)</p><p><strong>Send:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Complete works of Shakespeare.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 0,
+                            "community": 2,
+                            "education": 1,
+                            "equality": -2,
+                            "wealth": 0,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>I spent my whole life cataloguing and for what? To give some test tube a shot at existence halfway across the galaxy? I mean what is the actual point in that? Why does it matter to us that humanity keeps on existing? Can we even call them humanity? We have proven ourselves to be a selfish, sad, little species. I should just wipe it all. Clean slate.</i> -  Amed Garcia Jones, Head Librarian, Arc Project (2113)</p><p><strong>Send:</strong></p>",
-            "choices": [
-                {
-                    "choice": "Complete works of Shakespeare.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 1,
-                        "health": 0,
-                        "community": 2,
-                        "education": 1,
-                        "equality": -2,
-                        "wealth": 0,
-                        "biodiversity": 0,
-                        "planet_health": 0
+                    {
+                        "choice": "STEM heavy resources.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 0,
+                            "health": 2,
+                            "community": 0,
+                            "education": 1,
+                            "equality": -1,
+                            "wealth": -1,
+                            "biodiversity": 1,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "STEM heavy resources.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 0,
-                        "health": 2,
-                        "community": 0,
-                        "education": 1,
-                        "equality": -1,
-                        "wealth": -1,
-                        "biodiversity": 1,
-                        "planet_health": 0
+                    {
+                        "choice": "A selected breadth of human knowledge.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 1,
+                            "community": 2,
+                            "education": 1,
+                            "equality": -1,
+                            "wealth": 0,
+                            "biodiversity": -1,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>It is the end of the world and they are striking over wages. Fools. This is God’s work we do. Our time is done. It is time for us to face our creator and show him the home he asked us to steward. Do they want to face his wrath, knowing that we condemned the last chance for humanity? God willing they will succeed where we have failed.</i> – Vlad Smirnov, Packing Officer, Arc Project (2113)</p><p><strong>Prioritise:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Medicines.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 0,
+                            "health": 2,
+                            "community": 0,
+                            "education": 1,
+                            "equality": 0,
+                            "wealth": 1,
+                            "biodiversity": -2,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "A selected breadth of human knowledge.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 1,
-                        "health": 1,
-                        "community": 2,
-                        "education": 1,
-                        "equality": -1,
-                        "wealth": 0,
-                        "biodiversity": -1,
-                        "planet_health": 0
+                    {
+                        "choice": "A seed library.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 1,
+                            "community": 0,
+                            "education": 0,
+                            "equality": 0,
+                            "wealth": 1,
+                            "biodiversity": 1,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>It is the end of the world and they are striking over wages. Fools. This is God’s work we do. Our time is done. It is time for us to face our creator and show him the home he asked us to steward. Do they want to face his wrath, knowing that we condemned the last chance for humanity? God willing they will succeed where we have failed.</i> – Vlad Smirnov, Packing Officer, Arc Project (2113)</p><p><strong>Prioritise:</strong></p>",
-            "choices": [
-                {
-                    "choice": "Medicines.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 0,
-                        "health": 2,
-                        "community": 0,
-                        "education": 1,
-                        "equality": 0,
-                        "wealth": 1,
-                        "biodiversity": -2,
-                        "planet_health": 0
+                    {
+                        "choice": "Technology.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 0,
+                            "health": 1,
+                            "community": 0,
+                            "education": 2,
+                            "equality": 0,
+                            "wealth": 0,
+                            "biodiversity": -2,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>I was able to go outside today. Isn’t funny how grateful you become for the smallest of things. Half an hour with my friends and feeling the breeze and the suns on my skin. We didn’t once speak about the Arc or work. We just reminisced about old times. Still, good things can’t last forever. Especially in these times. The decisions we make here will shape societies.</i> – Dr Ade Sani, Geneticist, Arc Project (2113)</p><p><strong>Tamper with:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Bone Structure.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 0,
+                            "health": 2,
+                            "community": 0,
+                            "education": -1,
+                            "equality": 0,
+                            "wealth": 0,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "A seed library.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 1,
-                        "health": 1,
-                        "community": 0,
-                        "education": 0,
-                        "equality": 0,
-                        "wealth": 1,
-                        "biodiversity": 1,
-                        "planet_health": 0
+                    {
+                        "choice": "The Parietal Lobe.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 0,
+                            "health": -1,
+                            "community": 2,
+                            "education": 1,
+                            "equality": -1,
+                            "wealth": 0,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Technology.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 0,
-                        "health": 1,
-                        "community": 0,
-                        "education": 2,
-                        "equality": 0,
-                        "wealth": 0,
-                        "biodiversity": -2,
-                        "planet_health": 0
+                    {
+                        "choice": "The Pituitary Gland.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": -2,
+                            "community": 1,
+                            "education": 0,
+                            "equality": -1,
+                            "wealth": 0,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "planet": {
+        "numberOfStages": 1,
+        "cards": [
+            {
+                "scenario": "<p><i>A shot in the dark. That is literally what it is. We are hurtling the last dregs of our species through space in a very specific concoction of pseudoscience, sci-fi, trigonometry and probably astrology. I don’t even remember doing these calculations. I don’t remember finishing the last of the whiskey.</i> – <em><strong>Dr Rishi Gupta, Chief Mathematician, Arc Project (2113)</em></strong></p>",
+                "choices": [
+                    {
+                        "choice": "24: 92: 96: 04",
+                        "outcome": "",
+                        "stats": {}
                     },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>I was able to go outside today. Isn’t funny how grateful you become for the smallest of things. Half an hour with my friends and feeling the breeze and the suns on my skin. We didn’t once speak about the Arc or work. We just reminisced about old times. Still, good things can’t last forever. Especially in these times. The decisions we make here will shape societies.</i> – Dr Ade Sani, Geneticist, Arc Project (2113)</p><p><strong>Tamper with:</strong></p>",
-            "choices": [
-                {
-                    "choice": "Bone Structure.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 0,
-                        "health": 2,
-                        "community": 0,
-                        "education": -1,
-                        "equality": 0,
-                        "wealth": 0,
-                        "biodiversity": 0,
-                        "planet_health": 0
+                    {
+                        "choice": "83: 77: 12: 78",
+                        "outcome": "",
+                        "stats": {}
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "The Parietal Lobe.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 0,
-                        "health": -1,
-                        "community": 2,
-                        "education": 1,
-                        "equality": -1,
-                        "wealth": 0,
-                        "biodiversity": 0,
-                        "planet_health": 0
+                    {
+                        "choice": "11: 43: 02: 67",
+                        "outcome": "",
+                        "stats": {}
+                    }
+                ]
+            }
+        ]
+    },
+    "whaleWorld": {
+        "numberOfStages": 3,
+        "cards": [
+            {
+                "scenario": "<p><i>My life. Day one. Donned on a pair of sick shades to meet my fellow citizens of the new planet. Failed desperately to look cool while getting battered by the ocean winds. New home is like Noah never tasted rainbow and God drowned whatever species lived here before. One big ocean. Note to self, find sea legs.</i> – Suni Wong, New People (3113)</p><p><strong>Camp:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Alone in a large barnacle.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": 1,
+                            "community": -2,
+                            "education": 0,
+                            "equality": -1,
+                            "wealth": 2,
+                            "biodiversity": 1,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "The Pituitary Gland.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": -2,
-                        "community": 1,
-                        "education": 0,
-                        "equality": -1,
-                        "wealth": 0,
-                        "biodiversity": 0,
-                        "planet_health": 0
+                    {
+                        "choice": "Together in the arc.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": -2,
+                            "community": 2,
+                            "education": -1,
+                            "equality": 1,
+                            "wealth": 0,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                }
-            ]
-        }
-    ],
-    "planetCards": [
-        {
-            "scenario":"<p><i>A shot in the dark. That is literally what it is. We are hurtling the last dregs of our species through space in a very specific concoction of pseudoscience, sci-fi, trigonometry and probably astrology. I don’t even remember doing these calculations. I don’t remember finishing the last of the whiskey.</i> – <em><strong>Dr Rishi Gupta, Chief Mathematician, Arc Project (2113)</em></strong></p>",
-            "choices": [
-                {
-                    "choice": "24: 92: 96: 04",
-                    "outcome": "",
-                    "stats": {},
-                    "eval": ""
-                },
-                {
-                    "choice": "83: 77: 12: 78",
-                    "outcome": "",
-                    "stats": {},
-                    "eval": ""
-                },
-                {
-                    "choice": "11: 43: 02: 67",
-                    "outcome": "",
-                    "stats": {},
-                    "eval": ""
-                }
-            ]
-        }
-    ],
-    "events": [
-        {
-            "scenario": "<p><i>My life. Day one. Donned on a pair of sick shades to meet my fellow citizens of the new planet. Failed desperately to look cool while getting battered by the ocean winds. New home is like Noah never tasted rainbow and God drowned whatever species lived here before. One big ocean. Note to self, find sea legs.</i> – Suni Wong, New People (3113)</p><p><strong>Camp:</strong></p>",
-            "choices": [
-                {
-                    "choice": "Alone in a large barnacle.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": -1,
-                        "health": 1,
-                        "community": -2,
-                        "education": 0,
-                        "equality": -1,
-                        "wealth": 2,
-                        "biodiversity": 1,
-                        "planet_health": 0
+                    {
+                        "choice": "Party all night.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": -2,
+                            "community": 2,
+                            "education": -2,
+                            "equality": 0,
+                            "wealth": -1,
+                            "biodiversity": -1,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>I am like, just, you know, the most untalented person on this island. It’s like this is paradise and everyone here is like an Adonis and I am like this sea monster. Everyone is doing amazing things and they take to whatever they are doing. Everything is so easy for them. This is hell. Why me?</i> – Ruby Hoffman, New People (3113)</p><p><strong>Become:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "A scientist.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 2,
+                            "community": 0,
+                            "education": 2,
+                            "equality": 0,
+                            "wealth": -1,
+                            "biodiversity": 1,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Together in the arc.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 1,
-                        "health": -2,
-                        "community": 2,
-                        "education": -1,
-                        "equality": 1,
-                        "wealth": 0,
-                        "biodiversity": 0,
-                        "planet_health": 0
+                    {
+                        "choice": "A fisher.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 1,
+                            "community": 1,
+                            "education": 0,
+                            "equality": 0,
+                            "wealth": 2,
+                            "biodiversity": -2,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Party all night.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": -2,
-                        "community": 2,
-                        "education": -2,
-                        "equality": 0,
-                        "wealth": -1,
-                        "biodiversity": -1,
-                        "planet_health": 0
+                    {
+                        "choice": "A teacher.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 0,
+                            "community": 2,
+                            "education": 2,
+                            "equality": 1,
+                            "wealth": -1,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>One night, as I watched the dual suns set with Dave, the beach lit up with thousands of lights. It was time for the angler slugs to slither onto shore and bury their eggs in the sand. They were such docile, kind and intelligent creatures. This was more than just the end of a mating ritual, it was a celebration for the angler slugs. I was enchanted by it all.</i> – Edgar Cruz, New People (3120)</p><p><strong>Decide to:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Domesticate.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 1,
+                            "community": 2,
+                            "education": 1,
+                            "equality": -1,
+                            "wealth": -2,
+                            "biodiversity": -2,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>I am like, just, you know, the most untalented person on this island. It’s like this is paradise and everyone here is like an Adonis and I am like this sea monster. Everyone is doing amazing things and they take to whatever they are doing. Everything is so easy for them. This is hell. Why me?</i> – Ruby Hoffman, New People (3113)</p><p><strong>Become:</strong></p>",
-            "choices": [
-                {
-                    "choice": "A scientist.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 2,
-                        "community": 0,
-                        "education": 2,
-                        "equality": 0,
-                        "wealth": -1,
-                        "biodiversity": 1,
-                        "planet_health": 0
+                    {
+                        "choice": "Study.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 0,
+                            "health": 2,
+                            "community": 0,
+                            "education": 2,
+                            "equality": 1,
+                            "wealth": 1,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "A fisher.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 1,
-                        "community": 1,
-                        "education": 0,
-                        "equality": 0,
-                        "wealth": 2,
-                        "biodiversity": -2,
-                        "planet_health": 0
+                    {
+                        "choice": "Farm.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 0,
+                            "community": 2,
+                            "education": 2,
+                            "equality": -2,
+                            "wealth": 2,
+                            "biodiversity": -2,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>I didn’t mind so much when they ate Jesus. He was a bitch. I didn’t even mind when they ate my first girlfriend Mai because we were breaking up anyway and everyone was really nice to me afterwards. When they took my leg though, that was it. It was personal. Time to do something about those big purple flowers.</i> – Helena Aimee Dean, New People (3133)</p><p><strong>Utilise:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Fire.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 1,
+                            "community": 1,
+                            "education": -2,
+                            "equality": 0,
+                            "wealth": 1,
+                            "biodiversity": -2,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "A teacher.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 0,
-                        "community": 2,
-                        "education": 2,
-                        "equality": 1,
-                        "wealth": -1,
-                        "biodiversity": 0,
-                        "planet_health": 0
+                    {
+                        "choice": "Shovels.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 0,
+                            "health": 1,
+                            "community": 1,
+                            "education": 1,
+                            "equality": 0,
+                            "wealth": 1,
+                            "biodiversity": -1,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>One night, as I watched the dual suns set with Dave, the beach lit up with thousands of lights. It was time for the angler slugs to slither onto shore and bury their eggs in the sand. They were such docile, kind and intelligent creatures. This was more than just the end of a mating ritual, it was a celebration for the angler slugs. I was enchanted by it all.</i> – Edgar Cruz, New People (3120)</p><p><strong>Decide to:</strong></p>",
-            "choices": [
-                {
-                    "choice": "Domesticate.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 1,
-                        "community": 2,
-                        "education": 1,
-                        "equality": -1,
-                        "wealth": -2,
-                        "biodiversity": -2,
-                        "planet_health": 0
+                    {
+                        "choice": "Human sacrifice.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": -2,
+                            "community": 2,
+                            "education": -2,
+                            "equality": -2,
+                            "wealth": -1,
+                            "biodiversity": 2,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>Am I unhappy because I am unfulfilled? Or I am unfulfilled because I am unhappy? Is it bad to be this idle? I have taken to spending my days in a cave. The others think I am strange, but it’s just that I can’t bear to look up at that empty sky or out on that vast ocean. I am beginning to hate the colour blue.</i> – Xian Lee, New People (2137)</p><p><strong>Treat with:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Incarceration.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -2,
+                            "health": -2,
+                            "community": -1,
+                            "education": 0,
+                            "equality": -2,
+                            "wealth": -2,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Study.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 0,
-                        "health": 2,
-                        "community": 0,
-                        "education": 2,
-                        "equality": 1,
-                        "wealth": 1,
-                        "biodiversity": 0,
-                        "planet_health": 0
+                    {
+                        "choice": "Pills.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 0,
+                            "health": 0,
+                            "community": 1,
+                            "education": 0,
+                            "equality": 0,
+                            "wealth": -1,
+                            "biodiversity": -1,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Farm.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 1,
-                        "health": 0,
-                        "community": 2,
-                        "education": 2,
-                        "equality": -2,
-                        "wealth": 2,
-                        "biodiversity": -2,
-                        "planet_health": 0
+                    {
+                        "choice": "Therapy.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 1,
+                            "community": 1,
+                            "education": 1,
+                            "equality": 1,
+                            "wealth": -2,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>So sure, life was tough in the beginning. We didn’t know the rules or the terrain, our strengths, our weaknesses. We are all just doing fine now. We know not to eat the green berries. We know not to go to the creaky beach at dusk. We even know where to get the hallucinogens. Is it just me though or does life feel less like an adventure now?</i> – Nadia Olowe, New People (2135)</p><p><strong>We need:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "A festival.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": -1,
+                            "community": 2,
+                            "education": 1,
+                            "equality": 1,
+                            "wealth": 2,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>I didn’t mind so much when they ate Jesus. He was a bitch. I didn’t even mind when they ate my first girlfriend Mai because we were breaking up anyway and everyone was really nice to me afterwards. When they took my leg though, that was it. It was personal. Time to do something about those big purple flowers.</i> – Helena Aimee Dean, New People (3133)</p><p><strong>Utilise:</strong></p>",
-            "choices": [
-                {
-                    "choice": "Fire.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 1,
-                        "community": 1,
-                        "education": -2,
-                        "equality": 0,
-                        "wealth": 1,
-                        "biodiversity": -2,
-                        "planet_health": 0
+                    {
+                        "choice": "A sea voyage.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": -1,
+                            "community": 1,
+                            "education": 1,
+                            "equality": 0,
+                            "wealth": 1,
+                            "biodiversity": -1,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Shovels.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 0,
-                        "health": 1,
-                        "community": 1,
-                        "education": 1,
-                        "equality": 0,
-                        "wealth": 1,
-                        "biodiversity": -1,
-                        "planet_health": 0
+                    {
+                        "choice": "A gold rush.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": -2,
+                            "community": -1,
+                            "education": 0,
+                            "equality": -2,
+                            "wealth": 2,
+                            "biodiversity": -1,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>The thing about two suns.<br>Is that the night never comes.<br>But when it eventually does.<br>It is such a relief.</i>  – Conal Green (2119)</p><p><strong>Your feedback:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "We should collaborate.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 1,
+                            "community": 2,
+                            "education": 1,
+                            "equality": 2,
+                            "wealth": 0,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Human sacrifice.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": -1,
-                        "health": -2,
-                        "community": 2,
-                        "education": -2,
-                        "equality": -2,
-                        "wealth": -1,
-                        "biodiversity": 2,
-                        "planet_health": 0
+                    {
+                        "choice": "It’s a masterpiece!",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 1,
+                            "community": -1,
+                            "education": 1,
+                            "equality": -2,
+                            "wealth": 2,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>Am I unhappy because I am unfulfilled? Or I am unfulfilled because I am unhappy? Is it bad to be this idle? I have taken to spending my days in a cave. The others think I am strange, but it’s just that I can’t bear to look up at that empty sky or out on that vast ocean. I am beginning to hate the colour blue.</i> – Xian Lee, New People (2137)</p><p><strong>Treat with:</strong></p>",
-            "choices": [
-                {
-                    "choice": "Incarceration.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": -2,
-                        "health": -2,
-                        "community": -1,
-                        "education": 0,
-                        "equality": -2,
-                        "wealth": -2,
-                        "biodiversity": 0,
-                        "planet_health": 0
+                    {
+                        "choice": "Art isn’t for everyone.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": -1,
+                            "community": -2,
+                            "education": 1,
+                            "equality": -1,
+                            "wealth": 2,
+                            "biodiversity": 1,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>Dude, I only started this surf shop because the ocean is my jam. Now I have three shops and an option to franchise. You’d think I was living the dream but I can’t remember the last time I got to wax my board. Money corrupts, that’s all I’m saying.</i> – Brad Basu, New People (2150)</p><p><strong>Advocate:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "The Free Market.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": -1,
+                            "community": -2,
+                            "education": 0,
+                            "equality": -2,
+                            "wealth": 2,
+                            "biodiversity": -2,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Pills.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 0,
-                        "health": 0,
-                        "community": 1,
-                        "education": 0,
-                        "equality": 0,
-                        "wealth": -1,
-                        "biodiversity": -1,
-                        "planet_health": 0
+                    {
+                        "choice": "Workers Cooperatives.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 1,
+                            "community": 2,
+                            "education": 0,
+                            "equality": 2,
+                            "wealth": 1,
+                            "biodiversity": -1,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Therapy.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 1,
-                        "community": 1,
-                        "education": 1,
-                        "equality": 1,
-                        "wealth": -2,
-                        "biodiversity": 0,
-                        "planet_health": 0
+                    {
+                        "choice": "Bartering.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 0,
+                            "community": 2,
+                            "education": -1,
+                            "equality": -1,
+                            "wealth": 0,
+                            "biodiversity": 1,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>He came in the night like a sneaky, conniving, sea urchin. I hadn’t slept since the last sunsset and I was out of it, dead to everything. He just waltzes in and takes the last of my dried blubber. I am sick of these people and their total lack of respect. He is a butthole.</i> – Tabia Nagi, New People (2145)</p><p><strong>Retaliate by:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Moving across the Island.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": -2,
+                            "community": 2,
+                            "education": -1,
+                            "equality": -2,
+                            "wealth": 1,
+                            "biodiversity": 2,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>So sure, life was tough in the beginning. We didn’t know the rules or the terrain, our strengths, our weaknesses. We are all just doing fine now. We know not to eat the green berries. We know not to go to the creaky beach at dusk. We even know where to get the hallucinogens. Is it just me though or does life feel less like an adventure now?</i> – Nadia Olowe, New People (2135)</p><p<strong>We need:</strong></p>",
-            "choices": [
-                {
-                    "choice": "A festival.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 1,
-                        "health": -1,
-                        "community": 2,
-                        "education": 1,
-                        "equality": 1,
-                        "wealth": 2,
-                        "biodiversity": 0,
-                        "planet_health": 0
+                    {
+                        "choice": "Drawing up a constitution.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 0,
+                            "health": 0,
+                            "community": 2,
+                            "education": 0,
+                            "equality": 0,
+                            "wealth": 0,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "A sea voyage.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": -1,
-                        "community": 1,
-                        "education": 1,
-                        "equality": 0,
-                        "wealth": 1,
-                        "biodiversity": -1,
-                        "planet_health": 0
+                    {
+                        "choice": "Stealing his sharkskin gloves.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": -1,
+                            "community": -2,
+                            "education": 0,
+                            "equality": -1,
+                            "wealth": 1,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>She is just amazing. Yesterday she caught four hexifish, went for a ten-mile run and saved her younger brother from a scavenger toad. She kissed me last week in front of everyone, just so they knew I was hers. When I woke up this morning, I realised I was the happiest I have ever been.</i> – Kimiko Park-Ki, New People (2167)</p><p><strong>Propose:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Ask father for blessing.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 0,
+                            "community": 2,
+                            "education": 0,
+                            "equality": -2,
+                            "wealth": 2,
+                            "biodiversity": -1,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "A gold rush.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": -1,
-                        "health": -2,
-                        "community": -1,
-                        "education": 0,
-                        "equality": -2,
-                        "wealth": 2,
-                        "biodiversity": -1,
-                        "planet_health": 0
+                    {
+                        "choice": "An open relationship.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": -2,
+                            "community": 1,
+                            "education": 0,
+                            "equality": 2,
+                            "wealth": 1,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>The thing about two suns.<br>Is that the night never comes.<br>But when it eventually does.<br>It is such a relief.</i>  – Conal Green (2119)</p><p><strong>Your feedback:</strong></p>",
-            "choices": [
-                {
-                    "choice": "We should collaborate.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 1,
-                        "community": 2,
-                        "education": 1,
-                        "equality": 2,
-                        "wealth": 0,
-                        "biodiversity": 0,
-                        "planet_health": 0
+                    {
+                        "choice": "An expensive getaway.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 1,
+                            "community": -1,
+                            "education": 0,
+                            "equality": -1,
+                            "wealth": -2,
+                            "biodiversity": -1,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>You may think this is paradise, my friends! You may think that humanity has entered a utopia! But any utopia that is on this plane of existence is, by its natural deception, a dystopia. Only God can bring humanity to his one true paradise.</i> – Pastor Kevin Michaels, Prophet of the Old Earth Ways Foundation (2322)</p><p><strong>Preach:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Love thy neighbour.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 0,
+                            "community": 2,
+                            "education": 0,
+                            "equality": -2,
+                            "wealth": 0,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "It’s a masterpiece!",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 1,
-                        "health": 1,
-                        "community": -1,
-                        "education": 1,
-                        "equality": -2,
-                        "wealth": 2,
-                        "biodiversity": 0,
-                        "planet_health": 0
+                    {
+                        "choice": "Peace comes from within.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 1,
+                            "community": -1,
+                            "education": 1,
+                            "equality": 0,
+                            "wealth": -1,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Art isn’t for everyone.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": -1,
-                        "health": -1,
-                        "community": -2,
-                        "education": 1,
-                        "equality": -1,
-                        "wealth": 2,
-                        "biodiversity": 1,
-                        "planet_health": 0
+                    {
+                        "choice": "Abstain from vain pleasure.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": 1,
+                            "community": -1,
+                            "education": 1,
+                            "equality": 1,
+                            "wealth": 1,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>There is just one life! One people! One universe! One chance! So, repeat after me. I am happy with myself, my life, my community, my friends, my family, and if I am not, I will speak, seek help and give my time to others.</i> – Dr Yusef Erdogen-Brown, Author of Happiness is Found by Seekers. (2299)</p><p><strong>Your next book:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Choose Happy, How Individuals Can Free Themselves.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -2,
+                            "health": -2,
+                            "community": -2,
+                            "education": -2,
+                            "equality": -2,
+                            "wealth": 2,
+                            "biodiversity": -2,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>Dude, I only started this surf shop because the ocean is my jam. Now I have three shops and an option to franchise. You’d think I was living the dream but I can’t remember the last time I got to wax my board. Money corrupts, that’s all I’m saying.</i> – Brad Basu, New People (2150)</p><p><strong>Advocate:</strong></p>",
-            "choices": [
-                {
-                    "choice": "The Free Market.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 1,
-                        "health": -1,
-                        "community": -2,
-                        "education": 0,
-                        "equality": -2,
-                        "wealth": 2,
-                        "biodiversity": -2,
-                        "planet_health": 0
+                    {
+                        "choice": "Corrupt Community and How to Change It.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -2,
+                            "health": -2,
+                            "community": -2,
+                            "education": -2,
+                            "equality": -2,
+                            "wealth": 2,
+                            "biodiversity": -2,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Workers Cooperatives.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 1,
-                        "community": 2,
-                        "education": 0,
-                        "equality": 2,
-                        "wealth": 1,
-                        "biodiversity": -1,
-                        "planet_health": 0
+                    {
+                        "choice": "Don’t Lie Down, You’re Not Dead Yet.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -2,
+                            "health": -2,
+                            "community": -2,
+                            "education": -2,
+                            "equality": -2,
+                            "wealth": 2,
+                            "biodiversity": -2,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>Today I had a me day in the steam kelp baths. It was bliss. I kept wiggling my toes in the mud just to feel the warmth of it rubbing against my skin and Jo massaged my back with hot stones. By the time I left, I was all shrivelled like a prune. I have never felt so relaxed in all my life. Why can’t it always be like this?</i> – Tanya Santiago-Perez, Bather (2331)</p><p><strong>Tomorrow, I will:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Bring Jo flowers.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 2,
+                            "community": 2,
+                            "education": 0,
+                            "equality": 0,
+                            "wealth": 0,
+                            "biodiversity": -1,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Bartering.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 0,
-                        "community": 2,
-                        "education": -1,
-                        "equality": -1,
-                        "wealth": 0,
-                        "biodiversity": 1,
-                        "planet_health": 0
+                    {
+                        "choice": "Have a lie in.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 2,
+                            "community": -1,
+                            "education": 0,
+                            "equality": -1,
+                            "wealth": -1,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>He came in the night like a sneaky, conniving, sea urchin. I hadn’t slept since the last sunsset and I was out of it, dead to everything. He just waltzes in and takes the last of my dried blubber. I am sick of these people and their total lack of respect. He is a butthole.</i> – Tabia Nagi, New People (2145)</p><p><strong>Retaliate by:</strong></p>",
-            "choices": [
-                {
-                    "choice": "Moving across the Island.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": -1,
-                        "health": -2,
-                        "community": 2,
-                        "education": -1,
-                        "equality": -2,
-                        "wealth": 1,
-                        "biodiversity": 2,
-                        "planet_health": 0
+                    {
+                        "choice": "Get back to work.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": -1,
+                            "community": 1,
+                            "education": 0,
+                            "equality": 0,
+                            "wealth": 2,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>The people are crying out for culture! On the Arc, they read Austin; watch Seinfeld, dance to Britney, but where are our artists? Did they die in the old world? I say neigh. My heart is drawn to the pen. My words will speak to them. This world must also be the stage.</i> – Mo Churchill, Playwright. (2211)</p><p><strong>Write about:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "The sexual frustration of man.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": -1,
+                            "community": -1,
+                            "education": -1,
+                            "equality": -2,
+                            "wealth": 2,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Drawing up a constitution.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 0,
-                        "health": 0,
-                        "community": 2,
-                        "education": 0,
-                        "equality": 0,
-                        "wealth": 0,
-                        "biodiversity": 0,
-                        "planet_health": 0
+                    {
+                        "choice": "The despicable youth.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 0,
+                            "community": 1,
+                            "education": 1,
+                            "equality": 2,
+                            "wealth": -1,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
                     },
-                    "eval": ""
-                },
-                {
-                    "choice": "Stealing his sharkskin gloves.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 1,
-                        "health": -1,
-                        "community": -2,
-                        "education": 0,
-                        "equality": -1,
-                        "wealth": 1,
-                        "biodiversity": 0,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>She is just amazing. Yesterday she caught four hexifish, went for a ten-mile run and saved her younger brother from a scavenger toad. She kissed me last week in front of everyone, just so they knew I was hers. When I woke up this morning, I realised I was the happiest I have ever been.</i> – Kimiko Park-Ki, New People (2167)</p><p><strong>Propose:</strong></p>",
-            "choices": [
-                {
-                    "choice": "Ask father for blessing.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 1,
-                        "health": 0,
-                        "community": 2,
-                        "education": 0,
-                        "equality": -2,
-                        "wealth": 2,
-                        "biodiversity": -1,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                },
-                {
-                    "choice": "An open relationship.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": -2,
-                        "community": 1,
-                        "education": 0,
-                        "equality": 2,
-                        "wealth": 1,
-                        "biodiversity": 0,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                },
-                {
-                    "choice": "An expensive getaway.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 1,
-                        "health": 1,
-                        "community": -1,
-                        "education": 0,
-                        "equality": -1,
-                        "wealth": -2,
-                        "biodiversity": -1,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>You may think this is paradise, my friends! You may think that humanity has entered a utopia! But any utopia that is on this plane of existence is, by its natural deception, a dystopia. Only God can bring humanity to his one true paradise.</i> – Pastor Kevin Michaels, Prophet of the Old Earth Ways Foundation (2322)</p><p><strong>Preach:</strong></p>",
-            "choices": [
-                {
-                    "choice": "Love thy neighbour.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 0,
-                        "community": 2,
-                        "education": 0,
-                        "equality": -2,
-                        "wealth": 0,
-                        "biodiversity": 0,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                },
-                {
-                    "choice": "Peace comes from within.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 1,
-                        "community": -1,
-                        "education": 1,
-                        "equality": 0,
-                        "wealth": -1,
-                        "biodiversity": 0,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                },
-                {
-                    "choice": "Abstain from vain pleasure.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": -1,
-                        "health": 1,
-                        "community": -1,
-                        "education": 1,
-                        "equality": 1,
-                        "wealth": 1,
-                        "biodiversity": 0,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>There is just one life! One people! One universe! One chance! So, repeat after me. I am happy with myself, my life, my community, my friends, my family, and if I am not, I will speak, seek help and give my time to others.</i> – Dr Yusef Erdogen-Brown, Author of Happiness is Found by Seekers. (2299)</p><p><strong>Your next book:</strong></p>",
-            "choices": [
-                {
-                    "choice": "Choose Happy, How Individuals Can Free Themselves.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": -2,
-                        "health": -2,
-                        "community": -2,
-                        "education": -2,
-                        "equality": -2,
-                        "wealth": 2,
-                        "biodiversity": -2,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                },
-                {
-                    "choice": "Corrupt Community and How to Change It.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": -2,
-                        "health": -2,
-                        "community": -2,
-                        "education": -2,
-                        "equality": -2,
-                        "wealth": 2,
-                        "biodiversity": -2,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                },
-                {
-                    "choice": "Don’t Lie Down, You’re Not Dead Yet.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": -2,
-                        "health": -2,
-                        "community": -2,
-                        "education": -2,
-                        "equality": -2,
-                        "wealth": 2,
-                        "biodiversity": -2,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>Today I had a me day in the steam kelp baths. It was bliss. I kept wiggling my toes in the mud just to feel the warmth of it rubbing against my skin and Jo massaged my back with hot stones. By the time I left, I was all shrivelled like a prune. I have never felt so relaxed in all my life. Why can’t it always be like this?</i> – Tanya Santiago-Perez, Bather (2331)</p><p><strong>Tomorrow, I will:</strong></p>",
-            "choices": [
-                {
-                    "choice": "Bring Jo flowers.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 2,
-                        "community": 2,
-                        "education": 0,
-                        "equality": 0,
-                        "wealth": 0,
-                        "biodiversity": -1,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                },
-                {
-                    "choice": "Have a lie in.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 2,
-                        "community": -1,
-                        "education": 0,
-                        "equality": -1,
-                        "wealth": -1,
-                        "biodiversity": 0,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                },
-                {
-                    "choice": "Get back to work.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": -1,
-                        "health": -1,
-                        "community": 1,
-                        "education": 0,
-                        "equality": 0,
-                        "wealth": 2,
-                        "biodiversity": 0,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                }
-            ]
-        },
-        {
-            "scenario": "<p><i>The people are crying out for culture! On the Arc, they read Austin; watch Seinfeld, dance to Britney, but where are our artists? Did they die in the old world? I say neigh. My heart is drawn to the pen. My words will speak to them. This world must also be the stage.</i> – Mo Churchill, Playwright. (2211)</p><p><strong>Write about:</strong></p>",
-            "choices": [
-                {
-                    "choice": "The sexual frustration of man.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": -1,
-                        "health": -1,
-                        "community": -1,
-                        "education": -1,
-                        "equality": -2,
-                        "wealth": 2,
-                        "biodiversity": 0,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                },
-                {
-                    "choice": "The despicable youth.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 2,
-                        "health": 0,
-                        "community": 1,
-                        "education": 1,
-                        "equality": 2,
-                        "wealth": -1,
-                        "biodiversity": 0,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                },
-                {
-                    "choice": "The fleeting nature of love.",
-                    "outcome": "",
-                    "stats": {
-                        "fulfilment": 1,
-                        "health": 0,
-                        "community": 2,
-                        "education": 0,
-                        "equality": 0,
-                        "wealth": 2,
-                        "biodiversity": 0,
-                        "planet_health": 0
-                    },
-                    "eval": ""
-                }
-            ]
-        }
-    ]
+                    {
+                        "choice": "The fleeting nature of love.",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 0,
+                            "community": 2,
+                            "education": 0,
+                            "equality": 0,
+                            "wealth": 2,
+                            "biodiversity": 0,
+                            "planet_health": 0
+                        }
+                    }
+                ]
+            }
+        ]
+    }
 }
