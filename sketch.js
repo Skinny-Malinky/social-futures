@@ -5,6 +5,11 @@ let people;
 let drones;
 let dogs;
 
+let scenarioElement;
+let choice1Element;
+let choice2Element;
+let choice3Element;
+
 let population = 0;
 let dronePopulation = 0;
 let dogPopulation = 0;
@@ -25,6 +30,8 @@ let guideWords;
 let eventsJson;
 
 let events = [];
+let arcCards = [];
+let gameStage = 1;
 let eventNumber = 0;
 let outcomeText = "";
 
@@ -50,6 +57,11 @@ let fonts = ["Berkshire Swash", "Audiowide", "Rye", "Racing Sans One", "Oxanium"
 let font;
 
 function setup() {
+
+    scenarioElement = select("#scenario");
+    choice1Element = select("#choice1");
+    choice2Element = select("#choice2");
+    choice3Element = select("#choice3");
 
     var canvasDiv = document.getElementById('canvasContainer');
     startButton = document.getElementById('begin');
@@ -88,39 +100,38 @@ function setup() {
     namePlanet();
     // randomiseStats();
 
+    //place events in a random order
     let eventsList = eventsJson.events;
-    eventsList = shuffle(eventsList);
+    // eventsList = shuffle(eventsList);
 
+    // add each event from eventsList into events
+    // eventsList only has .events in it
     for (let i = 0; i < eventsList.length; i++) {
-
         events[i] = new Event(eventsList[i]);
     }
-    for (let i = eventsJson.beginnings.length - 1; i >= 0; i--) {
 
-        events.unshift(new Event(eventsJson.beginnings[i]));
-    }
-    // events[4].choices[0].choice = namePlanet();
-    // events[4].choices[1].choice = namePlanet();
-    // events[4].choices[2].choice = namePlanet();
-
-
+    // from the last card, count back and place each in the first place of the events array
+    // These are the arcCards
+    // DELETED CODE THAT ADDS ARC CARDS TO EVENTS HERE
+    
+    arcCards = eventsJson.arcCards;
+    displayEvent(random(arcCards));
+    
+    // Testing only
+    showPlanetView();
 }
 
 function showPlanetView() {
     //This has to happen to see the canvas
-    console.log('test');
     displayScene(0);
     displayStats();
-    displayEvent(0, "");
-    moveWindow('-100vw');
-    eventNumber++;
+    moveWindow('-200vw');
 }
 function moveWindow(distance) {
     eventsContainer.style.transform = 'translateX(' + distance + ')';
 }
 
 function control() {
-
     let bolds = selectAll("b");
     for (let i = 0; i < bolds.length; i++) {
         bolds[i].style("font-family", font);
@@ -128,71 +139,58 @@ function control() {
 }
 
 function controlChoices() {
-
-    select("#choice1").mousePressed(() => {
-
+    // displayEvent(eventNumber, events[eventNumber-1].choices[2].outcome);
+    // updateStats(events[eventNumber-1].choices[0].stats);
+    // displayStats();
+    // eval(events[eventNumber-1].choices[0].eval);
+    // eventNumber++;
+    
+    // NOTES
+    // displayevent( number, previousEvent-in-array.selected-choice.outcome )
+    // iterating through each event in events
+    choice1Element.mousePressed(() => {
         displayScene();
-        displayEvent(eventNumber, events[eventNumber-1].choices[0].outcome);
-        updateStats(events[eventNumber-1].choices[0].stats);
-        displayStats();
-        eval(events[eventNumber-1].choices[0].eval);
-
-        eventNumber += 1;
+        displayEvent(arcCards[0]);
     });
-    select("#choice2").mousePressed(() => {
-
+    choice2Element.mousePressed(() => {
         displayScene();
-        displayEvent(eventNumber, events[eventNumber-1].choices[1].outcome);
         updateStats(events[eventNumber-1].choices[1].stats);
         displayStats();
         eval(events[eventNumber-1].choices[1].eval);
-
-        eventNumber += 1;
+        eventNumber++;
     });
-    select("#choice3").mousePressed(() => {
-
+    choice3Element.mousePressed(() => {
         displayScene();
-        displayEvent(eventNumber, events[eventNumber-1].choices[2].outcome);
         updateStats(events[eventNumber-1].choices[2].stats);
         displayStats();
         eval(events[eventNumber-1].choices[2].eval);
-
-        eventNumber += 1;
+        eventNumber++;
     });
 }
 
-function displayEvent(n, outcomeText) {
-
-    let scenarioElement = select("#scenario");
-    let choice1Element = select("#choice1");
-    let choice2Element = select("#choice2");
-    let choice3Element = select("#choice3");
-
-    if (n == events.length) {
-
+function displayEvent(event) {
+    if (event == events[events.length-1]) {
         scenarioElement.html(outcomeText);
         choice1Element.html("");
         choice2Element.html("");
         return;
     }
-    scenarioElement.html(outcomeText + events[n].scenario);
-    
-    choice1Element.html("1. " + events[n].choices[0].choice);
+    scenarioElement.html(outcomeText + event.scenario);
+    choice1Element.html("1. " + event.choices[0].choice);
 
-    if (events[n].choices[1]) {
-        choice2Element.html("2. " + events[n].choices[1].choice);
+    if (event.choices[1]) {
+        choice2Element.html("2. " + event.choices[1].choice);
     } else {
         choice2Element.html("");
     }
-    if (events[n].choices[2]) {
-        choice3Element.html("3. " + events[n].choices[2].choice);
+    if (event.choices[2]) {
+        choice3Element.html("3. " + event.choices[2].choice);
     } else {
         choice3Element.html("");
     }
 }
 
 function displayStats() {
-
     select("#fulfilment").html(numberToBar(stats.fulfilment));
     select("#health").html(numberToBar(stats.health));
     select("#community").html(numberToBar(stats.community));
@@ -203,12 +201,8 @@ function displayStats() {
 }
 
 function numberToBar(n) {
-
     let total = 20;
     let bar = "";
-
-    // n = int(n / 100 * total);
-
     if (n > total) {
         n = total;
     }
@@ -222,9 +216,7 @@ function numberToBar(n) {
 }
 
 function updateStats(input) {
-
     for (let i in stats) {
-
         if (input[i]) {
             stats[i] += input[i];
         }
@@ -238,38 +230,29 @@ function updateStats(input) {
 }
 
 function namePlanet() {
-
     const prefix = random(guideWords.words);
     const mid = random(guideWords.words)
     const suffix = random(guideWords.words);
-
     let name = [prefix, mid, suffix].join("");
     name = name.slice(0, random(4, 9));
     name = name.replace(/^\w/, (c) => c.toUpperCase());
-
     return name;
 }
 
 function randomiseStats() {
-
     for (let i in stats) {
         stats[i] = int(random(100));
     }
 }
 
 function displayScene(frame) {
-
     let yearHtml = select("#year");
     yearHtml.html(year);
     select("#planetName").html(planetName);
-
     twod.clear();
     threed.clear();
-
     threed.push();
-
     threed.background("#AA64AA");
-
     threed.pointLight(150, 150, 150, 50, -50, 10);
     threed.ambientLight(color);
 
@@ -342,4 +325,4 @@ function render() {
 }
 
 // Events
-startButton.addEventListener('onClick', showPlanetView)
+startButton.addEventListener('onClick', showPlanetView);

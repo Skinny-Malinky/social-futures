@@ -72,6 +72,7 @@ a {
 }
 #introViewContainer > *{
     width: 55%;
+    max-height: 400px;
 }
 
 .message {
@@ -109,14 +110,15 @@ button:active {
     }
 }
 
+.p5Canvas {
+    border-radius: 10px;
+}
+
 #canvasContainer {
     width: 640px;
     height: 640px;
 }
 
-.p5Canvas {
-    border-radius: 10px;
-}
 
 #sidebar {
     font-size: 13px;
