@@ -15,8 +15,7 @@
                             "education": 0,
                             "equality": 1,
                             "wealth": 0,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         },
                         "nextEvent": "eventsJson.planetCards[0]"
                     },
@@ -30,8 +29,7 @@
                             "education": 0,
                             "equality": 1,
                             "wealth": 0,
-                            "biodiversity": 2,
-                            "planet_health": 0
+                            "biodiversity": 2
                         }
                     },
                     {
@@ -44,8 +42,7 @@
                             "education": 1,
                             "equality": 0,
                             "wealth": 2,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     }
                 ]
@@ -63,8 +60,7 @@
                             "education": 1,
                             "equality": -2,
                             "wealth": 0,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     },
                     {
@@ -77,8 +73,7 @@
                             "education": 1,
                             "equality": -1,
                             "wealth": -1,
-                            "biodiversity": 1,
-                            "planet_health": 0
+                            "biodiversity": 1
                         }
                     },
                     {
@@ -91,8 +86,7 @@
                             "education": 1,
                             "equality": -1,
                             "wealth": 0,
-                            "biodiversity": -1,
-                            "planet_health": 0
+                            "biodiversity": -1
                         }
                     }
                 ]
@@ -110,8 +104,7 @@
                             "education": 1,
                             "equality": 0,
                             "wealth": 1,
-                            "biodiversity": -2,
-                            "planet_health": 0
+                            "biodiversity": -2
                         }
                     },
                     {
@@ -124,8 +117,7 @@
                             "education": 0,
                             "equality": 0,
                             "wealth": 1,
-                            "biodiversity": 1,
-                            "planet_health": 0
+                            "biodiversity": 1
                         }
                     },
                     {
@@ -138,8 +130,7 @@
                             "education": 2,
                             "equality": 0,
                             "wealth": 0,
-                            "biodiversity": -2,
-                            "planet_health": 0
+                            "biodiversity": -2
                         }
                     }
                 ]
@@ -157,8 +148,7 @@
                             "education": -1,
                             "equality": 0,
                             "wealth": 0,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     },
                     {
@@ -171,8 +161,7 @@
                             "education": 1,
                             "equality": -1,
                             "wealth": 0,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     },
                     {
@@ -185,8 +174,7 @@
                             "education": 0,
                             "equality": -1,
                             "wealth": 0,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     }
                 ]
@@ -234,8 +222,7 @@
                             "education": 0,
                             "equality": -1,
                             "wealth": 2,
-                            "biodiversity": 1,
-                            "planet_health": 0
+                            "biodiversity": 1
                         }
                     },
                     {
@@ -248,8 +235,7 @@
                             "education": -1,
                             "equality": 1,
                             "wealth": 0,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     },
                     {
@@ -262,8 +248,7 @@
                             "education": -2,
                             "equality": 0,
                             "wealth": -1,
-                            "biodiversity": -1,
-                            "planet_health": 0
+                            "biodiversity": -1
                         }
                     }
                 ]
@@ -281,8 +266,7 @@
                             "education": 2,
                             "equality": 0,
                             "wealth": -1,
-                            "biodiversity": 1,
-                            "planet_health": 0
+                            "biodiversity": 1
                         }
                     },
                     {
@@ -295,8 +279,7 @@
                             "education": 0,
                             "equality": 0,
                             "wealth": 2,
-                            "biodiversity": -2,
-                            "planet_health": 0
+                            "biodiversity": -2
                         }
                     },
                     {
@@ -309,8 +292,7 @@
                             "education": 2,
                             "equality": 1,
                             "wealth": -1,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     }
                 ]
@@ -328,8 +310,7 @@
                             "education": 1,
                             "equality": -1,
                             "wealth": -2,
-                            "biodiversity": -2,
-                            "planet_health": 0
+                            "biodiversity": -2
                         }
                     },
                     {
@@ -342,8 +323,7 @@
                             "education": 2,
                             "equality": 1,
                             "wealth": 1,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     },
                     {
@@ -356,8 +336,7 @@
                             "education": 2,
                             "equality": -2,
                             "wealth": 2,
-                            "biodiversity": -2,
-                            "planet_health": 0
+                            "biodiversity": -2
                         }
                     }
                 ]
@@ -375,8 +354,7 @@
                             "education": -2,
                             "equality": 0,
                             "wealth": 1,
-                            "biodiversity": -2,
-                            "planet_health": 0
+                            "biodiversity": -2
                         }
                     },
                     {
@@ -389,8 +367,7 @@
                             "education": 1,
                             "equality": 0,
                             "wealth": 1,
-                            "biodiversity": -1,
-                            "planet_health": 0
+                            "biodiversity": -1
                         }
                     },
                     {
@@ -403,8 +380,7 @@
                             "education": -2,
                             "equality": -2,
                             "wealth": -1,
-                            "biodiversity": 2,
-                            "planet_health": 0
+                            "biodiversity": 2
                         }
                     }
                 ]
@@ -422,8 +398,7 @@
                             "education": 0,
                             "equality": -2,
                             "wealth": -2,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     },
                     {
@@ -436,8 +411,7 @@
                             "education": 0,
                             "equality": 0,
                             "wealth": -1,
-                            "biodiversity": -1,
-                            "planet_health": 0
+                            "biodiversity": -1
                         }
                     },
                     {
@@ -450,8 +424,7 @@
                             "education": 1,
                             "equality": 1,
                             "wealth": -2,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     }
                 ]
@@ -469,8 +442,7 @@
                             "education": 1,
                             "equality": 1,
                             "wealth": 2,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     },
                     {
@@ -483,8 +455,7 @@
                             "education": 1,
                             "equality": 0,
                             "wealth": 1,
-                            "biodiversity": -1,
-                            "planet_health": 0
+                            "biodiversity": -1
                         }
                     },
                     {
@@ -497,8 +468,7 @@
                             "education": 0,
                             "equality": -2,
                             "wealth": 2,
-                            "biodiversity": -1,
-                            "planet_health": 0
+                            "biodiversity": -1
                         }
                     }
                 ]
@@ -516,8 +486,7 @@
                             "education": 1,
                             "equality": 2,
                             "wealth": 0,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     },
                     {
@@ -530,8 +499,7 @@
                             "education": 1,
                             "equality": -2,
                             "wealth": 2,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     },
                     {
@@ -544,8 +512,7 @@
                             "education": 1,
                             "equality": -1,
                             "wealth": 2,
-                            "biodiversity": 1,
-                            "planet_health": 0
+                            "biodiversity": 1
                         }
                     }
                 ]
@@ -563,8 +530,7 @@
                             "education": 0,
                             "equality": -2,
                             "wealth": 2,
-                            "biodiversity": -2,
-                            "planet_health": 0
+                            "biodiversity": -2
                         }
                     },
                     {
@@ -577,8 +543,7 @@
                             "education": 0,
                             "equality": 2,
                             "wealth": 1,
-                            "biodiversity": -1,
-                            "planet_health": 0
+                            "biodiversity": -1
                         }
                     },
                     {
@@ -591,8 +556,7 @@
                             "education": -1,
                             "equality": -1,
                             "wealth": 0,
-                            "biodiversity": 1,
-                            "planet_health": 0
+                            "biodiversity": 1
                         }
                     }
                 ]
@@ -610,8 +574,7 @@
                             "education": -1,
                             "equality": -2,
                             "wealth": 1,
-                            "biodiversity": 2,
-                            "planet_health": 0
+                            "biodiversity": 2
                         }
                     },
                     {
@@ -624,8 +587,7 @@
                             "education": 0,
                             "equality": 0,
                             "wealth": 0,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     },
                     {
@@ -638,8 +600,7 @@
                             "education": 0,
                             "equality": -1,
                             "wealth": 1,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     }
                 ]
@@ -657,8 +618,7 @@
                             "education": 0,
                             "equality": -2,
                             "wealth": 2,
-                            "biodiversity": -1,
-                            "planet_health": 0
+                            "biodiversity": -1
                         }
                     },
                     {
@@ -671,8 +631,7 @@
                             "education": 0,
                             "equality": 2,
                             "wealth": 1,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     },
                     {
@@ -685,8 +644,7 @@
                             "education": 0,
                             "equality": -1,
                             "wealth": -2,
-                            "biodiversity": -1,
-                            "planet_health": 0
+                            "biodiversity": -1
                         }
                     }
                 ]
@@ -797,8 +755,7 @@
                             "education": -2,
                             "equality": -2,
                             "wealth": 2,
-                            "biodiversity": -2,
-                            "planet_health": 0
+                            "biodiversity": -2
                         }
                     },
                     {
@@ -811,8 +768,7 @@
                             "education": -2,
                             "equality": -2,
                             "wealth": 2,
-                            "biodiversity": -2,
-                            "planet_health": 0
+                            "biodiversity": -2
                         }
                     },
                     {
@@ -825,64 +781,412 @@
                             "education": -2,
                             "equality": -2,
                             "wealth": 2,
-                            "biodiversity": -2,
-                            "planet_health": 0
+                            "biodiversity": -2
                         }
                     }
                 ]
             },
             {
-                "scenario": "<p><i>The people are crying out for culture! On the Arc, they read Austin; watch Seinfeld, dance to Britney, but where are our artists? Did they die in the old world? I say neigh. My heart is drawn to the pen. My words will speak to them. This world must also be the stage.</i> – Mo Churchill, Playwright. (2211)</p><p><strong>Write about:</strong></p>",
+                "scenario": "<p><i>I catch my reflection in the street and I see this waddling old lady. Her back is a scimitar, sharp and round. The Doctor says that our bodies were not built for the stronger gravity. I am too young to feel this way. Some days I wake up and I am not sure if there is anything left but my pain. </i>– Aggie Gray, Patient (2283)</p><p><strong>Prescribe:</strong></p>",
                 "choices": [
                     {
-                        "choice": "The sexual frustration of man.",
+                        "choice": "Painkillers",
                         "outcome": "",
                         "stats": {
                             "fulfilment": -1,
                             "health": -1,
-                            "community": -1,
-                            "education": -1,
-                            "equality": -2,
+                            "community": 1,
+                            "education": 0,
+                            "equality": 0,
                             "wealth": 2,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": -1
                         }
                     },
                     {
-                        "choice": "The despicable youth.",
+                        "choice": "Corrective surgery",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 2,
+                            "community": 1,
+                            "education": 0,
+                            "equality": 0,
+                            "wealth": -1,
+                            "biodiversity": 0
+                        }
+                    },
+                    {
+                        "choice": "Community exercise",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 1,
+                            "community": 2,
+                            "education": 1,
+                            "equality": 1,
+                            "wealth": -2,
+                            "biodiversity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>Southside of the island destroyed by flooding. Fourteen dead including three children. Twenty-three missing. Over fifty families are now without homes. Mayor calls for volunteers, supplies and hosts.</i> – Anya Wagner, Town Cryer (2290)</p><p><strong>Preach:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "To search for survivors",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": -2,
+                            "community": 2,
+                            "education": 0,
+                            "equality": 0,
+                            "wealth": 0,
+                            "biodiversity": 0
+                        }
+                    },
+                    {
+                        "choice": "Home",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": 1,
+                            "community": -2,
+                            "education": 0,
+                            "equality": -1,
+                            "wealth": 2,
+                            "biodiversity": 0
+                        }
+                    },
+                    {
+                        "choice": "A charitable organisation",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 0,
+                            "community": 2,
+                            "education": 0,
+                            "equality": 1,
+                            "wealth": -2,
+                            "biodiversity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>Mommy says that I am clever, it’s just that sometimes I get my Ps and my Bs mixed up. My favourite subject is History because I like learning about all the cool things they used to have on Earth like aeroplanes and superheroes. Mr Ito showed us a film where some superheroes stopped a nuclear war and it was SOOOO COOOLLL.</i> – AJ Chow, Pupil (2273)</p><p><strong>Preach:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Your two times tables",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 0,
+                            "community": 0,
+                            "education": 2,
+                            "equality": 0,
+                            "wealth": 2,
+                            "biodiversity": 0
+                        }
+                    },
+                    {
+                        "choice": "Fauna and flora",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 1,
+                            "community": 0,
+                            "education": 2,
+                            "equality": 0,
+                            "wealth": 0,
+                            "biodiversity": 1
+                        }
+                    },
+                    {
+                        "choice": "Kindness",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 0,
+                            "community": 2,
+                            "education": 0,
+                            "equality": 1,
+                            "wealth": -1,
+                            "biodiversity": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>Dear Fabian, when you are as fabulously wealthy as I am, life does get awfully dull. Do you ever find that old chap? I hear you are in the directing business now? Star Wars 19  at the Round? I imagine it is dreadfully exciting, but I am sure the monotony of life catches up with us all. Perhaps I just need a calling. Did you hear Snot-Flicker Gary has gone all religious on us?</i> – Reginald Hadid, Lad of Leisure. (2252)</p><p><strong>Preach:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Philanthropy",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": -1,
+                            "community": -1,
+                            "education": 0,
+                            "equality": -1,
+                            "wealth": 1,
+                            "biodiversity": -1
+                        }
+                    },
+                    {
+                        "choice": "Communism",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": 2,
+                            "community": 1,
+                            "education": 1,
+                            "equality": 1,
+                            "wealth": 1,
+                            "biodiversity": -1
+                        }
+                    },
+                    {
+                        "choice": "Politics",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": -1,
+                            "community": 1,
+                            "education": -1,
+                            "equality": -1,
+                            "wealth": 2,
+                            "biodiversity": -2
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>They are sooooo cute and fluffy and sad and poisonous and feral and lovable and wise and grumpy and pink and just amazing and PEOPLE KEEP EATING THEM!  I will be their saviour. I will protect them from the scourge of humans!!</i> – Mya Yeaman, Activist (2256)</p><p><strong>Preach:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Eco terrorising",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": -2,
+                            "community": -2,
+                            "education": 0,
+                            "equality": -1,
+                            "wealth": 0,
+                            "biodiversity": 2
+                        }
+                    },
+                    {
+                        "choice": "A sanctuary",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 2,
+                            "community": 2,
+                            "education": 2,
+                            "equality": 0,
+                            "wealth": -1,
+                            "biodiversity": 1
+                        }
+                    },
+                    {
+                        "choice": "Ranting whilst drunk",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": -2,
+                            "community": 1,
+                            "education": -1,
+                            "equality": -1,
+                            "wealth": 2,
+                            "biodiversity": -1
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>Seeds. Moulds. Fungi. We keep them carefully contained. Everything from the old world must remain separate from the old world. Cocoa. Penicillin. Sugar. They stay on the arc. We must not let them infiltrate. Then again, who could possibly be blamed if something, just one small thing were to wiggle free? After all life will always find a way.</i> – Lorcan Quinn, Horticulturist (2201)</p><p><strong>Preach:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Create giant terrariums",
                         "outcome": "",
                         "stats": {
                             "fulfilment": 2,
                             "health": 0,
                             "community": 1,
-                            "education": 1,
-                            "equality": 2,
+                            "education": 2,
+                            "equality": 0,
                             "wealth": -1,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 1
                         }
                     },
                     {
-                        "choice": "The fleeting nature of love.",
+                        "choice": "Scatter seeds to the wind",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 1,
+                            "community": 1,
+                            "education": -1,
+                            "equality": -2,
+                            "wealth": 1,
+                            "biodiversity": -2
+                        }
+                    },
+                    {
+                        "choice": "Keep the old world contained",
                         "outcome": "",
                         "stats": {
                             "fulfilment": 1,
-                            "health": 0,
-                            "community": 2,
-                            "education": 0,
-                            "equality": 0,
-                            "wealth": 2,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "health": 1,
+                            "community": 0,
+                            "education": 1,
+                            "equality": -2,
+                            "wealth": 1,
+                            "biodiversity": 1
                         }
                     }
                 ]
             },
             {
-                "scenario": "<p><i>You may think this is paradise, my friends! You may think that humanity has entered a utopia! But any utopia that is on this plane of existence is, by its natural deception, a dystopia. Only God can bring humanity to his one true paradise.</i> – Pastor Kevin Michaels, Prophet of the Old Earth Ways Foundation (2322)</p><p><strong>Preach:</strong></p>",
+                "scenario": "<P>THIS NEEDS FIXED</P><p><i>You don’t need a partner to be happy. I truly believe that you can live the most fulfilling life in the company of close friends and family. A year ago, I didn’t need anyone. Now, when I wake up and snuggle into to his shoulder and breath in his musky smell, I think this is happiness. But yesterday he didn’t come home.  Today he smells of someone else.</p> – Rachel Oh, Infatuated (2273)</p><p><strong>Preach:</strong></p>",
                 "choices": [
                     {
-                        "choice": "Love thy neighbour.",
+                        "choice": "Okay, he loves me no less",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": -1,
+                            "community": 1,
+                            "education": 0,
+                            "equality": 1,
+                            "wealth": 0,
+                            "biodiversity": 0
+                        }
+                    },
+                    {
+                        "choice": "A complete betrayal",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -2,
+                            "health": 1,
+                            "community": -1,
+                            "education": 0,
+                            "equality": -1,
+                            "wealth": 0,
+                            "biodiversity": 0
+                        }
+                    },
+                    {
+                        "choice": "Time to get even",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": -1,
+                            "community": -1,
+                            "education": 0,
+                            "equality": 1,
+                            "wealth": 0,
+                            "biodiversity": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>The ocean is filthy. A century’s worth of rubbish circumventing the globe. I even found a plastic straw from the old world and something called McDonald’s Happy Meal toy. Bloody thing must be two-hundred and fifty-years old! Some sort of yellow eyed monster with one eye and blue dungarees. And we wonder where the fish have gone? </i>– Lee Hemingway, Fisher (2233)</p><p><strong>Preach:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Introduce a disposal tax",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": 1,
+                            "community": 2,
+                            "education": 0,
+                            "equality": -1,
+                            "wealth": 2,
+                            "biodiversity": 0
+                        }
+                    },
+                    {
+                        "choice": "Reduce, reuse & recycle",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 0,
+                            "health": 1,
+                            "community": 1,
+                            "education": 0,
+                            "equality": 1,
+                            "wealth": 1,
+                            "biodiversity": 1
+                        }
+                    },
+                    {
+                        "choice": "Blast it into space",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": -2,
+                            "community": 2,
+                            "education": 2,
+                            "equality": -1,
+                            "wealth": -2,
+                            "biodiversity": -2
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>We live in such ugly little shacks and everyone just throws their crap in the ocean and all the guys pee in the street. Every waking moment, I plan, I sketch, I draw. I dream of those cities of our ancestors and their skyscrapers. Where will we put the fountains? Who will we build statues to? How will I install the golden toilets? </i>– Ali Swann, Architect (2298)</p><p><strong>Preach:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Skyscrapers",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": -1,
+                            "community": 1,
+                            "education": -1,
+                            "equality": 1,
+                            "wealth": 2,
+                            "biodiversity": -1
+                        }
+                    },
+                    {
+                        "choice": "Pyramids",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 1,
+                            "community": -1,
+                            "education": 1,
+                            "equality": -2,
+                            "wealth": -1,
+                            "biodiversity": -1
+                        }
+                    },
+                    {
+                        "choice": "Eco-domes",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 2,
+                            "community": 1,
+                            "education": 2,
+                            "equality": 0,
+                            "wealth": -2,
+                            "biodiversity": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>You may think this is paradise, my friends! You may think that humanity has entered a utopia! But any utopia that is on this plane of existence is, by its natural deception, a dystopia. Only God can bring humanity to his one true paradise.</i> – Pastor Kevin Michaels, Prophet of the Old Earth Ways Foundation (2281)</p><p><strong>Preach:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Love thy neighbour",
                         "outcome": "",
                         "stats": {
                             "fulfilment": 2,
@@ -891,12 +1195,11 @@
                             "education": 0,
                             "equality": -2,
                             "wealth": 0,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     },
                     {
-                        "choice": "Peace comes from within.",
+                        "choice": "Peace comes from within",
                         "outcome": "",
                         "stats": {
                             "fulfilment": 2,
@@ -905,12 +1208,11 @@
                             "education": 1,
                             "equality": 0,
                             "wealth": -1,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     },
                     {
-                        "choice": "Abstain from vain pleasure.",
+                        "choice": "Abstain from vain pleasure",
                         "outcome": "",
                         "stats": {
                             "fulfilment": -1,
@@ -919,8 +1221,7 @@
                             "education": 1,
                             "equality": 1,
                             "wealth": 1,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     }
                 ]
@@ -943,8 +1244,7 @@
                             "education": 0,
                             "equality": 0,
                             "wealth": 0,
-                            "biodiversity": -1,
-                            "planet_health": 0
+                            "biodiversity": -1
                         }
                     },
                     {
@@ -957,8 +1257,7 @@
                             "education": 0,
                             "equality": -1,
                             "wealth": -1,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
                         }
                     },
                     {
@@ -971,8 +1270,491 @@
                             "education": 0,
                             "equality": 0,
                             "wealth": 2,
-                            "biodiversity": 0,
-                            "planet_health": 0
+                            "biodiversity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>Yasmin took her socks off her feet the other day and exposed herself to the whole market, Aiden! You know me, my face lit up like a lantern. Then I realised that she had taken one of them off when I wasn’t looking and I am just beside myself at this point. Her little webbed toes just there for all the world to see. I could have died!</i> – Nasrin Hassan, Parent (2302)</p><p><strong>A good parent would:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Know a little cosmetic surgery never hurt anyone",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -2,
+                            "health": -2,
+                            "community": 1,
+                            "education": 0,
+                            "equality": -2,
+                            "wealth": 2,
+                            "biodiversity": -1
+                        }
+                    },
+                    {
+                        "choice": "Let nature run its course",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 1,
+                            "community": 0,
+                            "education": 1,
+                            "equality": 2,
+                            "wealth": 0,
+                            "biodiversity": 1
+                        }
+                    },
+                    {
+                        "choice": "Nurture a professional athlete",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 0,
+                            "community": 2,
+                            "education": 1,
+                            "equality": -1,
+                            "wealth": 2,
+                            "biodiversity": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>We have diseases coming out our eyeballs! Half of the population still have purple spots from Kepper Fever; almost everyone is on calcium supplements after Big Toes and Big Nose disease, and I lost my own mother to the Moon Landing Conspiracy but that’s another story. The next pandemic could be our last.</i> – Dr Carter Nguyen, Chief Medical Officer (2391)</p><p><strong>Recommend:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Invest in the pharmaceutical industry",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 0,
+                            "health": 2,
+                            "community": -1,
+                            "education": 2,
+                            "equality": -2,
+                            "wealth": 2,
+                            "biodiversity": -1
+                        }
+                    },
+                    {
+                        "choice": "Open-source information",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 1,
+                            "community": 1,
+                            "education": 2,
+                            "equality": 1,
+                            "wealth": -2,
+                            "biodiversity": 0
+                        }
+                    },
+                    {
+                        "choice": "Herd immunity",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 0,
+                            "health": -2,
+                            "community": -1,
+                            "education": -2,
+                            "equality": -2,
+                            "wealth": 2,
+                            "biodiversity": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>I swear to god if you delinquents don’t bugger off, I am going to start pouring boiling water out my window and if that doesn’t work, it will be my faeces next, and if you're still standing after that, it will be me out there in my underwear with a baseball bat. The two suns only set once every two weeks! Have you nowhere else to go? I need my sleep.</i> – Pierre Grossman, Neighbourhood Watch (2311)</p><p><strong>Build:</strong></p>",
+                "choices": [
+                    {
+                        "choic": "A skatepark",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 2,
+                            "community": 2,
+                            "education": 0,
+                            "equality": 1,
+                            "wealth": -1,
+                            "biodiversity": -1
+                        }
+                    },
+                    {
+                        "choice":"A community garden",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 1,
+                            "community": 2,
+                            "education": 2,
+                            "equality": 1,
+                            "wealth": -2,
+                            "biodiversity": 1
+                        }
+                    },
+                    {
+                        "choice": "A young offenders institution",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": -2,
+                            "community": -2,
+                            "education": 2,
+                            "equality": -2,
+                            "wealth": -2,
+                            "biodiversity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>Everyone thinks I am crazy and when I show them proof, they just give shrug me off with a patronising look of disbelief. There is nothing else for it. I am going to have to take one of the ‘old people’s pods below the surface and show them without a shadow of a doubt that it is not land we stand on, but the body of a whale-like giant.</i> – Dr Priya Kumar, Biologist (2370)</p><p><strong>Accept</strong></p>",
+                "choices": [
+                    {
+                        "choice": "The Nobel Prize",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": -1,
+                            "community": 1,
+                            "education": 2,
+                            "equality": 1,
+                            "wealth": -2,
+                            "biodiversity": -1
+                        }
+                    },
+                    {
+                        "choice": "Their ignorance",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": 0,
+                            "community": 1,
+                            "education": -1,
+                            "equality": -1,
+                            "wealth": 0,
+                            "biodiversity": 0
+                        }
+                    },
+                    {
+                        "choice": "The backing of an older male colleague",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -2,
+                            "health": 0,
+                            "community": -2,
+                            "education": 1,
+                            "equality": -2,
+                            "wealth": 0,
+                            "biodiversity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>Jacob Balinski, or the Baron as he is known, stands accused of cruel employment practices, tax fraud and assault. One victim of the defendant spoke of working twenty-one days without a break, whilst another was dismissed after filing paternity leave. Witnesses have all agreed that Mr Balinski is monstrous, but you must decide, is he criminal? – Judge Aurora Valenti (2421)</p><p><strong>Find:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Guilty on all counts",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 1,
+                            "community": 1,
+                            "education": 0,
+                            "equality": 1,
+                            "wealth": -1,
+                            "biodiversity": 0
+                        }
+                    },
+                    {
+                        "choice": "The company is a separate legal entity",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -2,
+                            "health": -2,
+                            "community": -2,
+                            "education": 0,
+                            "equality": -2,
+                            "wealth": 2,
+                            "biodiversity": -2
+                        }
+                    },
+                    {
+                        "choice": "The rights of the worker are paramount",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 2,
+                            "community": 2,
+                            "education": 0,
+                            "equality": 2,
+                            "wealth": -1,
+                            "biodiversity": -1
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>That old slimeball Pastor Michaels is trying to blackmail me into mandatory state prayers; the Webbed Feet Caucus are calling for an end to compulsory footwear in restaurants, and the animal rights activists want to lock up the remaining omnivores. Someone has to pay for my next election campaign, but these policies are political suicide.</i> –  Bradley Basu III, Prime Minister (2372)</p><p><strong>You can't please everyone</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Equal rights for webbed feeters",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 1,
+                            "community": 1,
+                            "education": 1,
+                            "equality": 2,
+                            "wealth": -1,
+                            "biodiversity": 0
+                        }
+                    },
+                    {
+                        "choice": "Mandatory religious services in schools",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -2,
+                            "health": -1,
+                            "community": 2,
+                            "education": -1,
+                            "equality": 0,
+                            "wealth": 0,
+                            "biodiversity": 0
+                        }
+                    },
+                    {
+                        "choice": "A ban on meat-eating",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -2,
+                            "health": 1,
+                            "community": 0,
+                            "education": 0,
+                            "equality": 1,
+                            "wealth": -1,
+                            "biodiversity": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>They say that this is not an island at all but a giant fish of life. If that is not a money-making idea that is just waiting to be taken advantage of, I don’t know what is! They don’t call me the Baron for my tenacious tash!</i> – Jake ‘The Baron’ Balinski (2400)</p><p><strong>Start your business</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Underwater tourism",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 0,
+                            "community": 1,
+                            "education": 1,
+                            "equality": -1,
+                            "wealth": 1,
+                            "biodiversity": -2
+                        }
+                    },
+                    {
+                        "choice": "Whale oil",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -2,
+                            "health": -2,
+                            "community": 1,
+                            "education": 1,
+                            "equality": -1,
+                            "wealth": 2,
+                            "biodiversity": -2
+                        }
+                    },
+                    {
+                        "choice": "T-Shirt stand",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": -1,
+                            "community": 0,
+                            "education": 0,
+                            "equality": -1,
+                            "wealth": 1,
+                            "biodiversity": -1
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>Our society is becoming more and more unequal. I wonder if it as the ‘old people’ said, that humans are greedy, that we are sheep, that some are born for leadership, that authoritarianism is inevitable. But, if we no longer live on Earth, are we even human any longer? Are we doomed to make their mistakes?</i> – Kwame Konadu, Politician (2352)</p><p><strong>Introduce a Bill:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Freedom of Healthcare Bill 2353",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 2,
+                            "community": 2,
+                            "education": 0,
+                            "equality": 2,
+                            "wealth": -1,
+                            "biodiversity": 0
+                        }
+                    },
+                    {
+                        "choice": "Inheritance Tax (Amendment) 2352",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 0,
+                            "health": 1,
+                            "community": 2,
+                            "education": 1,
+                            "equality": 2,
+                            "wealth": 0,
+                            "biodiversity": 0
+                        }
+                    },
+                    {
+                        "choice": "Higher Education (Grants and Subsidies) Bill 2353",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 1,
+                            "community": 1,
+                            "education": 2,
+                            "equality": 2,
+                            "wealth": -1,
+                            "biodiversity": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>The tree huggers have started a drum circle in the jungle. One of them got poisoned by a siglax, the morons. They are standing in the way of progress and more importantly my profits and how do they expect us to feed the population when they won’t stop fornicating!! I am sick of these delusional, utopians.</i> – Bill Javid, Industrialist (2412)</p><p><strong>Persevere and:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Clear the jungle",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": -2,
+                            "health": -2,
+                            "community": -2,
+                            "education": -1,
+                            "equality": 1,
+                            "wealth": 2,
+                            "biodiversity": -2
+                        }
+                    },
+                    {
+                        "choice": "Bribe law enforcement",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 1,
+                            "community": 2,
+                            "education": 0,
+                            "equality": 2,
+                            "wealth": 0,
+                            "biodiversity": 2
+                        }
+                    },
+                    {
+                        "choice": "Negotiate",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 1,
+                            "health": 0,
+                            "community": -1,
+                            "education": 2,
+                            "equality": 2,
+                            "wealth": -1,
+                            "biodiversity": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>Many of the inhabitants of the whale are much more intelligent than their counterparts on Earth seemed to be. They are fearful of us and distant, but they are also quietly wise with an ethos of cooperation and peace. I have observed that most are vegetarian and they have languages that appear to be cross-species. Of course, my colleagues laugh at my attempts to communicate.</i> – Dr Priya Kumar, Biologist (2379)</p><p><strong>Learn their:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Language",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 0,
+                            "community": 2,
+                            "education": 2,
+                            "equality": 0,
+                            "wealth": -2,
+                            "biodiversity": 2
+                        }
+                    },
+                    {
+                        "choice": "Ethics",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": 0,
+                            "community": 2,
+                            "education": 2,
+                            "equality": -2,
+                            "wealth": -2,
+                            "biodiversity": 2
+                        }
+                    },
+                    {
+                        "choice": "Habitats",
+                        "outcome": "",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": -2,
+                            "community": 2,
+                            "education": 2,
+                            "equality": 2,
+                            "wealth": -2,
+                            "biodiversity": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "scenario": "<p><i>I should take a break soon, my head is too foggy. I need noodles and a coffee. If there is just one thing I am grateful to the old people for, it is that they remembered to pack coffee beans. I can’t figure out these schematics at all and we don’t have enough of the right materials. I don’t think I will ever get these drones to fly. No, just think. Go over it once more.</i> – Han Lee, Engineer (2433) </p><p><strong>Try:</strong></p>",
+                "choices": [
+                    {
+                        "choice": "Change the power source",
+                        "outcome": "Change the power source",
+                        "stats": {
+                            "fulfilment": -2,
+                            "health": -2,
+                            "community": 2,
+                            "education": 2,
+                            "equality": 2,
+                            "wealth": 2,
+                            "biodiversity": -2
+                        }
+                    },
+                    {
+                        "choice": "Resource new planet materials",
+                        "outcome": "Resource new planet materials",
+                        "stats": {
+                            "fulfilment": -1,
+                            "health": -2,
+                            "community": -1,
+                            "education": 2,
+                            "equality": 1,
+                            "wealth": 2,
+                            "biodiversity": -2
+                        }
+                    },
+                    {
+                        "choice": "Update the software",
+                        "outcome": "Update the software",
+                        "stats": {
+                            "fulfilment": 2,
+                            "health": -2,
+                            "community": 2,
+                            "education": 2,
+                            "equality": 0,
+                            "wealth": 1,
+                            "biodiversity": 2
                         }
                     }
                 ]

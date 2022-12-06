@@ -125,7 +125,7 @@ function setup() {
     displayEvent(random(arcCards));
     
     // Testing only
-    showPlanetView();
+    // showPlanetView();
 }
 
 function showPlanetView() {
