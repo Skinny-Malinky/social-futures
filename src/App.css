@@ -1,7 +1,7 @@
 p {
   margin: 2rem;
   width: 62ch;
-  height: calc(100vh - 6rem);
+  /* height: calc(100vh - 6rem); */
   background-color: transparent;
   color: #F8F8FC;
   box-shadow: none;
@@ -13,4 +13,18 @@ p {
 }
 p:focus-visible {
   outline: -webkit-focus-ring-color auto 0px;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:0;
+}
+
+.base-layer {
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  position:absolute;
 }
