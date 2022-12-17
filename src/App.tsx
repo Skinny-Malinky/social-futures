@@ -1,14 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
+import { BaseText } from './components/BaseText';
+import { ArtBoard } from './components/ArtBoard';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <p contentEditable="true">
-        Start typing
-        </p>
-    </div>
+    // <div className="App">
+      {/* <div className="base-layer"> */}
+        {/* <ArtBoard key="artboard-base"/> */}
+        {/* <BaseText /> */}
+      // </div>
+    // </div>
+
   );
 }
 
