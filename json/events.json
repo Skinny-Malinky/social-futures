@@ -48,7 +48,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>I spent my whole life cataloguing and for what? To give some test tube a shot at existence halfway across the galaxy? I mean what is the actual point in that? Why does it matter to us that humanity keeps on existing? Can we even call them humanity? We have proven ourselves to be a selfish, sad, little species. I should just wipe it all. Clean slate.</i> -  Amed Garcia Jones, Head Librarian, Arc Project (2113)</p><p><strong>Send:</strong></p>",
+                "scenario": "<p><i>I spent my whole life cataloguing and for what? To give some test tube a shot at existence halfway across the galaxy? I mean what is the actual point in that? Does it even matter that humanity keeps on existing? We have proven ourselves to be a selfish, sad, little species</i> -  Amed Garcia Jones, Head Librarian, Arc Project (2113)</p><p><strong>Send:</strong></p>",
                 "choices": [
                     {
                         "choice": "Complete works of Shakespeare.",
@@ -136,7 +136,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>I was able to go outside today. Isn’t funny how grateful you become for the smallest of things. Half an hour with my friends and feeling the breeze and the suns on my skin. We didn’t once speak about the Arc or work. We just reminisced about old times. Still, good things can’t last forever. Especially in these times. The decisions we make here will shape societies.</i> – Dr Ade Sani, Geneticist, Arc Project (2113)</p><p><strong>Tamper with:</strong></p>",
+                "scenario": "<p><i>I was able to go outside today. Isn’t funny how grateful you become for the smallest of things. Half an hour with my friends and feeling the breeze and the sun on my skin. We didn’t once speak about the Arc or work. We just reminisced about old times. Still, good things can’t last forever. Especially in these times. The decisions we make here will shape societies.</i> – Dr Ade Sani, Geneticist, Arc Project (2113)</p><p><strong>Tamper with:</strong></p>",
                 "choices": [
                     {
                         "choice": "Bone Structure.",
@@ -210,7 +210,7 @@
         "numberOfScenes": 3,
         "cards": [
             {
-                "scenario": "<p><i>My life. Day one. Donned on a pair of sick shades to meet my fellow citizens of the new planet. Failed desperately to look cool while getting battered by the ocean winds. New home is like Noah never tasted rainbow and God drowned whatever species lived here before. One big ocean. Note to self, find sea legs.</i> – Suni Wong, New People (3113)</p><p><strong>Camp:</strong></p>",
+                "scenario": "<p><i>My life. Day one. Donned on a pair of sick shades to meet my fellow citizens of the new planet. Failed desperately to look cool while getting battered by the ocean winds. New home is like Noah never tasted the rainbow and God drowned whatever species lived here before. One big ocean. Note to self, find sea legs.</i> – Suni Wong, New People (3113)</p><p><strong>Camp:</strong></p>",
                 "choices": [
                     {
                         "choice": "Alone in a large barnacle.",
@@ -254,7 +254,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>I am like, just, you know, the most untalented person on this island. It’s like this is paradise and everyone here is like an Adonis and I am like this sea monster. Everyone is doing amazing things and they take to whatever they are doing. Everything is so easy for them. This is hell. Why me?</i> – Ruby Hoffman, New People (3113)</p><p><strong>Become:</strong></p>",
+                "scenario": "<p><i>I am like, just, you know, the most untalented person on this island. It’s like this is paradise and everyone here is like an Adonis and I am like this sea monster. Everyone is doing amazing things and they take to whatever they are doing. Everything is so easy for them.</i> – Ruby Hoffman, New People (3113)</p><p><strong>Become:</strong></p>",
                 "choices": [
                     {
                         "choice": "A scientist.",
@@ -342,7 +342,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>I didn’t mind so much when they ate Jesus. He was a bitch. I didn’t even mind when they ate my first girlfriend Mai because we were breaking up anyway and everyone was really nice to me afterwards. When they took my leg though, that was it. It was personal. Time to do something about those big purple flowers.</i> – Helena Aimee Dean, New People (3133)</p><p><strong>Utilise:</strong></p>",
+                "scenario": "<p><i>I didn’t mind so much when they ate Karl. He was a bitch. I didn’t even mind when they ate my first girlfriend Mai because we were breaking up anyway and everyone was really nice to me afterwards. When they took my leg though, that was it. It was personal. Time to do something about those big purple flowers.</i> – Helena Aimee Dean, New People (3133)</p><p><strong>Utilise:</strong></p>",
                 "choices": [
                     {
                         "choice": "Fire.",
@@ -430,7 +430,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>So sure, life was tough in the beginning. We didn’t know the rules or the terrain, our strengths, our weaknesses. We are all just doing fine now. We know not to eat the green berries. We know not to go to the creaky beach at dusk. We even know where to get the hallucinogens. Is it just me though or does life feel less like an adventure now?</i> – Nadia Olowe, New People (2135)</p><p><strong>We need:</strong></p>",
+                "scenario": "<p><i>So sure, life was tough in the beginning. We didn’t know the rules or the terrain, our strengths, or our weaknesses. We are all just doing fine now. We know not to eat the green berries. We know not to go to the creaky beach at dusk. We even know where to get the hallucinogens. Is it just me though or does life feel less like an adventure now?</i> – Nadia Olowe, New People (2135)</p><p><strong>We need:</strong></p>",
                 "choices": [
                     {
                         "choice": "A festival.",
@@ -694,7 +694,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>My beard is as long and thick as the callouses on my feet. I am a champion. I am the Alpha! I carved these brushes from the antlers of a sporple! I ground the creepy crawlies to make my paint. I have made it my mission to walk this island alone on my bare feet, and nothing is safe from my keen eye. I will catalogue it all.</i> – Omar Kamal, New People (2122)</p><p><strong>I am the greatest:</p></strong>",
+                "scenario": "<p><i>My beard is as long and thick as the callouses on my feet. I am a champion. I am the Alpha! I carved these brushes from the antlers of a sporple! I ground the creepy crawlies to make my paint. I have made it my mission to walk this island alone on my bare feet, and nothing is safe from my keen eye.</i> – Omar Kamal, New People (2122)</p><p><strong>I am the greatest:</p></strong>",
                 "choices": [
                     {
                         "choice": "Artist",
@@ -1007,7 +1007,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>Seeds. Moulds. Fungi. We keep them carefully contained. Everything from the old world must remain separate from the old world. Cocoa. Penicillin. Sugar. They stay on the arc. We must not let them infiltrate. Then again, who could possibly be blamed if something, just one small thing were to wiggle free? After all life will always find a way.</i> – Lorcan Quinn, Horticulturist (2201)</p><p><strong>Preach:</strong></p>",
+                "scenario": "<p><i>Seeds. Moulds. Fungi. We keep them carefully contained. Everything from the old world must remain separate. Cocoa. Penicillin. Sugar. They stay on the arc. We must not let them infiltrate. Then again, who could possibly be blamed if something, just one small thing were to wiggle free? After all life will always find a way.</i> – Lorcan Quinn, Horticulturist (2201)</p><p><strong>Preach:</strong></p>",
                 "choices": [
                     {
                         "choice": "Create giant terrariums",
@@ -1051,7 +1051,7 @@
                 ]
             },
             {
-                "scenario": "<P>THIS NEEDS FIXED</P><p><i>You don’t need a partner to be happy. I truly believe that you can live the most fulfilling life in the company of close friends and family. A year ago, I didn’t need anyone. Now, when I wake up and snuggle into to his shoulder and breath in his musky smell, I think this is happiness. But yesterday he didn’t come home.  Today he smells of someone else.</p> – Rachel Oh, Infatuated (2273)</p><p><strong>Preach:</strong></p>",
+                "scenario": "<p><i>You don’t need a partner to be happy. I truly believe that you can live the most fulfilling life in the company of close friends and family. A year ago, I didn’t need anyone. Now, when I wake up and snuggle into to his shoulder and breath in his musky smell, I think this is happiness. But yesterday he didn’t come home.  Today he smells of someone else.</p> – Rachel Oh, Infatuated (2273)</p><p><strong>Preach:</strong></p>",
                 "choices": [
                     {
                         "choice": "Okay, he loves me no less",
@@ -1095,7 +1095,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>The ocean is filthy. A century’s worth of rubbish circumventing the globe. I even found a plastic straw from the old world and something called McDonald’s Happy Meal toy. Bloody thing must be two-hundred and fifty-years old! Some sort of yellow eyed monster with one eye and blue dungarees. And we wonder where the fish have gone? </i>– Lee Hemingway, Fisher (2233)</p><p><strong>Preach:</strong></p>",
+                "scenario": "<p><i>The ocean is filthy. A century’s worth of rubbish circumnavigating the globe. I even found a plastic straw from the old world and something called a McDonald’s Happy Meal toy. Bloody thing must be two hundred and fifty years old! Some sort of yellow-eyed monster with one eye and blue dungarees. And we wonder where the fish have gone.</i>– Lee Hemingway, Fisher (2233)</p><p><strong>Preach:</strong></p>",
                 "choices": [
                     {
                         "choice": "Introduce a disposal tax",
@@ -1139,7 +1139,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>We live in such ugly little shacks and everyone just throws their crap in the ocean and all the guys pee in the street. Every waking moment, I plan, I sketch, I draw. I dream of those cities of our ancestors and their skyscrapers. Where will we put the fountains? Who will we build statues to? How will I install the golden toilets? </i>– Ali Swann, Architect (2298)</p><p><strong>Preach:</strong></p>",
+                "scenario": "<p><i>We live in such ugly little shacks and everyone just throws their crap in the ocean and all the guys pee in the street. Every waking moment, I plan, sketch, draw. I dream of those cities of our ancestors and their skyscrapers. Where will we put the fountains? Who will we build statues to? How will I install the golden toilets?</i>– Ali Swann, Architect (2298)</p><p><strong>Preach:</strong></p>",
                 "choices": [
                     {
                         "choice": "Skyscrapers",
@@ -1276,7 +1276,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>Yasmin took her socks off her feet the other day and exposed herself to the whole market, Aiden! You know me, my face lit up like a lantern. Then I realised that she had taken one of them off when I wasn’t looking and I am just beside myself at this point. Her little webbed toes just there for all the world to see. I could have died!</i> – Nasrin Hassan, Parent (2302)</p><p><strong>A good parent would:</strong></p>",
+                "scenario": "<p><i>Yasmin took her socks off her feet the other day and exposed herself to the whole market, Aiden! You know me, my face lit up like a lantern. Her little webbed toes just there for all the world to see. I could have died!</i> – Nasrin Hassan, Parent (2302)</p><p><strong>A good parent would:</strong></p>",
                 "choices": [
                     {
                         "choice": "Know a little cosmetic surgery never hurt anyone",
@@ -1364,7 +1364,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>I swear to god if you delinquents don’t bugger off, I am going to start pouring boiling water out my window and if that doesn’t work, it will be my faeces next, and if you're still standing after that, it will be me out there in my underwear with a baseball bat. The two suns only set once every two weeks! Have you nowhere else to go? I need my sleep.</i> – Pierre Grossman, Neighbourhood Watch (2311)</p><p><strong>Build:</strong></p>",
+                "scenario": "<p><i>I swear to god if you delinquents don’t bugger off, I am going to start pouring boiling water out my window and if that doesn’t work, it will be my faeces next, and if you're still standing after that, it will be me out there in my underwear with a baseball bat. The two suns only set once every two weeks! I need my sleep.</i> – Pierre Grossman, Neighbourhood Watch (2311)</p><p><strong>Build:</strong></p>",
                 "choices": [
                     {
                         "choice": "A skatepark",
@@ -1408,7 +1408,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>Everyone thinks I am crazy and when I show them proof, they just give shrug me off with a patronising look of disbelief. There is nothing else for it. I am going to have to take one of the ‘old people’s pods below the surface and show them without a shadow of a doubt that it is not land we stand on, but the body of a whale-like giant.</i> – Dr Priya Kumar, Biologist (2370)</p><p><strong>Accept</strong></p>",
+                "scenario": "<p><i>Everyone thinks I am crazy and when I show them proof, they just shrug me off with a patronising look of disbelief. There is nothing else for it. I am going to have to take one of the ‘old people’s pods below the surface and show them without a shadow of a doubt that it is not land we stand on, but the body of a whale-like giant.</i> – Dr Priya Kumar, Biologist (2370)</p><p><strong>Accept</strong></p>",
                 "choices": [
                     {
                         "choice": "The Nobel Prize",
@@ -1496,7 +1496,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>That old slimeball Pastor Michaels is trying to blackmail me into mandatory state prayers; the Webbed Feet Caucus are calling for an end to compulsory footwear in restaurants, and the animal rights activists want to lock up the remaining omnivores. Someone has to pay for my next election campaign, but these policies are political suicide.</i> –  Bradley Basu III, Prime Minister (2372)</p><p><strong>You can't please everyone</strong></p>",
+                "scenario": "<p><i>That old slimeball Pastor Michaels is trying to blackmail me into mandatory state prayers; the Webbed Feet Caucus are calling for an end to compulsory footwear in restaurants; and the animal rights activists want to lock up the remaining omnivores. Someone has to pay for my next election campaign, but these policies are political suicide.</i> –  Bradley Basu III, Prime Minister (2372)</p><p><strong>You can't please everyone</strong></p>",
                 "choices": [
                     {
                         "choice": "Equal rights for webbed feeters",
@@ -1628,7 +1628,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>The tree huggers have started a drum circle in the jungle. One of them got poisoned by a siglax, the morons. They are standing in the way of progress and more importantly my profits and how do they expect us to feed the population when they won’t stop fornicating!! I am sick of these delusional, utopians.</i> – Bill Javid, Industrialist (2412)</p><p><strong>Decide to:</strong></p>",
+                "scenario": "<p><i>The tree huggers have started a drum circle in the jungle to stop our bulldozers. One of them got poisoned by a siglax, the morons. They are standing in the way of progress and more importantly my profits and how do they expect us to feed the population when they won’t stop fornicating!! I am sick of these delusional, utopians.</i> – Bill Javid, Industrialist (2412)</p><p><strong>Decide to:</strong></p>",
                 "choices": [
                     {
                         "choice": "Clear the jungle",
@@ -1672,7 +1672,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>Many of the inhabitants of the whale are much more intelligent than their counterparts on Earth seemed to be. They are fearful of us and distant, but they are also quietly wise with an ethos of cooperation and peace. I have observed that most are vegetarian and they have languages that appear to be cross-species. Of course, my colleagues laugh at my attempts to communicate.</i> – Dr Priya Kumar, Biologist (2379)</p><p><strong>Learn their:</strong></p>",
+                "scenario": "<p><i>Many of the animals of this world are much more intelligent than their counterparts on Earth seemed to be. They are fearful of us and distant, but they are also quietly wise with an ethos of cooperation and peace. I have observed that most are vegetarian and they have languages that appear to be cross-species. Of course, my colleagues laugh at my attempts to communicate.</i> – Dr Priya Kumar, Biologist (2379)</p><p><strong>Learn their:</strong></p>",
                 "choices": [
                     {
                         "choice": "Language",
