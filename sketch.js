@@ -53,14 +53,13 @@ let eventsContainer;
 let planetView;
 
 let stats = {
-    fulfilment: 0,
-    health: 10,
+    fulfilment: 5,
+    health: 5,
     community: 0,
-    education: 10,
-    equality: 10,
-    wealth: 10,
-    biodiversity: 20,
-    planet_health: 0
+    education: 5,
+    equality: 5,
+    wealth: 0,
+    biodiversity: 20
 };
 
 let colors = ["#78A630", "#419F66", "#3EA0B1", "#6090D5", "#9277DE", "#B865D7", "#D763AF", "#DA7E77", "#D39C56", "#A8A8A8"];
@@ -110,7 +109,7 @@ function setup() {
 
     control();
     namePlanet();
-    randomiseStats();
+    // randomiseStats();
     
     arc = eventsJson.arc
     planet = eventsJson.planet

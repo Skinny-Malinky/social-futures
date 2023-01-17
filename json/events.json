@@ -16,8 +16,7 @@
                             "equality": 1,
                             "wealth": 0,
                             "biodiversity": 0
-                        },
-                        "nextEvent": "eventsJson.planetCards[0]"
+                        }
                     },
                     {
                         "choice": "Peace between planet and people.",
