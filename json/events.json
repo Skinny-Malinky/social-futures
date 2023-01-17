@@ -1367,7 +1367,7 @@
                 "scenario": "<p><i>I swear to god if you delinquents don’t bugger off, I am going to start pouring boiling water out my window and if that doesn’t work, it will be my faeces next, and if you're still standing after that, it will be me out there in my underwear with a baseball bat. The two suns only set once every two weeks! Have you nowhere else to go? I need my sleep.</i> – Pierre Grossman, Neighbourhood Watch (2311)</p><p><strong>Build:</strong></p>",
                 "choices": [
                     {
-                        "choic": "A skatepark",
+                        "choice": "A skatepark",
                         "outcome": "",
                         "stats": {
                             "fulfilment": 2,
@@ -1628,7 +1628,7 @@
                 ]
             },
             {
-                "scenario": "<p><i>The tree huggers have started a drum circle in the jungle. One of them got poisoned by a siglax, the morons. They are standing in the way of progress and more importantly my profits and how do they expect us to feed the population when they won’t stop fornicating!! I am sick of these delusional, utopians.</i> – Bill Javid, Industrialist (2412)</p><p><strong>Persevere and:</strong></p>",
+                "scenario": "<p><i>The tree huggers have started a drum circle in the jungle. One of them got poisoned by a siglax, the morons. They are standing in the way of progress and more importantly my profits and how do they expect us to feed the population when they won’t stop fornicating!! I am sick of these delusional, utopians.</i> – Bill Javid, Industrialist (2412)</p><p><strong>Decide to:</strong></p>",
                 "choices": [
                     {
                         "choice": "Clear the jungle",
@@ -1638,7 +1638,7 @@
                             "health": -2,
                             "community": -2,
                             "education": -1,
-                            "equality": 1,
+                            "equality": -1,
                             "wealth": 2,
                             "biodiversity": -2
                         }
@@ -1647,13 +1647,13 @@
                         "choice": "Bribe law enforcement",
                         "outcome": "",
                         "stats": {
-                            "fulfilment": 2,
-                            "health": 1,
-                            "community": 2,
-                            "education": 0,
-                            "equality": 2,
-                            "wealth": 0,
-                            "biodiversity": 2
+                            "fulfilment": -1,
+                            "health": -2,
+                            "community": -2,
+                            "education": -1,
+                            "equality": -2,
+                            "wealth": 2,
+                            "biodiversity": -2
                         }
                     },
                     {
@@ -1666,7 +1666,7 @@
                             "education": 2,
                             "equality": 2,
                             "wealth": -1,
-                            "biodiversity": 2
+                            "biodiversity": 0
                         }
                     }
                 ]
@@ -1679,10 +1679,10 @@
                         "outcome": "",
                         "stats": {
                             "fulfilment": 2,
-                            "health": 0,
-                            "community": 2,
+                            "health": 1,
+                            "community": 1,
                             "education": 2,
-                            "equality": 0,
+                            "equality": 1,
                             "wealth": -2,
                             "biodiversity": 2
                         }
@@ -1695,7 +1695,7 @@
                             "health": 0,
                             "community": 2,
                             "education": 2,
-                            "equality": -2,
+                            "equality": 2,
                             "wealth": -2,
                             "biodiversity": 2
                         }
@@ -1705,11 +1705,11 @@
                         "outcome": "",
                         "stats": {
                             "fulfilment": 2,
-                            "health": -2,
-                            "community": 2,
+                            "health": 1,
+                            "community": 0,
                             "education": 2,
-                            "equality": 2,
-                            "wealth": -2,
+                            "equality": 0,
+                            "wealth": 1,
                             "biodiversity": 2
                         }
                     }
@@ -1722,24 +1722,24 @@
                         "choice": "Change the power source",
                         "outcome": "Change the power source",
                         "stats": {
-                            "fulfilment": -2,
-                            "health": -2,
-                            "community": 2,
+                            "fulfilment": 0,
+                            "health": -1,
+                            "community": -1,
                             "education": 2,
-                            "equality": 2,
-                            "wealth": 2,
-                            "biodiversity": -2
+                            "equality": 0,
+                            "wealth": 1,
+                            "biodiversity": -1
                         }
                     },
                     {
                         "choice": "Resource new planet materials",
                         "outcome": "Resource new planet materials",
                         "stats": {
-                            "fulfilment": -1,
-                            "health": -2,
+                            "fulfilment": 0,
+                            "health": -1,
                             "community": -1,
                             "education": 2,
-                            "equality": 1,
+                            "equality": -1,
                             "wealth": 2,
                             "biodiversity": -2
                         }
@@ -1748,13 +1748,13 @@
                         "choice": "Update the software",
                         "outcome": "Update the software",
                         "stats": {
-                            "fulfilment": 2,
-                            "health": -2,
-                            "community": 2,
+                            "fulfilment": 0,
+                            "health": -1,
+                            "community": -1,
                             "education": 2,
                             "equality": 0,
                             "wealth": 1,
-                            "biodiversity": 2
+                            "biodiversity": -1
                         }
                     }
                 ]

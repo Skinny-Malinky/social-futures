@@ -166,19 +166,21 @@ function controlChoices(event) {
 let stageIterator = 0;
 let numberOfScenes = 0;
 function getNextEvent() {
+    console.log(stageIterator + ' ' + numberOfScenes);
     if(stageIterator == numberOfScenes){
         gameStage++;
         stageIterator = 0;
+        console.log(stageIterator + ' ' + numberOfScenes + ' ' + gameStage);
     }
     if(gameStage == 1) {
         numberOfScenes = arc.numberOfScenes;
-        console.log(stageIterator + ' ' + numberOfScenes);
+        // console.log(stageIterator + ' ' + numberOfScenes);
         stageIterator++;
         return arcCards[0];
     }
     else if(gameStage == 2) {
         numberOfScenes = planet.numberOfScenes;
-        console.log(stageIterator + ' ' + numberOfScenes);
+        // console.log(stageIterator + ' ' + numberOfScenes);
         stageIterator++;
         return planetCards[0];
     }
@@ -186,7 +188,7 @@ function getNextEvent() {
         numberOfScenes = earlyWhale.numberOfScenes;
         let whaleCard = random(earlyWhaleCards);
         earlyWhaleCards = earlyWhaleCards.filter(unusedCard => unusedCard != whaleCard);
-        console.log(stageIterator + ' ' + numberOfScenes);
+        // console.log(stageIterator + ' ' + numberOfScenes);
         stageIterator++;
         return whaleCard;
     }
@@ -194,7 +196,7 @@ function getNextEvent() {
         numberOfScenes = midWhale.numberOfScenes;
         let whaleCard = random(midWhaleCards);
         midWhaleCards = midWhaleCards.filter(unusedCard => unusedCard != whaleCard);
-        console.log(stageIterator + ' ' + numberOfScenes);
+        // console.log(stageIterator + ' ' + numberOfScenes);
         stageIterator++;
         return whaleCard;
     }
@@ -202,7 +204,7 @@ function getNextEvent() {
         numberOfScenes = lateWhale.numberOfScenes;
         let whaleCard = random(lateWhaleCards);
         lateWhaleCards = lateWhaleCards.filter(unusedCard => unusedCard != whaleCard);
-        console.log(stageIterator + ' ' + numberOfScenes);
+        // console.log(stageIterator + ' ' + numberOfScenes);
         stageIterator++;
         return whaleCard;
     }
