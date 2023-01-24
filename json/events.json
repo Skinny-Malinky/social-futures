@@ -1379,7 +1379,7 @@
                         }
                     },
                     {
-                        "choice":"A community garden",
+                        "choice": "A community garden",
                         "outcome": "",
                         "stats": {
                             "fulfilment": 2,
@@ -1759,5 +1759,68 @@
                 ]
             }
         ]
+    },
+    "endGame": {
+        "cards": {
+            "fulfilment": {
+                "scenario": "<p>Project Arc encourages all its staff and contributors to feel fulfilled and to enjoy what life they have left.</p><p>However, your focus on fulfilment to the detriment of other societal outputs would put the future of humanity in jeopardy. For this reason, you have not been selected as a passenger on the final launch.</p><p>We wish you all the best in your future endeavours.</p>",
+                "choices": [
+                    {
+                        "choice": "Next participant"
+                    }
+                ]
+            },
+            "health": {
+                "scenario": "<p>Project Arc understands that the health of our workforce is essential to our success.</p><p>However, your focus on health to the detriment of other societal outputs would put the future of humanity in jeopardy. For this reason, you have not been selected as a passenger on the final launch.</p><p>We wish you all the best in your future endeavours.</p>",
+                "choices": [
+                    {
+                        "choice": "Next participant"
+                    }
+                ]
+            },
+            "community": {
+                "scenario": "<p>Project Arc wants to foster a respectful community within its commercial interests.</p><p>However, your focus on Community to the detriment of other societal outputs would put the future of humanity in jeopardy. For this reason, you have not been selected as a passenger on the final launch.</p><p>We wish you all the best in your future endeavours.</p>",
+                "choices": [
+                    {
+                        "choice": "Next participant"
+                    }
+                ]
+            },
+            "education": {
+                "scenario": "<p>Project Arc believes that education is essential to developing a skilled workforce.</p><p>However, your focus on education to the detriment of other societal outputs would put the future of humanity in jeopardy. For this reason, you have not been selected as a passenger on the final launch.</p><p>We wish you all the best in your future endeavours.</p>",
+                "choices": [
+                    {
+                        "choice": "Next participant"
+                    }
+                ]
+            },
+            "equality": {
+                "scenario": "<p>Project Arc believes in equality of opportunitiy within a hierarchical strucuture.</p><p>However, your focus on equality to the detriment of other societal outputs would put the future of humanity in jeopardy. For this reason, you have not been selected as a passenger on the final launch.</p><p>We wish you all the best in your future endeavours.</p>",
+                "choices": [
+                    {
+                        "choice": "Next participant"
+                    }
+                ]
+            },
+            "wealth": {
+                "scenario": "<p>Project Arc congratulates you on your business acumen and ability to make difficult decisions for the good of humanity.</p><p>We are pleased to offer you a life-saving space on the final launch of Project Arc and hope that you will enjoy a prosperous voyage with us.</p><p>Only the finest leaders of tomorrow have been offered this much sought after opportunity. However, we insist that all participants become employees of the company and work in its commercial interests.</p><p>If you agree to our terms, we would be more than happy to have you onboard!</p>",
+                "choices": [
+                    {
+                        "choice": "Accept"
+                    },
+                    {
+                        "choice": "Reject"
+                    }
+                ]
+            },
+            "biodiversity": {
+                "scenario": "<p>Project Arc is a responsible company which values natural resources for their economic value.</p><p>However, your focus of biodiversity to the detriment of societal outputs would put the future of humanity in jeopardy. For this reason, you have not been selected as a passenger on the final launch.</p><p>We wish you all the best in your future endeavours.</p>",
+                "choices": [
+                    {
+                        "choice": "Next participant"
+                    }
+                ]
+            }
+        }
     }
 }

@@ -40,11 +40,7 @@ let midWhaleCards;
 let lateWhaleCards;
 let arcCards;
 let planetCards;
-let gameStage = 1;
-// GameStage enum: 
-    // 1. Arc Cards 
-    // 2. Planet Card 
-    // 3. Whale World
+let gameStage = 5;
 
 let outcomeText = "";
 
@@ -121,10 +117,10 @@ function setup() {
     earlyWhaleCards = earlyWhale.cards;
     midWhaleCards = midWhale.cards;
     lateWhaleCards = lateWhale.cards;
-    displayEvent(random(arcCards));
+    displayChoiceEvent(random(arcCards));
     
     // Testing only
-    // showPlanetView();
+    showPlanetView();
 }
 
 function showPlanetView() {
@@ -148,28 +144,37 @@ function controlChoices(event) {
     choice1Element.mousePressed(() => {
         displayScene();
         updateStats(event.choices[0].stats);
-        displayEvent(getNextEvent(event));
+        if (gameStage != 5 && stageIterator != 3) {
+           displayChoiceEvent(getNextEvent(event));
+    }
+        else{showEnd()}
     });
     choice2Element.mousePressed(() => {
         displayScene();
         updateStats(event.choices[1].stats);
-        displayEvent(getNextEvent(event));
+        if (gameStage != 5 && stageIterator != 3) {
+            displayChoiceEvent(getNextEvent(event));
+     }
+     else{showEnd()}
     });
     choice3Element.mousePressed(() => {
         displayScene();
         updateStats(event.choices[2].stats);
-        displayEvent(getNextEvent(event));
+        if (gameStage != 5 && stageIterator != 3) {
+            displayChoiceEvent(getNextEvent(event));
+     }
+     else{showEnd()}
     });
 }
 
 let stageIterator = 0;
 let numberOfScenes = 0;
 function getNextEvent() {
-    console.log(stageIterator + ' ' + numberOfScenes);
+    // console.log(stageIterator + ' ' + numberOfScenes);
     if(stageIterator == numberOfScenes){
         gameStage++;
         stageIterator = 0;
-        console.log(stageIterator + ' ' + numberOfScenes + ' ' + gameStage);
+        // console.log(stageIterator + ' ' + numberOfScenes + ' ' + gameStage);
     }
     if(gameStage == 1) {
         numberOfScenes = arc.numberOfScenes;
@@ -187,7 +192,6 @@ function getNextEvent() {
         numberOfScenes = earlyWhale.numberOfScenes;
         let whaleCard = random(earlyWhaleCards);
         earlyWhaleCards = earlyWhaleCards.filter(unusedCard => unusedCard != whaleCard);
-        // console.log(stageIterator + ' ' + numberOfScenes);
         stageIterator++;
         return whaleCard;
     }
@@ -195,7 +199,6 @@ function getNextEvent() {
         numberOfScenes = midWhale.numberOfScenes;
         let whaleCard = random(midWhaleCards);
         midWhaleCards = midWhaleCards.filter(unusedCard => unusedCard != whaleCard);
-        // console.log(stageIterator + ' ' + numberOfScenes);
         stageIterator++;
         return whaleCard;
     }
@@ -203,14 +206,26 @@ function getNextEvent() {
         numberOfScenes = lateWhale.numberOfScenes;
         let whaleCard = random(lateWhaleCards);
         lateWhaleCards = lateWhaleCards.filter(unusedCard => unusedCard != whaleCard);
-        // console.log(stageIterator + ' ' + numberOfScenes);
         stageIterator++;
         return whaleCard;
     }
 }
+function showEnd(){
+    let event = eventsJson.endGame;
+    let highestNumber = 0;
+    let highestStat;
+    let name;
+    let val;
+    console.log(stats)
+    highestStat = Object.keys(stats).reduce((a, b) => stats[a] > stats[b] ? a : b);
+    for(highestStat in event) {
+        // THIS IS WHERE CODE GOES
+    }
+    // scenarioElement.html( + event.scenario);
+    // choice1Element.html(event.choices[0].choice);
+}
 
-function displayEvent(event) {
-    // console.log(event);
+function displayChoiceEvent(event) {
     scenarioElement.html(outcomeText + event.scenario);
     choice1Element.html("1. " + event.choices[0].choice);
     if (event.choices[1]) {
