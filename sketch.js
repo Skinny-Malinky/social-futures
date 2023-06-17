@@ -40,7 +40,12 @@ let midWhaleCards;
 let lateWhaleCards;
 let arcCards;
 let planetCards;
-let gameStage = 5;
+var stage = {
+    game: 0,
+    numberOfScenes: 1,
+    iterator: 1,
+    toggle: true
+};
 
 let outcomeText = "";
 
@@ -141,73 +146,76 @@ function control() {
 }
 
 function controlChoices(event) {
+    if(stage.iterator == stage.numberOfScenes){
+        stage.toggle = true;
+    }
     choice1Element.mousePressed(() => {
+        doesStageIncrease();
         displayScene();
         updateStats(event.choices[0].stats);
-        if (gameStage != 5 && stageIterator != 3) {
-           displayChoiceEvent(getNextEvent(event));
+        if (stage.game != 5 && stage.iterator != 3) {
+           displayChoiceEvent(getNextEvent());
     }
         else{showEnd()}
     });
     choice2Element.mousePressed(() => {
+        doesStageIncrease();
         displayScene();
         updateStats(event.choices[1].stats);
-        if (gameStage != 5 && stageIterator != 3) {
-            displayChoiceEvent(getNextEvent(event));
+        if (stage.game != 5 && stage.iterator != 3) {
+            displayChoiceEvent(getNextEvent());
      }
      else{showEnd()}
     });
     choice3Element.mousePressed(() => {
+        doesStageIncrease();
         displayScene();
         updateStats(event.choices[2].stats);
-        if (gameStage != 5 && stageIterator != 3) {
-            displayChoiceEvent(getNextEvent(event));
+        if (stage.game != 5 && stage.iterator != 3) {
+            displayChoiceEvent(getNextEvent());
      }
      else{showEnd()}
     });
 }
-
-let stageIterator = 0;
-let numberOfScenes = 0;
+function doesStageIncrease() {
+    if (stage.toggle == true) {
+        stage.game++;
+        stage.iterator = 0;
+        stage.toggle = false;
+    }
+}
 function getNextEvent() {
-    // console.log(stageIterator + ' ' + numberOfScenes);
-    if(stageIterator == numberOfScenes){
-        gameStage++;
-        stageIterator = 0;
-        // console.log(stageIterator + ' ' + numberOfScenes + ' ' + gameStage);
-    }
-    if(gameStage == 1) {
-        numberOfScenes = arc.numberOfScenes;
-        // console.log(stageIterator + ' ' + numberOfScenes);
-        stageIterator++;
-        return arcCards[0];
-    }
-    else if(gameStage == 2) {
-        numberOfScenes = planet.numberOfScenes;
-        // console.log(stageIterator + ' ' + numberOfScenes);
-        stageIterator++;
+    // console.log(stage.iterator + ' ' + stage.numberOfScenes);
+    if(stage.game == 1) {
+        stage.numberOfScenes = arc.numberOfScenes;
+        console.log(''+stage.iterator + ' + ' + stage.numberOfScenes);
+        stage.iterator++;
         return planetCards[0];
     }
-    else if(gameStage == 3) {
-        numberOfScenes = earlyWhale.numberOfScenes;
+    else if(stage.game == 2) {
+        stage.numberOfScenes = earlyWhale.numberOfScenes;
         let whaleCard = random(earlyWhaleCards);
         earlyWhaleCards = earlyWhaleCards.filter(unusedCard => unusedCard != whaleCard);
-        stageIterator++;
+        stage.iterator++;
         return whaleCard;
     }
-    else if(gameStage == 4) {
-        numberOfScenes = midWhale.numberOfScenes;
+    else if(stage.game == 3) {
+        stage.numberOfScenes = midWhale.numberOfScenes;
         let whaleCard = random(midWhaleCards);
         midWhaleCards = midWhaleCards.filter(unusedCard => unusedCard != whaleCard);
-        stageIterator++;
+        stage.iterator++;
         return whaleCard;
     }
-    else if(gameStage == 5) {
-        numberOfScenes = lateWhale.numberOfScenes;
+    else if(stage.game == 4) {
+        stage.numberOfScenes = lateWhale.numberOfScenes;
         let whaleCard = random(lateWhaleCards);
         lateWhaleCards = lateWhaleCards.filter(unusedCard => unusedCard != whaleCard);
-        stageIterator++;
+        stage.iterator++;
+        console.log('hey')
         return whaleCard;
+    }
+    else if(stage.game == 5) {
+        
     }
 }
 function showEnd(){
@@ -216,9 +224,9 @@ function showEnd(){
     let highestStat;
     let name;
     let val;
-    console.log(stats)
     highestStat = Object.keys(stats).reduce((a, b) => stats[a] > stats[b] ? a : b);
-    for(highestStat in event) {
+    for(name in event.cards) {
+        // console.log(name)
         // THIS IS WHERE CODE GOES
     }
     // scenarioElement.html( + event.scenario);
@@ -240,8 +248,6 @@ function displayChoiceEvent(event) {
     }
     controlChoices(event);
 }
-
-
 
 function displayStats() {
     select("#fulfilment").html(numberToBar(stats.fulfilment));
