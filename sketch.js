@@ -33,6 +33,7 @@ let eventsJson;
 let earlyWhale;
 let midyWhale;
 let lateWhale;
+let end;
 let arc;
 let planet;
 let earlyWhaleCards;
@@ -40,8 +41,9 @@ let midWhaleCards;
 let lateWhaleCards;
 let arcCards;
 let planetCards;
+let endCards;
 var stage = {
-    game: 0,
+    game: 0, //default 0
     numberOfScenes: 1,
     iterator: 1,
     toggle: true
@@ -60,7 +62,7 @@ let stats = {
     education: 5,
     equality: 5,
     wealth: 0,
-    biodiversity: 20
+    biodiversity: 1
 };
 
 let colors = ["#78A630", "#419F66", "#3EA0B1", "#6090D5", "#9277DE", "#B865D7", "#D763AF", "#DA7E77", "#D39C56", "#A8A8A8"];
@@ -112,20 +114,24 @@ function setup() {
     namePlanet();
     // randomiseStats();
     
-    arc = eventsJson.arc
-    planet = eventsJson.planet
-    earlyWhale = eventsJson.earlyWhale
-    midWhale = eventsJson.midWhale
-    lateWhale = eventsJson.lateWhale
+    arc = eventsJson.arc;
+    planet = eventsJson.planet;
+    earlyWhale = eventsJson.earlyWhale;
+    midWhale = eventsJson.midWhale;
+    lateWhale = eventsJson.lateWhale;
+    end = eventsJson.endGame;
+    
     arcCards = arc.cards;
     planetCards = planet.cards;
     earlyWhaleCards = earlyWhale.cards;
     midWhaleCards = midWhale.cards;
     lateWhaleCards = lateWhale.cards;
+    endCards = end.cards;
+
     displayChoiceEvent(random(arcCards));
     
     // Testing only
-    showPlanetView();
+    // showPlanetView();
 }
 
 function showPlanetView() {
@@ -145,11 +151,35 @@ function control() {
     }
 }
 
+function restart() {
+    stats = {
+        fulfilment: 5,
+        health: 5,
+        community: 0,
+        education: 5,
+        equality: 5,
+        wealth: 0,
+        biodiversity: 1
+    };
+    stage = {
+        game: 4, //default 0
+        numberOfScenes: 1,
+        iterator: 1,
+        toggle: true
+    };
+    moveWindow('200vw');
+    getNextEvent();
+}
+
 function controlChoices(event) {
     if(stage.iterator == stage.numberOfScenes){
         stage.toggle = true;
     }
     choice1Element.mousePressed(() => {
+        if(stage.game == 6) {
+            restart();
+            return;
+        }
         doesStageIncrease();
         displayScene();
         updateStats(event.choices[0].stats);
@@ -214,23 +244,34 @@ function getNextEvent() {
         console.log('hey')
         return whaleCard;
     }
-    else if(stage.game == 5) {
-        
-    }
 }
 function showEnd(){
-    let event = eventsJson.endGame;
-    let highestNumber = 0;
     let highestStat;
-    let name;
-    let val;
     highestStat = Object.keys(stats).reduce((a, b) => stats[a] > stats[b] ? a : b);
-    for(name in event.cards) {
-        // console.log(name)
-        // THIS IS WHERE CODE GOES
-    }
-    // scenarioElement.html( + event.scenario);
-    // choice1Element.html(event.choices[0].choice);
+    switch(highestStat) {
+        case "fulfilment":
+            displayChoiceEvent(endCards[0]);
+            break;
+        case "health":
+            displayChoiceEvent(endCards[1]);
+            break;
+        case "community":
+            displayChoiceEvent(endCards[2]);
+            break;
+        case "education":
+            displayChoiceEvent(endCards[3]);
+            break;
+        case "equality":
+            displayChoiceEvent(endCards[4]);
+            break;
+        case "wealth":
+            displayChoiceEvent(endCards[5]);
+            break;
+        case "biodiversity":
+            displayChoiceEvent(endCards[6]);
+            break;
+        }
+    
 }
 
 function displayChoiceEvent(event) {
